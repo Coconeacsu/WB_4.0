@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo Tours,Chrome 61.0.3163.100,,2017-10-26 15:16:33,2017-10-26 15:16:54,"21,112s",FAILED
+,,,,,,
+Test Cases/PrimoTours - place a booking with no payment,Chrome 61.0.3163.100,,2017-10-26 15:16:34,2017-10-26 15:16:53,"19,743s",FAILED
+openBrowser,Chrome 61.0.3163.100,,2017-10-26 15:16:34,2017-10-26 15:16:37,"2,974s",PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-26 15:16:37,2017-10-26 15:16:41,"3,349s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 15:16:41,2017-10-26 15:16:41,"0,226s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:16:41,2017-10-26 15:16:41,"0,187s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:16:41,2017-10-26 15:16:43,"2,096s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:16:43,2017-10-26 15:16:45,"1,846s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 15:16:45,2017-10-26 15:16:45,"0,002s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:16:45,2017-10-26 15:16:51,"5,738s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:16:51,2017-10-26 15:16:53,"2,558s",FAILED

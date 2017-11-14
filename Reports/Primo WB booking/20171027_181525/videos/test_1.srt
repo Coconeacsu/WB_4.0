@@ -1,0 +1,44 @@
+1
+00:00:01,533 --> 00:00:01,766
+1. comment
+
+2
+00:00:01,812 --> 00:00:01,880
+2. comment
+
+3
+00:00:02,031 --> 00:00:10,835
+3. openBrowser
+
+4
+00:00:10,886 --> 00:00:11,547
+4. click
+
+5
+00:00:11,622 --> 00:00:12,413
+5. setText
+
+6
+00:00:12,429 --> 00:00:13,045
+6. setText
+
+7
+00:00:13,047 --> 00:00:13,170
+7. comment
+
+8
+00:00:13,181 --> 00:00:13,682
+8. click
+
+9
+00:00:13,684 --> 00:00:13,834
+9. comment
+
+10
+00:00:13,840 --> 00:00:14,134
+10. Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)
+
+11
+00:00:14,142 --> 00:00:15,873
+11. closeBrowser
+

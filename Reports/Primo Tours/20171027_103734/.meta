@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20171027_103734</name>
+   <tag></tag>
+   <displayName>20171027_103734</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Main Test Cases/TC2_Verify Successful Appointment</testCaseId>
+      <testCaseName>TC2_Verify Successful Appointment</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Main Test Cases/TC1_Verify Successful Login</testCaseId>
+      <testCaseName>TC1_Verify Successful Login</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Common Test Cases/Login</testCaseId>
+      <testCaseName>Login</testCaseName>
+      <videoLocation>videos/test_3.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/PrimoTours - place a booking with no payment</testCaseId>
+      <testCaseName>PrimoTours - place a booking with no payment</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>

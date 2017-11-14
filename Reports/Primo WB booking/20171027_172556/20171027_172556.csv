@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo WB booking,Chrome 61.0.3163.98,,2017-10-27 17:25:59,2017-10-27 17:27:43,"1m - 44,134s",PASSED
+,,,,,,
+Test Cases/WB Primo - place booking,Chrome 61.0.3163.98,,2017-10-27 17:25:59,2017-10-27 17:27:39,"1m - 39,682s",PASSED
+openBrowser,Chrome 61.0.3163.98,,2017-10-27 17:26:00,2017-10-27 17:26:52,"52,102s",PASSED
+maximizeWindow,Chrome 61.0.3163.98,,2017-10-27 17:26:52,2017-10-27 17:26:54,"1,186s",PASSED
+navigateToUrl,Chrome 61.0.3163.98,,2017-10-27 17:26:54,2017-10-27 17:27:00,"5,968s",PASSED
+setText,Chrome 61.0.3163.98,,2017-10-27 17:27:00,2017-10-27 17:27:01,"1,766s",PASSED
+setText,Chrome 61.0.3163.98,,2017-10-27 17:27:01,2017-10-27 17:27:04,"2,924s",PASSED
+setText,Chrome 61.0.3163.98,,2017-10-27 17:27:04,2017-10-27 17:27:06,"2,032s",PASSED
+setText,Chrome 61.0.3163.98,,2017-10-27 17:27:06,2017-10-27 17:27:08,"1,442s",PASSED
+setText,Chrome 61.0.3163.98,,2017-10-27 17:27:08,2017-10-27 17:27:11,"3,016s",PASSED
+setText,Chrome 61.0.3163.98,,2017-10-27 17:27:11,2017-10-27 17:27:13,"1,879s",PASSED
+setText,Chrome 61.0.3163.98,,2017-10-27 17:27:13,2017-10-27 17:27:16,"3,010s",PASSED
+setText,Chrome 61.0.3163.98,,2017-10-27 17:27:16,2017-10-27 17:27:18,"2,863s",PASSED
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:18,2017-10-27 17:27:19,"0,252s",PASSED
+click,Chrome 61.0.3163.98,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-10-27 17:27:19,2017-10-27 17:27:19,"0,649s",PASSED
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:19,2017-10-27 17:27:20,"0,239s",PASSED
+waitForElementClickable,Chrome 61.0.3163.98,,2017-10-27 17:27:20,2017-10-27 17:27:20,"0,438s",PASSED
+waitForElementVisible,Chrome 61.0.3163.98,,2017-10-27 17:27:20,2017-10-27 17:27:20,"0,376s",PASSED
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:20,2017-10-27 17:27:21,"0,100s",PASSED
+click,Chrome 61.0.3163.98,,2017-10-27 17:27:21,2017-10-27 17:27:22,"1,025s",PASSED
+waitForElementPresent,Chrome 61.0.3163.98,,2017-10-27 17:27:22,2017-10-27 17:27:28,"6,381s",PASSED
+click,Chrome 61.0.3163.98,,2017-10-27 17:27:28,2017-10-27 17:27:31,"3,024s",PASSED
+click,Chrome 61.0.3163.98,Select default travel insurance\r\n,2017-10-27 17:27:31,2017-10-27 17:27:33,"1,843s",PASSED
+click,Chrome 61.0.3163.98,Click on individual pax insurance selection checkbox,2017-10-27 17:27:33,2017-10-27 17:27:33,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:33,2017-10-27 17:27:33,"0,000s",NOT_RUN
+click,Chrome 61.0.3163.98,,2017-10-27 17:27:33,2017-10-27 17:27:33,"0,000s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:33,2017-10-27 17:27:33,"0,161s",PASSED
+waitForElementVisible,Chrome 61.0.3163.98,,2017-10-27 17:27:33,2017-10-27 17:27:33,"0,374s",PASSED
+click,Chrome 61.0.3163.98,Click on individual pax insurance selection checkbox,2017-10-27 17:27:33,2017-10-27 17:27:34,"0,725s",PASSED
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:34,2017-10-27 17:27:35,"0,461s",PASSED
+click,Chrome 61.0.3163.98,"Click on first product category \""Individual choices\"" radio button",2017-10-27 17:27:35,2017-10-27 17:27:35,"0,949s",PASSED
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:35,2017-10-27 17:27:36,"0,515s",PASSED
+click,Chrome 61.0.3163.98,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-10-27 17:27:36,2017-10-27 17:27:37,"0,790s",PASSED
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:37,2017-10-27 17:27:37,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.98,Scroll to Accept terms checkbox LABEL,2017-10-27 17:27:37,2017-10-27 17:27:37,"0,001s",NOT_RUN
+click,Chrome 61.0.3163.98,Click on to Accept terms checkbox LABEL,2017-10-27 17:27:37,2017-10-27 17:27:37,"0,000s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.98,Scroll to Accept terms checkbox ,2017-10-27 17:27:37,2017-10-27 17:27:37,"0,208s",PASSED
+click,Chrome 61.0.3163.98,Click on to Accept terms checkbox ,2017-10-27 17:27:37,2017-10-27 17:27:38,"0,579s",PASSED
+scrollToElement,Chrome 61.0.3163.98,,2017-10-27 17:27:38,2017-10-27 17:27:38,"0,670s",PASSED
+waitForElementClickable,Chrome 61.0.3163.98,,2017-10-27 17:27:38,2017-10-27 17:27:39,"0,891s",PASSED

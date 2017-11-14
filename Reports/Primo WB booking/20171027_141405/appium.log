@@ -1,0 +1,74 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 52746
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 52748
+[Appium]   tmpDir: C:\Users\Cornel\AppData\Local\Temp\\Katalon\Appium\Temp1509102849490
+[Appium] Appium REST http interface listener started on 0.0.0.0:52746
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 10 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"browserName":"Chrome","udid":"0b0b094f02a0a32e","platformName":"Android","deviceName":"LGE Nexus 5 6.0.1","newCommandTimeout":1800,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   browserName: 'Chrome'
+[Appium]   udid: '0b0b094f02a0a32e'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'LGE Nexus 5 6.0.1'
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 4bf29f76-5213-4e37-bc4c-b69668bd3926
+[AndroidDriver] Java version is: 1.8.0_102
+[AndroidDriver] We're going to run a Chrome-based session
+[AndroidDriver] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 0b0b094f02a0a32e
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] App file was not listed, instead we're going to run com.android.chrome directly on the device
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+[HTTP] <-- POST /wd/hub/session - - ms - - 
+[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+Error: write EPIPE
+    at exports._errnoException (util.js:1020:11)
+    at Socket._writeGeneric (net.js:711:26)
+    at Socket._write (net.js:730:8)
+    at doWrite (_stream_writable.js:331:12)
+    at writeOrBuffer (_stream_writable.js:317:5)
+    at Socket.Writable.write (_stream_writable.js:243:11)
+    at Socket.write (net.js:657:40)
+    at Socket.stream.write (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\ansi\lib\newlines.js:36:21)
+    at Console.log (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:119:20)
+    at transportLog (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:234:15)
+    at C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:157:13
+    at _each (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:57:9)
+    at Object.async.each (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:156:9)
+    at Logger.log (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:246:9)
+    at target.(anonymous function) [as error] (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\common.js:54:18)
+    at EventEmitter.<anonymous> (../../lib/logsink.js:197:22)
+    at emitOne (events.js:96:13)
+    at EventEmitter.emit (events.js:188:7)
+    at EventEmitter.<anonymous> (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:158:8)
+    at EventEmitter.<anonymous> (C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:231:21)
+    at SubProcess.<anonymous> (../../lib/uiautomator.js:43:15)
+    at emitTwo (events.js:106:13)
+    at SubProcess.emit (events.js:191:7)
+    at ChildProcess.<anonymous> (../../lib/teen_process.js:205:14)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:219:12)

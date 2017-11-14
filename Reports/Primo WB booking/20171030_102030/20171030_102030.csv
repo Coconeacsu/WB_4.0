@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo WB booking,Chrome 62.0.3202.75,,2017-10-30 10:20:32,2017-10-30 10:20:51,"18,987s",PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 62.0.3202.75,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2017-10-30 10:20:32,2017-10-30 10:20:51,"18,615s",PASSED
+comment,Chrome 62.0.3202.75,,2017-10-30 10:20:33,2017-10-30 10:20:34,"0,105s",PASSED
+comment,Chrome 62.0.3202.75,,2017-10-30 10:20:34,2017-10-30 10:20:34,"0,011s",PASSED
+openBrowser,Chrome 62.0.3202.75,,2017-10-30 10:20:34,2017-10-30 10:20:39,"5,829s",PASSED
+callTestCase,Chrome 62.0.3202.75,,2017-10-30 10:20:39,2017-10-30 10:20:43,"4,048s",PASSED
+comment,Chrome 62.0.3202.75,,2017-10-30 10:20:43,2017-10-30 10:20:43,"0,000s",PASSED
+Statement - If (true),Chrome 62.0.3202.75,,2017-10-30 10:20:43,2017-10-30 10:20:47,"3,310s",PASSED
+comment,Chrome 62.0.3202.75,,2017-10-30 10:20:47,2017-10-30 10:20:47,"0,001s",PASSED
+click,Chrome 62.0.3202.75,,2017-10-30 10:20:47,2017-10-30 10:20:48,"0,897s",PASSED
+verifyTextPresent,Chrome 62.0.3202.75,,2017-10-30 10:20:48,2017-10-30 10:20:48,"0,173s",PASSED
+comment,Chrome 62.0.3202.75,,2017-10-30 10:20:48,2017-10-30 10:20:48,"0,002s",PASSED
+Statement - If (true),Chrome 62.0.3202.75,,2017-10-30 10:20:48,2017-10-30 10:20:49,"0,746s",PASSED
+closeBrowser,Chrome 62.0.3202.75,,2017-10-30 10:20:49,2017-10-30 10:20:51,"2,445s",PASSED

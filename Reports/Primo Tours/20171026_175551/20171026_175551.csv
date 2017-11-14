@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo Tours,Chrome 61.0.3163.100,,2017-10-26 17:55:53,2017-10-26 17:56:40,"47,910s",PASSED
+,,,,,,
+Test Cases/PrimoTours - place a booking with no payment,Chrome 61.0.3163.100,,2017-10-26 17:55:53,2017-10-26 17:56:39,"45,999s",PASSED
+openBrowser,Chrome 61.0.3163.100,,2017-10-26 17:55:54,2017-10-26 17:55:58,"4,038s",PASSED
+maximizeWindow,Chrome 61.0.3163.100,,2017-10-26 17:55:58,2017-10-26 17:56:00,"1,578s",PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-26 17:56:00,2017-10-26 17:56:04,"4,236s",PASSED
+waitForPageLoad,Chrome 61.0.3163.100,,2017-10-26 17:56:04,2017-10-26 17:56:04,"0,132s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:04,2017-10-26 17:56:04,"0,139s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 17:56:04,2017-10-26 17:56:05,"0,305s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 17:56:05,2017-10-26 17:56:05,"0,364s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 17:56:05,2017-10-26 17:56:08,"3,196s",PASSED
+click,Chrome 61.0.3163.100,Click search on Primotours.dk,2017-10-26 17:56:08,2017-10-26 17:56:11,"2,952s",PASSED
+waitForPageLoad,Chrome 61.0.3163.100,,2017-10-26 17:56:11,2017-10-26 17:56:11,"0,021s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 17:56:11,2017-10-26 17:56:11,"0,000s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:11,2017-10-26 17:56:11,"0,000s",NOT_RUN
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-26 17:56:11,2017-10-26 17:56:14,"3,178s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 17:56:14,2017-10-26 17:56:18,"3,253s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:18,2017-10-26 17:56:18,"0,002s",NOT_RUN
+click,Chrome 61.0.3163.100,"Click \""Book\"" on Primotours.dk offer",2017-10-26 17:56:18,2017-10-26 17:56:21,"3,610s",PASSED
+switchToWindowTitle,Chrome 61.0.3163.100,,2017-10-26 17:56:21,2017-10-26 17:56:26,"4,202s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 17:56:26,2017-10-26 17:56:26,"0,841s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 17:56:26,2017-10-26 17:56:27,"0,407s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 17:56:27,2017-10-26 17:56:27,"0,505s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 17:56:27,2017-10-26 17:56:28,"0,363s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 17:56:28,2017-10-26 17:56:28,"0,778s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 17:56:28,2017-10-26 17:56:29,"0,427s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 17:56:29,2017-10-26 17:56:31,"2,394s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 17:56:31,2017-10-26 17:56:32,"0,631s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:32,2017-10-26 17:56:32,"0,093s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 17:56:32,2017-10-26 17:56:32,"0,114s",PASSED
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-26 17:56:32,2017-10-26 17:56:32,"0,057s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 17:56:32,2017-10-26 17:56:32,"0,176s",PASSED
+waitForElementPresent,Chrome 61.0.3163.100,,2017-10-26 17:56:32,2017-10-26 17:56:35,"2,256s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 17:56:35,2017-10-26 17:56:35,"0,771s",PASSED
+click,Chrome 61.0.3163.100,Select default travel insurance\r\n,2017-10-26 17:56:35,2017-10-26 17:56:36,"0,591s",PASSED
+click,Chrome 61.0.3163.100,Click on individual pax insurance selection checkbox,2017-10-26 17:56:36,2017-10-26 17:56:36,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:36,2017-10-26 17:56:36,"0,001s",NOT_RUN
+click,Chrome 61.0.3163.100,,2017-10-26 17:56:36,2017-10-26 17:56:36,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:36,2017-10-26 17:56:36,"0,217s",PASSED
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-26 17:56:36,2017-10-26 17:56:36,"0,204s",PASSED
+click,Chrome 61.0.3163.100,Click on individual pax insurance selection checkbox,2017-10-26 17:56:36,2017-10-26 17:56:37,"0,312s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:37,2017-10-26 17:56:37,"0,132s",PASSED
+click,Chrome 61.0.3163.100,"Click on first product category \""Individual choices\"" radio button",2017-10-26 17:56:37,2017-10-26 17:56:37,"0,592s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:37,2017-10-26 17:56:38,"0,288s",PASSED
+click,Chrome 61.0.3163.100,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-10-26 17:56:38,2017-10-26 17:56:38,"0,358s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:38,2017-10-26 17:56:38,"0,002s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,Scroll to Accept terms checkbox LABEL,2017-10-26 17:56:38,2017-10-26 17:56:38,"0,001s",NOT_RUN
+click,Chrome 61.0.3163.100,Click on to Accept terms checkbox LABEL,2017-10-26 17:56:38,2017-10-26 17:56:38,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,Scroll to Accept terms checkbox ,2017-10-26 17:56:38,2017-10-26 17:56:38,"0,099s",PASSED
+click,Chrome 61.0.3163.100,Click on to Accept terms checkbox ,2017-10-26 17:56:38,2017-10-26 17:56:38,"0,215s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:56:38,2017-10-26 17:56:39,"0,276s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 17:56:39,2017-10-26 17:56:39,"0,243s",PASSED
+click,Chrome 61.0.3163.100,Click on save booking.,2017-10-26 17:56:39,2017-10-26 17:56:39,"0,003s",NOT_RUN
+closeBrowser,Chrome 61.0.3163.100,,2017-10-26 17:56:39,2017-10-26 17:56:39,"0,001s",NOT_RUN

@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:00,299
+0. closeBrowser
+
+2
+00:00:00,302 --> 00:00:00,572
+1. openBrowser
+
+3
+00:00:00,583 --> 00:00:01,719
+2. maximizeWindow
+
+4
+00:00:01,733 --> 00:00:06,745
+3. navigateToUrl
+
+5
+00:00:06,755 --> 00:00:07,444
+4. setText
+
+6
+00:00:07,446 --> 00:00:08,361
+5. setText
+
+7
+00:00:08,378 --> 00:00:09,245
+6. setText
+
+8
+00:00:09,255 --> 00:00:10,009
+7. setText
+
+9
+00:00:10,025 --> 00:00:10,779
+8. setText
+
+10
+00:00:10,787 --> 00:00:11,535
+9. setText
+
+11
+00:00:11,541 --> 00:00:12,296
+10. setText
+
+12
+00:00:12,320 --> 00:00:13,552
+11. setText
+
+13
+00:00:13,609 --> 00:00:14,737
+12. scrollToElement
+
+14
+00:00:14,785 --> 00:00:15,618
+13. Done so that click on \"Next\" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.
+
+15
+00:00:15,670 --> 00:00:16,453
+14. scrollToElement
+
+16
+00:00:16,463 --> 00:00:16,800
+15. waitForElementClickable
+
+17
+00:00:16,872 --> 00:00:17,283
+16. waitForElementVisible
+
+18
+00:00:17,291 --> 00:00:17,984
+17. scrollToElement
+
+19
+00:00:18,055 --> 00:00:18,519
+18. click
+
+20
+00:00:18,527 --> 00:00:19,104
+19. waitForElementPresent
+
+21
+00:00:19,111 --> 00:00:19,648
+20. click
+
+22
+00:00:19,652 --> 00:00:20,073
+21. Select default travel insurance\r\n
+
+23
+00:00:20,080 --> 00:00:20,152
+22. Click on individual pax insurance selection checkbox
+
+24
+00:00:20,154 --> 00:00:20,237
+23. scrollToElement
+
+25
+00:00:20,247 --> 00:00:20,385
+24. click
+
+26
+00:00:20,402 --> 00:00:21,382
+25. scrollToElement
+
+27
+00:00:21,385 --> 00:00:21,778
+26. waitForElementVisible
+
+28
+00:00:21,780 --> 00:00:22,193
+27. Click on individual pax insurance selection checkbox
+
+29
+00:00:22,202 --> 00:00:22,670
+28. scrollToElement
+
+30
+00:00:22,673 --> 00:00:23,220
+29. Click on first product category \"Individual choices\" radio button
+

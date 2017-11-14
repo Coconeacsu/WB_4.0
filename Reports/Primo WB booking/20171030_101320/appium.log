@@ -1,0 +1,216 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 54607
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 54609
+[Appium]   tmpDir: C:\Users\Cornel\AppData\Local\Temp\\Katalon\Appium\Temp1509351335816
+[Appium] Appium REST http interface listener started on 0.0.0.0:54607
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 12 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"browserName":"Chrome","udid":"0b0b094f02a0a32e","platformName":"Android","deviceName":"LGE Nexus 5 6.0.1","newCommandTimeout":1800,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   browserName: 'Chrome'
+[Appium]   udid: '0b0b094f02a0a32e'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'LGE Nexus 5 6.0.1'
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: e46e755e-97a6-4528-ae66-d02d96cf2899
+[AndroidDriver] Java version is: 1.8.0_102
+[AndroidDriver] We're going to run a Chrome-based session
+[AndroidDriver] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from F:\Kit\Katalon_Studio_Windows_64-5.0.0.1\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 0b0b094f02a0a32e
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from F:\Kit\Katalon_Studio_Windows_64-5.0.0.1\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] App file was not listed, instead we're going to run com.android.chrome directly on the device
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from F:\Kit\Katalon_Studio_Windows_64-5.0.0.1\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[AndroidDriver] Starting a chrome-based browser session
+[Chromedriver] Set chromedriver binary as: C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+[Chromedriver] Killing any old chromedrivers, running: FOR /F "usebackq tokens=5" %a in (`netstat -nao ^| findstr /R /C:"54609 "`) do (FOR /F "usebackq" %b in (`TASKLIST /FI "PID eq %a" ^| findstr /I chromedriver.exe`) do (IF NOT %b=="" TASKKILL /F /PID %a))
+[Chromedriver] No old chromedrivers seemed to exist
+[Chromedriver] Spawning chromedriver with: C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe --url-base=wd/hub --port=54609 --adb-port=5037
+[Chromedriver] [STDOUT] Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 54609
+Only local connections are allowed.
+[Appium] New AndroidDriver session created successfully, session e46e755e-97a6-4528-ae66-d02d96cf2899 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 16350 ms - 705 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 6 ms - 83 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/timeouts {"type":"implicit","ms":0}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/timeouts 200 163 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/execute {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/execute 200 264 ms - 93 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/url {"url":"http://demoaut.katalon.com"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/url 200 2517 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'btn-make-appointment']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 312 ms - 108 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.9446740239200913-1/click {"id":"0.9446740239200913-1"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.9446740239200913-1/click 200 1182 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'txt-username']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 115 ms - 108 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-1/clear {"id":"0.7836212346680707-1"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-1/clear 200 305 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'txt-username']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 61 ms - 108 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-1/value {"id":"0.7836212346680707-1","value":["John Doe"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-1/value 200 684 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'txt-password']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 111 ms - 108 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-2/clear {"id":"0.7836212346680707-2"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-2/clear 200 455 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'txt-password']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 65 ms - 108 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-2/value {"id":"0.7836212346680707-2","value":["ThisIsNotAPassword"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-2/value 200 1172 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'btn-login']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 150 ms - 108 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-3/click {"id":"0.7836212346680707-3"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.7836212346680707-3/click 200 1304 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'appointment']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 163 ms - 109 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'combo_facility']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 115 ms - 109 
+[HTTP] --> GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-2/name {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-2/name 200 251 ms - 80 
+[HTTP] --> GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-2/attribute/multiple {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-2/attribute/multiple 200 546 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-2/elements {"id":"0.22246115841573344-2","using":"xpath","value":".//option[normalize-space(.) = \"Hongkong CURA Healthcare Center\"]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-2/elements 200 329 ms - 109 
+[HTTP] --> GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-3/selected {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-3/selected 200 262 ms - 77 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-3/click {"id":"0.22246115841573344-3"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-3/click 200 421 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'radio_program_medicaid']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 124 ms - 109 
+[HTTP] --> GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-4/selected {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-4/selected 200 194 ms - 77 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-4/click {"id":"0.22246115841573344-4"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-4/click 200 520 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@name = 'hospital_readmission']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 143 ms - 109 
+[HTTP] --> GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-5/selected {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-5/selected 200 188 ms - 77 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-5/click {"id":"0.22246115841573344-5"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-5/click 200 504 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'txt_visit_date']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 152 ms - 109 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-6/clear {"id":"0.22246115841573344-6"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-6/clear 200 563 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'txt_visit_date']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 124 ms - 109 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-6/value {"id":"0.22246115841573344-6","value":["27/12/2016"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-6/value 200 1814 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'txt_comment']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 140 ms - 109 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-7/clear {"id":"0.22246115841573344-7"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-7/clear 200 298 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'txt_comment']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 49 ms - 109 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-7/value {"id":"0.22246115841573344-7","value":["Please make appointment as soon as possible."]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-7/value 200 2680 ms - 76 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements {"using":"xpath","value":"//*[@id = 'btn-book-appointment']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/elements 200 123 ms - 109 
+[HTTP] --> POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-8/click {"id":"0.22246115841573344-8"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- POST /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/element/0.22246115841573344-8/click 200 360 ms - 306 
+[HTTP] --> GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077483d84775f36777143296b7a7fdcc with e46e755e-97a6-4528-ae66-d02d96cf2899
+[HTTP] <-- GET /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899/screenshot 200 622 ms - 36074 
+[HTTP] --> DELETE /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899 {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session e46e755e-97a6-4528-ae66-d02d96cf2899 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/e46e755e-97a6-4528-ae66-d02d96cf2899 200 3544 ms - 76 

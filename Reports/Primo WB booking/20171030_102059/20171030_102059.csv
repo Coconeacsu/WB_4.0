@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo WB booking,Chrome 61.0.3163.98,,2017-10-30 10:21:00,2017-10-30 10:22:21,"1m - 20,231s",FAILED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 61.0.3163.98,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2017-10-30 10:21:01,2017-10-30 10:22:17,"1m - 16,392s",FAILED
+comment,Chrome 61.0.3163.98,,2017-10-30 10:21:02,2017-10-30 10:21:02,"0,059s",PASSED
+comment,Chrome 61.0.3163.98,,2017-10-30 10:21:02,2017-10-30 10:21:02,"0,015s",PASSED
+openBrowser,Chrome 61.0.3163.98,,2017-10-30 10:21:02,2017-10-30 10:22:01,"59,195s",PASSED
+callTestCase,Chrome 61.0.3163.98,,2017-10-30 10:22:01,2017-10-30 10:22:08,"7,129s",PASSED
+comment,Chrome 61.0.3163.98,,2017-10-30 10:22:08,2017-10-30 10:22:08,"0,002s",PASSED
+Statement - If (true),Chrome 61.0.3163.98,,2017-10-30 10:22:08,2017-10-30 10:22:16,"8,060s",PASSED
+comment,Chrome 61.0.3163.98,,2017-10-30 10:22:16,2017-10-30 10:22:16,"0,002s",PASSED
+click,Chrome 61.0.3163.98,,2017-10-30 10:22:16,2017-10-30 10:22:17,"1,206s",FAILED

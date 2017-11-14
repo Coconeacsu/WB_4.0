@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20171027_172750</name>
+   <tag></tag>
+   <displayName>20171027_172750</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/WB Primo - place booking</testCaseId>
+      <testCaseName>WB Primo - place booking</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

@@ -1,0 +1,160 @@
+1
+00:00:00,000 --> 00:00:00,116
+0. closeBrowser
+
+2
+00:00:00,118 --> 00:00:00,402
+1. openBrowser
+
+3
+00:00:00,420 --> 00:00:01,521
+2. maximizeWindow
+
+4
+00:00:01,524 --> 00:00:05,408
+3. navigateToUrl
+
+5
+00:00:05,413 --> 00:00:06,844
+4. setText
+
+6
+00:00:06,900 --> 00:00:07,807
+5. setText
+
+7
+00:00:07,822 --> 00:00:08,705
+6. setText
+
+8
+00:00:08,733 --> 00:00:09,663
+7. setText
+
+9
+00:00:09,667 --> 00:00:10,599
+8. setText
+
+10
+00:00:10,617 --> 00:00:11,494
+9. setText
+
+11
+00:00:11,499 --> 00:00:12,174
+10. setText
+
+12
+00:00:12,177 --> 00:00:13,122
+11. setText
+
+13
+00:00:13,125 --> 00:00:13,692
+12. scrollToElement
+
+14
+00:00:13,704 --> 00:00:14,104
+13. Done so that click on \"Next\" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.
+
+15
+00:00:14,115 --> 00:00:14,780
+14. scrollToElement
+
+16
+00:00:14,789 --> 00:00:15,200
+15. waitForElementClickable
+
+17
+00:00:15,203 --> 00:00:15,669
+16. waitForElementVisible
+
+18
+00:00:15,688 --> 00:00:16,083
+17. scrollToElement
+
+19
+00:00:16,089 --> 00:00:16,548
+18. click
+
+20
+00:00:16,558 --> 00:00:16,908
+19. waitForElementPresent
+
+21
+00:00:16,916 --> 00:00:17,324
+20. click
+
+22
+00:00:17,365 --> 00:00:17,781
+21. Select default travel insurance\r\n
+
+23
+00:00:17,783 --> 00:00:17,878
+22. Click on individual pax insurance selection checkbox
+
+24
+00:00:17,881 --> 00:00:17,989
+23. scrollToElement
+
+25
+00:00:17,995 --> 00:00:18,136
+24. click
+
+26
+00:00:18,145 --> 00:00:18,819
+25. scrollToElement
+
+27
+00:00:18,826 --> 00:00:19,306
+26. waitForElementVisible
+
+28
+00:00:19,321 --> 00:00:19,763
+27. Click on individual pax insurance selection checkbox
+
+29
+00:00:19,765 --> 00:00:20,550
+28. scrollToElement
+
+30
+00:00:20,554 --> 00:00:20,978
+29. Click on first product category \"Individual choices\" radio button
+
+31
+00:00:20,983 --> 00:00:21,440
+30. scrollToElement
+
+32
+00:00:21,444 --> 00:00:21,854
+31. Click on first product category \"Yes please\" checkbox, so all passengers get default product in category
+
+33
+00:00:21,856 --> 00:00:21,945
+32. scrollToElement
+
+34
+00:00:21,952 --> 00:00:22,035
+33. Scroll to Accept terms checkbox LABEL
+
+35
+00:00:22,044 --> 00:00:22,136
+34. Click on to Accept terms checkbox LABEL
+
+36
+00:00:22,141 --> 00:00:22,881
+35. Scroll to Accept terms checkbox 
+
+37
+00:00:22,885 --> 00:00:23,179
+36. Click on to Accept terms checkbox 
+
+38
+00:00:23,181 --> 00:00:23,476
+37. scrollToElement
+
+39
+00:00:23,485 --> 00:00:23,865
+38. waitForElementClickable
+
+40
+00:00:23,874 --> 00:00:23,969
+39. Click on save booking.
+

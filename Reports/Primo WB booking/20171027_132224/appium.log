@@ -1,0 +1,563 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 58854
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 58856
+[Appium]   tmpDir: C:\Users\Cornel\AppData\Local\Temp\\Katalon\Appium\Temp1509099748909
+[Appium] Appium REST http interface listener started on 0.0.0.0:58854
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 10 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"browserName":"Chrome","udid":"0b0b094f02a0a32e","platformName":"Android","deviceName":"LGE Nexus 5 6.0.1","newCommandTimeout":1800,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   browserName: 'Chrome'
+[Appium]   udid: '0b0b094f02a0a32e'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'LGE Nexus 5 6.0.1'
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 8f97161f-975a-4058-81b9-6379a312136c
+[AndroidDriver] Java version is: 1.8.0_102
+[AndroidDriver] We're going to run a Chrome-based session
+[AndroidDriver] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 0b0b094f02a0a32e
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] App file was not listed, instead we're going to run com.android.chrome directly on the device
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[AndroidDriver] No app sent in, not parsing package/activity
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[AndroidDriver] Starting a chrome-based browser session
+[Chromedriver] Set chromedriver binary as: C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+[Chromedriver] Killing any old chromedrivers, running: FOR /F "usebackq tokens=5" %a in (`netstat -nao ^| findstr /R /C:"58856 "`) do (FOR /F "usebackq" %b in (`TASKLIST /FI "PID eq %a" ^| findstr /I chromedriver.exe`) do (IF NOT %b=="" TASKKILL /F /PID %a))
+[Chromedriver] No old chromedrivers seemed to exist
+[Chromedriver] Spawning chromedriver with: C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe --url-base=wd/hub --port=58856 --adb-port=5037
+[Chromedriver] [STDOUT] Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 58856
+Only local connections are allowed.
+[Appium] New AndroidDriver session created successfully, session 8f97161f-975a-4058-81b9-6379a312136c added to master session list
+[HTTP] <-- POST /wd/hub/session 200 25114 ms - 705 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 5 ms - 83 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/timeouts {"type":"implicit","ms":0}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/timeouts 200 150 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/execute {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/execute 200 511 ms - 93 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/window/current/maximize {"windowHandle":"current"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/window/current/maximize 200 214 ms - 298 
+[HTTP] --> GET /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- GET /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/screenshot 200 834 ms - 11190 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/url {"url":"https://primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca="}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/url 200 7016 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'firstName']) = count(//*[@name = 'firstName'])][count(. | //*[@placeholder = 'Fornavn']) = count(//*[@placeholder = 'Fornavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 361 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-1/clear {"id":"0.16382947980149432-1"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-1/clear 200 477 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'firstName']) = count(//*[@name = 'firstName'])][count(. | //*[@placeholder = 'Fornavn']) = count(//*[@placeholder = 'Fornavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 87 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-1/value {"id":"0.16382947980149432-1","value":["Cornel"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-1/value 200 877 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'lastName']) = count(//*[@name = 'lastName'])][count(. | //*[@placeholder = 'Efternavn']) = count(//*[@placeholder = 'Efternavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 816 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-2/clear {"id":"0.16382947980149432-2"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-2/clear 200 1235 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'lastName']) = count(//*[@name = 'lastName'])][count(. | //*[@placeholder = 'Efternavn']) = count(//*[@placeholder = 'Efternavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 309 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-2/value {"id":"0.16382947980149432-2","value":["Neacsu"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-2/value 200 1127 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerAddress']) = count(//*[@name = 'customerAddress'])][count(. | //*[@placeholder = 'Adresse']) = count(//*[@placeholder = 'Adresse'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 231 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-3/clear {"id":"0.16382947980149432-3"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-3/clear 200 416 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerAddress']) = count(//*[@name = 'customerAddress'])][count(. | //*[@placeholder = 'Adresse']) = count(//*[@placeholder = 'Adresse'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 159 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-3/value {"id":"0.16382947980149432-3","value":["Home address"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-3/value 200 1808 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerPostcode']) = count(//*[@name = 'customerPostcode'])][count(. | //*[@placeholder = 'Post nr.']) = count(//*[@placeholder = 'Post nr.'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 210 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-4/clear {"id":"0.16382947980149432-4"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-4/clear 200 446 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerPostcode']) = count(//*[@name = 'customerPostcode'])][count(. | //*[@placeholder = 'Post nr.']) = count(//*[@placeholder = 'Post nr.'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 130 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-4/value {"id":"0.16382947980149432-4","value":["6700"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-4/value 200 946 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerEmail']) = count(//*[@name = 'customerEmail'])][count(. | //*[@placeholder = 'E-mail']) = count(//*[@placeholder = 'E-mail'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 218 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-5/clear {"id":"0.16382947980149432-5"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-5/clear 200 452 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerEmail']) = count(//*[@name = 'customerEmail'])][count(. | //*[@placeholder = 'E-mail']) = count(//*[@placeholder = 'E-mail'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 159 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-5/value {"id":"0.16382947980149432-5","value":["cornel.neacsu@roweb.ro"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-5/value 200 2757 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerPhone']) = count(//*[@name = 'customerPhone'])][count(. | //*[@placeholder = 'Telefon']) = count(//*[@placeholder = 'Telefon'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 220 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-6/clear {"id":"0.16382947980149432-6"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-6/clear 200 410 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerPhone']) = count(//*[@name = 'customerPhone'])][count(. | //*[@placeholder = 'Telefon']) = count(//*[@placeholder = 'Telefon'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 143 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-6/value {"id":"0.16382947980149432-6","value":["12345678"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-6/value 200 1333 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'firstname-0_1']) = count(//*[@name = 'firstname-0_1'])][count(. | //*[@placeholder = 'Fornavn']) = count(//*[@placeholder = 'Fornavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 225 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-7/clear {"id":"0.16382947980149432-7"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-7/clear 200 387 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'firstname-0_1']) = count(//*[@name = 'firstname-0_1'])][count(. | //*[@placeholder = 'Fornavn']) = count(//*[@placeholder = 'Fornavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 130 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-7/value {"id":"0.16382947980149432-7","value":["FirstName of passenger"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-7/value 200 2743 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'lastname0_1']) = count(//*[@name = 'lastname0_1'])][count(. | //*[@placeholder = 'Efternavn']) = count(//*[@placeholder = 'Efternavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 186 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-8/clear {"id":"0.16382947980149432-8"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-8/clear 200 484 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'lastname0_1']) = count(//*[@name = 'lastname0_1'])][count(. | //*[@placeholder = 'Efternavn']) = count(//*[@placeholder = 'Efternavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 114 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-8/value {"id":"0.16382947980149432-8","value":["Last name of passenger"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-8/value 200 2631 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//*[@class = 'fa fa-arrow-circle-right']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 166 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.16382947980149432-9","element-6066-11e4-a52e-4f735466cecf":"0.16382947980149432-9"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/execute 200 51 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//*[@class = 'fa fa-arrow-circle-right']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 160 ms - 109 
+[HTTP] --> GET /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-9/enabled {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- GET /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-9/enabled 200 295 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//*[@class = 'fa fa-arrow-circle-right']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 117 ms - 109 
+[HTTP] --> GET /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-9/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- GET /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-9/displayed 200 326 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//*[@class = 'fa fa-arrow-circle-right']"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 88 ms - 109 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-9/click {"id":"0.16382947980149432-9"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/element/0.16382947980149432-9/click 200 564 ms - 76 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 826 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 757 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 758 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 653 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 594 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 708 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 629 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 570 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 651 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 821 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 756 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 754 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 594 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 608 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 596 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 846 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 676 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 699 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 831 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 683 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 767 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 899 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 571 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 785 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 713 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 807 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 697 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 714 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 595 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 719 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 667 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 760 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 730 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 855 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 797 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 613 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 853 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 601 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 625 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 568 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 613 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 766 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 769 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 674 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 721 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 732 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 758 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 674 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 753 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 628 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 744 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 613 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 806 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 975 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 611 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 795 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 683 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 872 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 653 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 598 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 751 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 717 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 606 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 679 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 861 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 776 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 843 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 615 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 664 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 812 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 730 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 580 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 708 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 681 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 754 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 608 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 815 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 870 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 650 ms - 74 
+[HTTP] --> POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- POST /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/elements 200 594 ms - 74 
+[HTTP] --> GET /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 46f3d4d7a15498cf5ba4872bdbd5a53e with 8f97161f-975a-4058-81b9-6379a312136c
+[HTTP] <-- GET /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c/screenshot 200 819 ms - 234898 
+[HTTP] --> DELETE /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session 8f97161f-975a-4058-81b9-6379a312136c from our master session list
+[HTTP] <-- DELETE /wd/hub/session/8f97161f-975a-4058-81b9-6379a312136c 200 4317 ms - 76 

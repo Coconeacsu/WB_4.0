@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Primo WB booking" time="100" tests="1" failures="0" errors="0">
+   <testsuite name="Primo WB booking" tests="1" failures="0" errors="0" time="100" timestamp="2017-10-27 14:02:12" hostname="Cornel - NEACSUNEW-PC.zlin.roweb.ro" id="Test Suites/Primo WB booking">
+      <properties>
+         <property name="deviceName" value="LGE Nexus 5 6.0.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo WB booking\\20171027_140210"/>
+         <property name="logFiles" value="C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo WB booking\\20171027_140210\\appium.log, C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo WB booking\\20171027_140210\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo WB booking\\20171027_140210\\1509102159816.png"/>
+         <property name="hostName" value="Cornel - NEACSUNEW-PC.zlin.roweb.ro"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="sessionId" value="cbb48ec6-45b0-4c63-8bf4-a8f8ab435597"/>
+         <property name="deviceId" value="0b0b094f02a0a32e"/>
+         <property name="deviceName" value="LGE Nexus 5 6.0.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="deviceOSVersion" value="6.0.1"/>
+         <property name="platform" value="Windows 8.1"/>
+         <property name="browser" value="Chrome 61.0.3163.98"/>
+         <property name="deviceModel" value="Nexus 5"/>
+         <property name="hostAddress" value="10.10.10.211"/>
+         <property name="deviceManufacturer" value="LGE"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+      </properties>
+      <testcase name="Test Cases/WB Primo - place booking" classname="Test Cases/WB Primo - place booking" status="PASSED">
+         <system-out><![CDATA[2017-10-27 14:02:12 - [TEST_CASE][PASSED] - Test Cases/WB Primo - place booking: Test Cases/WB Primo - place booking
+
+2017-10-27 14:02:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-27 14:02:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-27 14:02:39 - [TEST_STEP][PASSED] - maximizeWindow: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=61.0.3163.98)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 450 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=0b0b094f02a0a32e, platform=ANDROID, deviceUDID=0b0b094f02a0a32e, desired={newCommandTimeout=1800, browserName=Chrome, udid=0b0b094f02a0a32e, platformName=Android, deviceName=LGE Nexus 5 6.0.1, platform=ANDROID}, newCommandTimeout=1800, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Chrome, javascriptEnabled=true, deviceModel=Nexus 5, udid=0b0b094f02a0a32e, platformName=Android, deviceManufacturer=LGE}]
+Session ID: cbb48ec6-45b0-4c63-8bf4-a8f8ab435597)
+
+2017-10-27 14:02:40 - [MESSAGE][WARNING] - Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=61.0.3163.98)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 450 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=0b0b094f02a0a32e, platform=ANDROID, deviceUDID=0b0b094f02a0a32e, desired={newCommandTimeout=1800, browserName=Chrome, udid=0b0b094f02a0a32e, platformName=Android, deviceName=LGE Nexus 5 6.0.1, platform=ANDROID}, newCommandTimeout=1800, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Chrome, javascriptEnabled=true, deviceModel=Nexus 5, udid=0b0b094f02a0a32e, platformName=Android, deviceManufacturer=LGE}]
+Session ID: cbb48ec6-45b0-4c63-8bf4-a8f8ab435597)
+[[ATTACHMENT|C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo WB booking\\20171027_140210\\1509102159816.png]]
+
+2017-10-27 14:02:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=' successfully
+
+2017-10-27 14:02:46 - [MESSAGE][PASSED] - Navigate to 'https://primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=' successfully
+
+2017-10-27 14:02:46 - [TEST_STEP][PASSED] - setText: Text 'Cornel' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'
+
+2017-10-27 14:02:48 - [MESSAGE][PASSED] - Text 'Cornel' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'
+
+2017-10-27 14:02:48 - [TEST_STEP][PASSED] - setText: Text 'Neacsu' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName'
+
+2017-10-27 14:02:51 - [MESSAGE][PASSED] - Text 'Neacsu' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName'
+
+2017-10-27 14:02:51 - [TEST_STEP][PASSED] - setText: Text 'Home address' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress'
+
+2017-10-27 14:02:53 - [MESSAGE][PASSED] - Text 'Home address' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress'
+
+2017-10-27 14:02:53 - [TEST_STEP][PASSED] - setText: Text '6700' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode'
+
+2017-10-27 14:02:55 - [MESSAGE][PASSED] - Text '6700' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode'
+
+2017-10-27 14:02:55 - [TEST_STEP][PASSED] - setText: Text 'cornel.neacsu@roweb.ro' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail'
+
+2017-10-27 14:02:59 - [MESSAGE][PASSED] - Text 'cornel.neacsu@roweb.ro' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail'
+
+2017-10-27 14:02:59 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone'
+
+2017-10-27 14:03:01 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone'
+
+2017-10-27 14:03:01 - [TEST_STEP][PASSED] - setText: Text 'FirstName of passenger' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstname-0_1'
+
+2017-10-27 14:03:05 - [MESSAGE][PASSED] - Text 'FirstName of passenger' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstname-0_1'
+
+2017-10-27 14:03:05 - [TEST_STEP][PASSED] - setText: Text 'Last name of passenger' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastname0_1'
+
+2017-10-27 14:03:08 - [MESSAGE][PASSED] - Text 'Last name of passenger' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastname0_1'
+
+2017-10-27 14:03:08 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-10-27 14:03:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-10-27 14:03:08 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clickable
+
+2017-10-27 14:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clickable
+
+2017-10-27 14:03:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is visible
+
+2017-10-27 14:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is visible
+
+2017-10-27 14:03:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clicked on
+
+2017-10-27 14:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clicked on
+
+2017-10-27 14:03:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is present
+
+2017-10-27 14:03:34 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is present
+
+2017-10-27 14:03:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is clicked on
+
+2017-10-27 14:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is clicked on
+
+2017-10-27 14:03:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/li_Har selv forsikring - kr. 0' is clicked on
+
+2017-10-27 14:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/li_Har selv forsikring - kr. 0' is clicked on
+
+2017-10-27 14:03:41 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-27 14:03:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-27 14:03:41 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-10-27 14:03:41 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-10-27 14:03:41 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-27 14:03:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-27 14:03:41 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' successfully
+
+2017-10-27 14:03:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' successfully
+
+2017-10-27 14:03:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is visible
+
+2017-10-27 14:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is visible
+
+2017-10-27 14:03:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is clicked on
+
+2017-10-27 14:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is clicked on
+
+2017-10-27 14:03:43 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' successfully
+
+2017-10-27 14:03:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' successfully
+
+2017-10-27 14:03:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' is clicked on
+
+2017-10-27 14:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' is clicked on
+
+2017-10-27 14:03:44 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' successfully
+
+2017-10-27 14:03:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' successfully
+
+2017-10-27 14:03:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' is clicked on
+
+2017-10-27 14:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' is clicked on
+
+2017-10-27 14:03:45 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-10-27 14:03:45 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-10-27 14:03:45 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-10-27 14:03:45 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-10-27 14:03:45 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-27 14:03:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-27 14:03:45 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' successfully
+
+2017-10-27 14:03:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' successfully
+
+2017-10-27 14:03:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' is clicked on
+
+2017-10-27 14:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' is clicked on
+
+2017-10-27 14:03:46 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' successfully
+
+2017-10-27 14:03:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' successfully
+
+2017-10-27 14:03:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' is clickable
+
+2017-10-27 14:03:48 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-27 14:02:12 - [TEST_SUITE][PASSED] - Primo WB booking: Test Cases/WB Primo - place booking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,204 @@
+1
+00:00:01,411 --> 00:00:05,590
+1. openBrowser
+
+2
+00:00:05,694 --> 00:00:07,080
+2. maximizeWindow
+
+3
+00:00:07,097 --> 00:00:11,297
+3. navigateToUrl
+
+4
+00:00:11,502 --> 00:00:11,950
+4. waitForPageLoad
+
+5
+00:00:11,976 --> 00:00:12,319
+5. scrollToElement
+
+6
+00:00:12,326 --> 00:00:12,617
+6. waitForElementClickable
+
+7
+00:00:12,624 --> 00:00:12,985
+7. click
+
+8
+00:00:12,992 --> 00:00:15,452
+8. click
+
+9
+00:00:15,452 --> 00:00:18,409
+9. Click search on Primotours.dk
+
+10
+00:00:18,420 --> 00:00:18,563
+10. waitForPageLoad
+
+11
+00:00:18,563 --> 00:00:18,648
+11. waitForElementClickable
+
+12
+00:00:18,660 --> 00:00:18,694
+12. scrollToElement
+
+13
+00:00:18,696 --> 00:00:21,650
+13. waitForElementVisible
+
+14
+00:00:21,653 --> 00:00:24,898
+14. waitForElementClickable
+
+15
+00:00:24,914 --> 00:00:24,961
+15. scrollToElement
+
+16
+00:00:24,961 --> 00:00:28,486
+16. Click \"Book\" on Primotours.dk offer
+
+17
+00:00:28,495 --> 00:00:32,717
+17. switchToWindowTitle
+
+18
+00:00:32,731 --> 00:00:33,545
+18. setText
+
+19
+00:00:33,551 --> 00:00:34,293
+19. setText
+
+20
+00:00:34,302 --> 00:00:35,069
+20. setText
+
+21
+00:00:35,081 --> 00:00:35,844
+21. setText
+
+22
+00:00:35,854 --> 00:00:36,442
+22. setText
+
+23
+00:00:36,443 --> 00:00:36,948
+23. setText
+
+24
+00:00:36,950 --> 00:00:38,464
+24. setText
+
+25
+00:00:38,468 --> 00:00:39,224
+25. setText
+
+26
+00:00:39,231 --> 00:00:39,754
+26. scrollToElement
+
+27
+00:00:39,802 --> 00:00:40,156
+27. waitForElementClickable
+
+28
+00:00:40,223 --> 00:00:40,697
+28. waitForElementVisible
+
+29
+00:00:40,723 --> 00:00:41,201
+29. click
+
+30
+00:00:41,224 --> 00:00:41,764
+30. waitForElementPresent
+
+31
+00:00:41,793 --> 00:00:42,513
+31. click
+
+32
+00:00:42,528 --> 00:00:43,098
+32. Select default travel insurance\r\n
+
+33
+00:00:43,101 --> 00:00:43,255
+33. Click on individual pax insurance selection checkbox
+
+34
+00:00:43,271 --> 00:00:43,335
+34. scrollToElement
+
+35
+00:00:43,356 --> 00:00:43,395
+35. click
+
+36
+00:00:43,399 --> 00:00:43,850
+36. scrollToElement
+
+37
+00:00:43,863 --> 00:00:44,369
+37. waitForElementVisible
+
+38
+00:00:44,372 --> 00:00:45,005
+38. Click on individual pax insurance selection checkbox
+
+39
+00:00:45,023 --> 00:00:45,690
+39. scrollToElement
+
+40
+00:00:45,709 --> 00:00:46,397
+40. Click on first product category \"Individual choices\" radio button
+
+41
+00:00:46,397 --> 00:00:46,839
+41. scrollToElement
+
+42
+00:00:46,839 --> 00:00:47,362
+42. Click on first product category \"Yes please\" checkbox, so all passengers get default product in category
+
+43
+00:00:47,366 --> 00:00:47,466
+43. scrollToElement
+
+44
+00:00:47,468 --> 00:00:47,553
+44. Scroll to Accept terms checkbox LABEL
+
+45
+00:00:47,560 --> 00:00:47,629
+45. Click on to Accept terms checkbox LABEL
+
+46
+00:00:47,645 --> 00:00:49,128
+46. Scroll to Accept terms checkbox 
+
+47
+00:00:49,128 --> 00:00:49,812
+47. Click on to Accept terms checkbox 
+
+48
+00:00:49,812 --> 00:00:50,126
+48. scrollToElement
+
+49
+00:00:50,126 --> 00:00:50,445
+49. waitForElementClickable
+
+50
+00:00:50,445 --> 00:00:50,519
+50. Click on save booking.
+
+51
+00:00:50,519 --> 00:00:50,603
+51. closeBrowser
+

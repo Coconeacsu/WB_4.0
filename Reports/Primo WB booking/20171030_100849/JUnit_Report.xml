@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Primo WB booking" time="51" tests="3" failures="0" errors="0">
+   <testsuite name="Primo WB booking" tests="3" failures="0" errors="0" time="51" timestamp="2017-10-30 10:08:51" hostname="Cornel - NEACSUNEW-PC.zlin.roweb.ro" id="Test Suites/Primo WB booking">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo WB booking\\20171030_100849"/>
+         <property name="logFiles" value="C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo WB booking\\20171030_100849\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Cornel - NEACSUNEW-PC.zlin.roweb.ro"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.75"/>
+         <property name="hostAddress" value="10.10.10.211"/>
+         <property name="sessionId" value="f8bdf28d6116f50a20105941ffb29a3f"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[2017-10-30 10:08:52 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2017-10-30 10:08:53 - [TEST_STEP][PASSED] - comment: Story: Login to CURA system
+
+2017-10-30 10:08:53 - [TEST_STEP][PASSED] - comment: Given that the user has the valid login information
+
+2017-10-30 10:08:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2017-10-30 10:09:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2017-10-30 10:09:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2017-10-30 10:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2017-10-30 10:09:02 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2017-10-30 10:09:03 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2017-10-30 10:09:03 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2017-10-30 10:09:03 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2017-10-30 10:09:03 - [TEST_STEP][PASSED] - comment: When he logins to CURA system
+
+2017-10-30 10:09:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2017-10-30 10:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2017-10-30 10:09:05 - [TEST_STEP][PASSED] - comment: Then he should be able to login successfully
+
+2017-10-30 10:09:05 - [TEST_STEP][PASSED] - Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2017-10-30 10:09:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2017-10-30 10:09:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-30 10:09:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WB Primo - place booking" classname="Test Cases/WB Primo - place booking" status="PASSED">
+         <system-out><![CDATA[2017-10-30 10:09:06 - [TEST_CASE][PASSED] - Test Cases/WB Primo - place booking: Test Cases/WB Primo - place booking
+
+2017-10-30 10:09:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-30 10:09:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-30 10:09:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-30 10:09:10 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-30 10:09:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=' successfully
+
+2017-10-30 10:09:15 - [MESSAGE][PASSED] - Navigate to 'https://primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=' successfully
+
+2017-10-30 10:09:15 - [TEST_STEP][PASSED] - setText: Text 'Cornel' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'
+
+2017-10-30 10:09:16 - [MESSAGE][PASSED] - Text 'Cornel' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'
+
+2017-10-30 10:09:16 - [TEST_STEP][PASSED] - setText: Text 'Neacsu' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName'
+
+2017-10-30 10:09:16 - [MESSAGE][PASSED] - Text 'Neacsu' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName'
+
+2017-10-30 10:09:16 - [TEST_STEP][PASSED] - setText: Text 'Home address' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress'
+
+2017-10-30 10:09:17 - [MESSAGE][PASSED] - Text 'Home address' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress'
+
+2017-10-30 10:09:17 - [TEST_STEP][PASSED] - setText: Text '6700' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode'
+
+2017-10-30 10:09:18 - [MESSAGE][PASSED] - Text '6700' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode'
+
+2017-10-30 10:09:18 - [TEST_STEP][PASSED] - setText: Text 'cornel.neacsu@roweb.ro' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail'
+
+2017-10-30 10:09:19 - [MESSAGE][PASSED] - Text 'cornel.neacsu@roweb.ro' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail'
+
+2017-10-30 10:09:19 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone'
+
+2017-10-30 10:09:19 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone'
+
+2017-10-30 10:09:19 - [TEST_STEP][PASSED] - setText: Text 'FirstName of passenger' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstname-0_1'
+
+2017-10-30 10:09:20 - [MESSAGE][PASSED] - Text 'FirstName of passenger' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstname-0_1'
+
+2017-10-30 10:09:20 - [TEST_STEP][PASSED] - setText: Text 'Last name of passenger' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastname0_1'
+
+2017-10-30 10:09:21 - [MESSAGE][PASSED] - Text 'Last name of passenger' is set on object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastname0_1'
+
+2017-10-30 10:09:21 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/span_kr. 7.892-' successfully
+
+2017-10-30 10:09:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/span_kr. 7.892-' successfully
+
+2017-10-30 10:09:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/span_kr. 7.892-' is clicked on
+
+2017-10-30 10:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/span_kr. 7.892-' is clicked on
+
+2017-10-30 10:09:22 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-10-30 10:09:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-10-30 10:09:22 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clickable
+
+2017-10-30 10:09:22 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clickable
+
+2017-10-30 10:09:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is visible
+
+2017-10-30 10:09:22 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is visible
+
+2017-10-30 10:09:22 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-10-30 10:09:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-10-30 10:09:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clicked on
+
+2017-10-30 10:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clicked on
+
+2017-10-30 10:09:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is present
+
+2017-10-30 10:09:25 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is present
+
+2017-10-30 10:09:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is clicked on
+
+2017-10-30 10:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is clicked on
+
+2017-10-30 10:09:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/li_Har selv forsikring - kr. 0' is clicked on
+
+2017-10-30 10:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/li_Har selv forsikring - kr. 0' is clicked on
+
+2017-10-30 10:09:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-30 10:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-30 10:09:26 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-10-30 10:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-10-30 10:09:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-30 10:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-30 10:09:26 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' successfully
+
+2017-10-30 10:09:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' successfully
+
+2017-10-30 10:09:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is visible
+
+2017-10-30 10:09:27 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is visible
+
+2017-10-30 10:09:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is clicked on
+
+2017-10-30 10:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is clicked on
+
+2017-10-30 10:09:27 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' successfully
+
+2017-10-30 10:09:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' successfully
+
+2017-10-30 10:09:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' is clicked on
+
+2017-10-30 10:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' is clicked on
+
+2017-10-30 10:09:28 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' successfully
+
+2017-10-30 10:09:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' successfully
+
+2017-10-30 10:09:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' is clicked on
+
+2017-10-30 10:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' is clicked on
+
+2017-10-30 10:09:29 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-10-30 10:09:29 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-10-30 10:09:29 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-10-30 10:09:29 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-10-30 10:09:29 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-30 10:09:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-30 10:09:29 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' successfully
+
+2017-10-30 10:09:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' successfully
+
+2017-10-30 10:09:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' is clicked on
+
+2017-10-30 10:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' is clicked on
+
+2017-10-30 10:09:29 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' successfully
+
+2017-10-30 10:09:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' successfully
+
+2017-10-30 10:09:29 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' is clickable
+
+2017-10-30 10:09:30 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' is clickable
+
+2017-10-30 10:09:30 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-30 10:09:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="PASSED">
+         <system-out><![CDATA[2017-10-30 10:09:30 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment
+
+2017-10-30 10:09:30 - [TEST_STEP][PASSED] - comment: Story: Book an appointment
+
+2017-10-30 10:09:30 - [TEST_STEP][PASSED] - comment: Given that the user has logged into their account
+
+2017-10-30 10:09:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2017-10-30 10:09:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-10-30 10:09:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2017-10-30 10:09:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2017-10-30 10:09:35 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2017-10-30 10:09:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2017-10-30 10:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2017-10-30 10:09:36 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2017-10-30 10:09:37 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2017-10-30 10:09:37 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2017-10-30 10:09:38 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2017-10-30 10:09:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2017-10-30 10:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2017-10-30 10:09:38 - [TEST_STEP][PASSED] - Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2017-10-30 10:09:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2017-10-30 10:09:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2017-10-30 10:09:38 - [TEST_STEP][PASSED] - comment: And Appointment page is displayed
+
+2017-10-30 10:09:38 - [TEST_STEP][PASSED] - Statement - If (true): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2017-10-30 10:09:38 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2017-10-30 10:09:39 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2017-10-30 10:09:39 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2017-10-30 10:09:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2017-10-30 10:09:39 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2017-10-30 10:09:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2017-10-30 10:09:39 - [TEST_STEP][PASSED] - setText: Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2017-10-30 10:09:40 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2017-10-30 10:09:40 - [TEST_STEP][PASSED] - setText: Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2017-10-30 10:09:40 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2017-10-30 10:09:40 - [TEST_STEP][PASSED] - comment: When he fills in valid information in Appointment page
+
+2017-10-30 10:09:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2017-10-30 10:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2017-10-30 10:09:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Appointment Confirmation' is present on page 
+
+2017-10-30 10:09:41 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+2017-10-30 10:09:41 - [TEST_STEP][PASSED] - comment: Then he should be able to book a new appointment
+
+2017-10-30 10:09:41 - [TEST_STEP][PASSED] - Statement - If (true): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2017-10-30 10:09:41 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2017-10-30 10:09:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+2017-10-30 10:09:41 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2017-10-30 10:09:41 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Yes' and expected text 'Yes' are matched 
+
+2017-10-30 10:09:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+2017-10-30 10:09:42 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+2017-10-30 10:09:42 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2017-10-30 10:09:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+2017-10-30 10:09:42 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2017-10-30 10:09:42 - [TEST_STEP][PASSED] - verifyMatch: Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2017-10-30 10:09:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+2017-10-30 10:09:42 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2017-10-30 10:09:42 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2017-10-30 10:09:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+2017-10-30 10:09:42 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2017-10-30 10:09:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-30 10:09:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-30 10:08:51 - [TEST_SUITE][PASSED] - Primo WB booking: Test Cases/Main Test Cases/TC2_Verify Successful Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo Tours,Chrome 61.0.3163.100,,2017-10-26 15:17:07,2017-10-26 15:17:41,"33,650s",PASSED
+,,,,,,
+Test Cases/PrimoTours - place a booking with no payment,Chrome 61.0.3163.100,,2017-10-26 15:17:08,2017-10-26 15:17:40,"32,246s",PASSED
+openBrowser,Chrome 61.0.3163.100,,2017-10-26 15:17:08,2017-10-26 15:17:11,"3,007s",PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-26 15:17:11,2017-10-26 15:17:15,"3,223s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 15:17:15,2017-10-26 15:17:15,"0,139s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:17:15,2017-10-26 15:17:15,"0,182s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:17:15,2017-10-26 15:17:17,"1,968s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:17:17,2017-10-26 15:17:19,"1,851s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 15:17:19,2017-10-26 15:17:19,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:17:19,2017-10-26 15:17:21,"2,170s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:17:21,2017-10-26 15:17:23,"2,030s",PASSED
+switchToWindowTitle,Chrome 61.0.3163.100,,2017-10-26 15:17:23,2017-10-26 15:17:25,"2,179s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 15:17:25,2017-10-26 15:17:26,"0,682s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 15:17:26,2017-10-26 15:17:26,"0,335s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 15:17:26,2017-10-26 15:17:27,"0,623s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 15:17:27,2017-10-26 15:17:27,"0,320s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 15:17:27,2017-10-26 15:17:28,"0,539s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 15:17:28,2017-10-26 15:17:28,"0,310s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 15:17:28,2017-10-26 15:17:35,"6,664s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-26 15:17:35,2017-10-26 15:17:35,"0,586s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:17:35,2017-10-26 15:17:35,"0,058s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 15:17:35,2017-10-26 15:17:35,"0,043s",PASSED
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-26 15:17:35,2017-10-26 15:17:35,"0,072s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:17:35,2017-10-26 15:17:35,"0,138s",PASSED
+waitForElementPresent,Chrome 61.0.3163.100,,2017-10-26 15:17:35,2017-10-26 15:17:37,"1,596s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 15:17:37,2017-10-26 15:17:38,"0,436s",PASSED
+click,Chrome 61.0.3163.100,Select default travel insurance\r\n,2017-10-26 15:17:38,2017-10-26 15:17:38,"0,320s",PASSED
+click,Chrome 61.0.3163.100,Click on individual pax insurance selection checkbox,2017-10-26 15:17:38,2017-10-26 15:17:38,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:17:38,2017-10-26 15:17:38,"0,001s",NOT_RUN
+click,Chrome 61.0.3163.100,,2017-10-26 15:17:38,2017-10-26 15:17:38,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:17:38,2017-10-26 15:17:38,"0,184s",PASSED
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-26 15:17:38,2017-10-26 15:17:38,"0,162s",PASSED
+click,Chrome 61.0.3163.100,Click on individual pax insurance selection checkbox,2017-10-26 15:17:38,2017-10-26 15:17:38,"0,261s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:17:38,2017-10-26 15:17:39,"0,112s",PASSED
+click,Chrome 61.0.3163.100,"Click on first product category \""Individual choices\"" radio button",2017-10-26 15:17:39,2017-10-26 15:17:39,"0,337s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:17:39,2017-10-26 15:17:39,"0,144s",PASSED
+click,Chrome 61.0.3163.100,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-10-26 15:17:39,2017-10-26 15:17:39,"0,240s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:17:39,2017-10-26 15:17:39,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,Scroll to Accept terms checkbox LABEL,2017-10-26 15:17:39,2017-10-26 15:17:39,"0,001s",NOT_RUN
+click,Chrome 61.0.3163.100,Click on to Accept terms checkbox LABEL,2017-10-26 15:17:39,2017-10-26 15:17:39,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,Scroll to Accept terms checkbox ,2017-10-26 15:17:39,2017-10-26 15:17:39,"0,205s",PASSED
+click,Chrome 61.0.3163.100,Click on to Accept terms checkbox ,2017-10-26 15:17:39,2017-10-26 15:17:40,"0,169s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 15:17:40,2017-10-26 15:17:40,"0,125s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 15:17:40,2017-10-26 15:17:40,"0,118s",PASSED
+click,Chrome 61.0.3163.100,Click on save booking.,2017-10-26 15:17:40,2017-10-26 15:17:40,"0,000s",NOT_RUN
+closeBrowser,Chrome 61.0.3163.100,,2017-10-26 15:17:40,2017-10-26 15:17:40,"0,000s",NOT_RUN

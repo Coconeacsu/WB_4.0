@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo Tours,Chrome 61.0.3163.100,,2017-10-26 17:26:49,2017-10-26 17:27:27,"38,112s",FAILED
+,,,,,,
+Test Cases/PrimoTours - place a booking with no payment,Chrome 61.0.3163.100,,2017-10-26 17:26:49,2017-10-26 17:27:26,"36,142s",FAILED
+openBrowser,Chrome 61.0.3163.100,,2017-10-26 17:26:50,2017-10-26 17:26:55,"4,559s",PASSED
+maximizeWindow,Chrome 61.0.3163.100,,2017-10-26 17:26:55,2017-10-26 17:26:56,"1,252s",PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-26 17:26:56,2017-10-26 17:27:03,"6,575s",PASSED
+waitForPageLoad,Chrome 61.0.3163.100,,2017-10-26 17:27:03,2017-10-26 17:27:03,"0,073s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:27:03,2017-10-26 17:27:03,"0,128s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 17:27:03,2017-10-26 17:27:03,"0,120s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 17:27:03,2017-10-26 17:27:03,"0,368s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-26 17:27:03,2017-10-26 17:27:07,"3,557s",PASSED
+click,Chrome 61.0.3163.100,Click search on Primotours.dk,2017-10-26 17:27:07,2017-10-26 17:27:10,"3,398s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 17:27:10,2017-10-26 17:27:10,"0,007s",NOT_RUN
+waitForPageLoad,Chrome 61.0.3163.100,,2017-10-26 17:27:10,2017-10-26 17:27:11,"0,143s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-26 17:27:11,2017-10-26 17:27:14,"3,798s",PASSED
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-26 17:27:14,2017-10-26 17:27:18,"3,656s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-26 17:27:18,2017-10-26 17:27:21,"3,381s",PASSED
+click,Chrome 61.0.3163.100,"Click \""Book\"" on Primotours.dk offer",2017-10-26 17:27:21,2017-10-26 17:27:26,"4,229s",FAILED

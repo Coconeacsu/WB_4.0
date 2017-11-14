@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Primo Tours" time="9" tests="0" failures="1" errors="0">
+   <testsuite name="Primo Tours" tests="0" failures="1" errors="0" time="9" timestamp="2017-10-26 15:16:07" hostname="Cornel - NEACSUNEW-PC.zlin.roweb.ro" id="Test Suites/Primo Tours">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo Tours\\20171026_151605"/>
+         <property name="logFiles" value="C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo Tours\\20171026_151605\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo Tours\\20171026_151605\\1509020175837.png"/>
+         <property name="hostName" value="Cornel - NEACSUNEW-PC.zlin.roweb.ro"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.10.10.211"/>
+         <property name="sessionId" value="0e2a59a3d5f142e55a0a131eb077ba46"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/PrimoTours - place a booking with no payment" classname="Test Cases/PrimoTours - place a booking with no payment" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;jquery-select-trigger-arrow&quot;>...&lt;/span> is not clickable at point (356, 258). Other element would receive the click: &lt;a href=&quot;https://www.primotours.dk/rejsemal/tyrkiet/side&quot;>...&lt;/a>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 141 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Cornel\AppData\Local\Temp\scoped_dir9440_10932}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0e2a59a3d5f142e55a0a131eb077ba46)"/>
+         <system-out><![CDATA[2017-10-26 15:16:08 - [TEST_CASE][FAILED] - Test Cases/PrimoTours - place a booking with no payment: Test Cases/PrimoTours - place a booking with no payment FAILED because (of) Unable to click on object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="jquery-select-trigger-arrow">...</span> is not clickable at point (356, 258). Other element would receive the click: <a href="https://www.primotours.dk/rejsemal/tyrkiet/side">...</a>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 141 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Cornel\AppData\Local\Temp\scoped_dir9440_10932}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0e2a59a3d5f142e55a0a131eb077ba46)
+
+2017-10-26 15:16:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-26 15:16:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-26 15:16:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.primotours.dk/' successfully
+
+2017-10-26 15:16:15 - [MESSAGE][PASSED] - Navigate to 'https://www.primotours.dk/' successfully
+
+2017-10-26 15:16:15 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' is clickable
+
+2017-10-26 15:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' is clickable
+
+2017-10-26 15:16:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="jquery-select-trigger-arrow">...</span> is not clickable at point (356, 258). Other element would receive the click: <a href="https://www.primotours.dk/rejsemal/tyrkiet/side">...</a>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 141 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Cornel\AppData\Local\Temp\scoped_dir9440_10932}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0e2a59a3d5f142e55a0a131eb077ba46)
+
+2017-10-26 15:16:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="jquery-select-trigger-arrow">...</span> is not clickable at point (356, 258). Other element would receive the click: <a href="https://www.primotours.dk/rejsemal/tyrkiet/side">...</a>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 141 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Cornel\AppData\Local\Temp\scoped_dir9440_10932}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0e2a59a3d5f142e55a0a131eb077ba46)
+[[ATTACHMENT|C:\\Users\\Cornel\\Katalon Studio\\Primo WB test\\Reports\\Primo Tours\\20171026_151605\\1509020175837.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-26 15:16:08 - [TEST_CASE][FAILED] - Test Cases/PrimoTours - place a booking with no payment: Test Cases/PrimoTours - place a booking with no payment FAILED because (of) Unable to click on object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="jquery-select-trigger-arrow">...</span> is not clickable at point (356, 258). Other element would receive the click: <a href="https://www.primotours.dk/rejsemal/tyrkiet/side">...</a>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 141 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Cornel\AppData\Local\Temp\scoped_dir9440_10932}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0e2a59a3d5f142e55a0a131eb077ba46)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-26 15:16:07 - [TEST_SUITE][FAILED] - Primo Tours: Test Cases/PrimoTours - place a booking with no payment FAILED because (of) Unable to click on object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="jquery-select-trigger-arrow">...</span> is not clickable at point (356, 258). Other element would receive the click: <a href="https://www.primotours.dk/rejsemal/tyrkiet/side">...</a>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 141 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Cornel\AppData\Local\Temp\scoped_dir9440_10932}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0e2a59a3d5f142e55a0a131eb077ba46)]]></system-out>
+      <system-err><![CDATA[2017-10-26 15:16:07 - [TEST_SUITE][FAILED] - Primo Tours: Test Cases/PrimoTours - place a booking with no payment FAILED because (of) Unable to click on object 'Object Repository/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="jquery-select-trigger-arrow">...</span> is not clickable at point (356, 258). Other element would receive the click: <a href="https://www.primotours.dk/rejsemal/tyrkiet/side">...</a>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 141 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NEACSUNEW-PC', ip: '10.10.10.211', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Cornel\AppData\Local\Temp\scoped_dir9440_10932}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0e2a59a3d5f142e55a0a131eb077ba46)]]></system-err>
+   </testsuite>
+</testsuites>

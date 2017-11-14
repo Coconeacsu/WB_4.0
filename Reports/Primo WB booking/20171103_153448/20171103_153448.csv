@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo WB booking,Chrome 62.0.3202.75,,2017-11-03 15:34:50,2017-11-03 15:35:39,"49,027s",PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 62.0.3202.75,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2017-11-03 15:34:50,2017-11-03 15:35:04,"13,638s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:34:51,2017-11-03 15:34:51,"0,103s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:34:51,2017-11-03 15:34:51,"0,003s",PASSED
+openBrowser,Chrome 62.0.3202.75,,2017-11-03 15:34:51,2017-11-03 15:34:58,"6,166s",PASSED
+click,Chrome 62.0.3202.75,,2017-11-03 15:34:58,2017-11-03 15:34:59,"0,975s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:34:59,2017-11-03 15:34:59,"0,565s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:34:59,2017-11-03 15:35:00,"0,531s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:35:00,2017-11-03 15:35:00,"0,001s",PASSED
+click,Chrome 62.0.3202.75,,2017-11-03 15:35:00,2017-11-03 15:35:03,"2,882s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:35:03,2017-11-03 15:35:03,"0,002s",PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Chrome 62.0.3202.75,,2017-11-03 15:35:03,2017-11-03 15:35:03,"0,081s",PASSED
+closeBrowser,Chrome 62.0.3202.75,,2017-11-03 15:35:03,2017-11-03 15:35:04,"1,212s",PASSED
+,,,,,,
+Test Cases/WB Primo staging - place booking,Chrome 62.0.3202.75,,2017-11-03 15:35:04,2017-11-03 15:35:26,"21,955s",PASSED
+openBrowser,Chrome 62.0.3202.75,,2017-11-03 15:35:04,2017-11-03 15:35:06,"2,214s",PASSED
+maximizeWindow,Chrome 62.0.3202.75,,2017-11-03 15:35:06,2017-11-03 15:35:08,"1,264s",PASSED
+navigateToUrl,Chrome 62.0.3202.75,,2017-11-03 15:35:08,2017-11-03 15:35:12,"4,293s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:35:12,2017-11-03 15:35:12,"0,465s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:35:12,2017-11-03 15:35:13,"0,447s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:35:13,2017-11-03 15:35:13,"0,426s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:35:13,2017-11-03 15:35:14,"0,555s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:35:14,2017-11-03 15:35:15,"0,685s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:35:15,2017-11-03 15:35:15,"0,442s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:35:15,2017-11-03 15:35:18,"2,779s",PASSED
+setText,Chrome 62.0.3202.75,,2017-11-03 15:35:18,2017-11-03 15:35:18,"0,560s",PASSED
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:18,2017-11-03 15:35:19,"0,268s",PASSED
+click,Chrome 62.0.3202.75,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-03 15:35:19,2017-11-03 15:35:19,"0,187s",PASSED
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:19,2017-11-03 15:35:19,"0,089s",PASSED
+waitForElementClickable,Chrome 62.0.3202.75,,2017-11-03 15:35:19,2017-11-03 15:35:19,"0,086s",PASSED
+waitForElementVisible,Chrome 62.0.3202.75,,2017-11-03 15:35:19,2017-11-03 15:35:19,"0,130s",PASSED
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:19,2017-11-03 15:35:19,"0,068s",PASSED
+click,Chrome 62.0.3202.75,,2017-11-03 15:35:19,2017-11-03 15:35:19,"0,159s",PASSED
+waitForElementPresent,Chrome 62.0.3202.75,,2017-11-03 15:35:19,2017-11-03 15:35:22,"2,388s",PASSED
+click,Chrome 62.0.3202.75,,2017-11-03 15:35:22,2017-11-03 15:35:22,"0,591s",PASSED
+click,Chrome 62.0.3202.75,Select default travel insurance\r\n,2017-11-03 15:35:22,2017-11-03 15:35:23,"0,493s",PASSED
+click,Chrome 62.0.3202.75,Click on individual pax insurance selection checkbox,2017-11-03 15:35:23,2017-11-03 15:35:23,"0,002s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:23,2017-11-03 15:35:23,"0,001s",NOT_RUN
+click,Chrome 62.0.3202.75,,2017-11-03 15:35:23,2017-11-03 15:35:23,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:23,2017-11-03 15:35:23,"0,086s",PASSED
+waitForElementVisible,Chrome 62.0.3202.75,,2017-11-03 15:35:23,2017-11-03 15:35:23,"0,081s",PASSED
+click,Chrome 62.0.3202.75,Click on individual pax insurance selection checkbox,2017-11-03 15:35:23,2017-11-03 15:35:23,"0,255s",PASSED
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:23,2017-11-03 15:35:23,"0,071s",PASSED
+click,Chrome 62.0.3202.75,"Click on first product category \""Individual choices\"" radio button",2017-11-03 15:35:23,2017-11-03 15:35:24,"0,588s",PASSED
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:24,2017-11-03 15:35:25,"0,594s",PASSED
+click,Chrome 62.0.3202.75,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-03 15:35:25,2017-11-03 15:35:25,"0,271s",PASSED
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:25,2017-11-03 15:35:25,"0,003s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.75,Scroll to Accept terms checkbox LABEL,2017-11-03 15:35:25,2017-11-03 15:35:25,"0,001s",NOT_RUN
+click,Chrome 62.0.3202.75,Click on to Accept terms checkbox LABEL,2017-11-03 15:35:25,2017-11-03 15:35:25,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.75,Scroll to Accept terms checkbox ,2017-11-03 15:35:25,2017-11-03 15:35:25,"0,088s",PASSED
+click,Chrome 62.0.3202.75,Click on to Accept terms checkbox ,2017-11-03 15:35:25,2017-11-03 15:35:25,"0,156s",PASSED
+scrollToElement,Chrome 62.0.3202.75,,2017-11-03 15:35:25,2017-11-03 15:35:25,"0,351s",PASSED
+waitForElementClickable,Chrome 62.0.3202.75,,2017-11-03 15:35:25,2017-11-03 15:35:26,"0,228s",PASSED
+click,Chrome 62.0.3202.75,Click on save booking.,2017-11-03 15:35:26,2017-11-03 15:35:26,"0,244s",PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 62.0.3202.75,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2017-11-03 15:35:26,2017-11-03 15:35:39,"12,964s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:35:26,2017-11-03 15:35:26,"0,006s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:35:26,2017-11-03 15:35:26,"0,002s",PASSED
+openBrowser,Chrome 62.0.3202.75,,2017-11-03 15:35:26,2017-11-03 15:35:31,"5,050s",PASSED
+callTestCase,Chrome 62.0.3202.75,,2017-11-03 15:35:31,2017-11-03 15:35:34,"2,660s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:35:34,2017-11-03 15:35:34,"0,002s",PASSED
+Statement - If (true),Chrome 62.0.3202.75,,2017-11-03 15:35:34,2017-11-03 15:35:36,"2,068s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:35:36,2017-11-03 15:35:36,"0,000s",PASSED
+click,Chrome 62.0.3202.75,,2017-11-03 15:35:36,2017-11-03 15:35:37,"1,114s",PASSED
+verifyTextPresent,Chrome 62.0.3202.75,,2017-11-03 15:35:37,2017-11-03 15:35:37,"0,185s",PASSED
+comment,Chrome 62.0.3202.75,,2017-11-03 15:35:37,2017-11-03 15:35:37,"0,001s",PASSED
+Statement - If (true),Chrome 62.0.3202.75,,2017-11-03 15:35:37,2017-11-03 15:35:38,"0,480s",PASSED
+closeBrowser,Chrome 62.0.3202.75,,2017-11-03 15:35:38,2017-11-03 15:35:39,"0,982s",PASSED

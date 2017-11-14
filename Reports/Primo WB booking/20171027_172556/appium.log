@@ -1,0 +1,373 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 59549
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 59551
+[Appium]   tmpDir: C:\Users\Cornel\AppData\Local\Temp\\Katalon\Appium\Temp1509114361553
+[Appium] Appium REST http interface listener started on 0.0.0.0:59549
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 11 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"browserName":"Chrome","udid":"0b0b094f02a0a32e","platformName":"Android","deviceName":"LGE Nexus 5 6.0.1","newCommandTimeout":1800,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   browserName: 'Chrome'
+[Appium]   udid: '0b0b094f02a0a32e'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'LGE Nexus 5 6.0.1'
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[AndroidDriver] Java version is: 1.8.0_102
+[AndroidDriver] We're going to run a Chrome-based session
+[AndroidDriver] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 0b0b094f02a0a32e
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] App file was not listed, instead we're going to run com.android.chrome directly on the device
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from F:\Kit\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+[AndroidDriver] Starting a chrome-based browser session
+[Chromedriver] Set chromedriver binary as: C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+[Chromedriver] Killing any old chromedrivers, running: FOR /F "usebackq tokens=5" %a in (`netstat -nao ^| findstr /R /C:"59551 "`) do (FOR /F "usebackq" %b in (`TASKLIST /FI "PID eq %a" ^| findstr /I chromedriver.exe`) do (IF NOT %b=="" TASKKILL /F /PID %a))
+[Chromedriver] No old chromedrivers seemed to exist
+[Chromedriver] Spawning chromedriver with: C:\Users\Cornel\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe --url-base=wd/hub --port=59551 --adb-port=5037
+[Chromedriver] [STDOUT] Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 59551
+Only local connections are allowed.
+[Appium] New AndroidDriver session created successfully, session 0ea0452a-8b65-42f3-93be-0cd207d5b669 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 43331 ms - 705 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 14 ms - 83 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/timeouts {"type":"implicit","ms":0}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/timeouts 200 157 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 392 ms - 93 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/window/current/maximize {"windowHandle":"current"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/window/current/maximize 200 278 ms - 298 
+[HTTP] --> GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/screenshot {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/screenshot 200 673 ms - 11190 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/url {"url":"https://primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca="}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/url 200 5947 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'firstName']) = count(//*[@name = 'firstName'])][count(. | //*[@placeholder = 'Fornavn']) = count(//*[@placeholder = 'Fornavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 305 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-1/clear {"id":"0.908196436978898-1"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-1/clear 200 412 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'firstName']) = count(//*[@name = 'firstName'])][count(. | //*[@placeholder = 'Fornavn']) = count(//*[@placeholder = 'Fornavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 97 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-1/value {"id":"0.908196436978898-1","value":["Cornel"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-1/value 200 880 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'lastName']) = count(//*[@name = 'lastName'])][count(. | //*[@placeholder = 'Efternavn']) = count(//*[@placeholder = 'Efternavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 666 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-2/clear {"id":"0.908196436978898-2"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-2/clear 200 1072 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'lastName']) = count(//*[@name = 'lastName'])][count(. | //*[@placeholder = 'Efternavn']) = count(//*[@placeholder = 'Efternavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 261 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-2/value {"id":"0.908196436978898-2","value":["Neacsu"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-2/value 200 849 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerAddress']) = count(//*[@name = 'customerAddress'])][count(. | //*[@placeholder = 'Adresse']) = count(//*[@placeholder = 'Adresse'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 160 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-3/clear {"id":"0.908196436978898-3"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-3/clear 200 325 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerAddress']) = count(//*[@name = 'customerAddress'])][count(. | //*[@placeholder = 'Adresse']) = count(//*[@placeholder = 'Adresse'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 96 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-3/value {"id":"0.908196436978898-3","value":["Home address"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-3/value 200 1419 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerPostcode']) = count(//*[@name = 'customerPostcode'])][count(. | //*[@placeholder = 'Post nr.']) = count(//*[@placeholder = 'Post nr.'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 182 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-4/clear {"id":"0.908196436978898-4"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-4/clear 200 350 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerPostcode']) = count(//*[@name = 'customerPostcode'])][count(. | //*[@placeholder = 'Post nr.']) = count(//*[@placeholder = 'Post nr.'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 108 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-4/value {"id":"0.908196436978898-4","value":["6700"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-4/value 200 772 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerEmail']) = count(//*[@name = 'customerEmail'])][count(. | //*[@placeholder = 'E-mail']) = count(//*[@placeholder = 'E-mail'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 175 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-5/clear {"id":"0.908196436978898-5"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-5/clear 200 365 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerEmail']) = count(//*[@name = 'customerEmail'])][count(. | //*[@placeholder = 'E-mail']) = count(//*[@placeholder = 'E-mail'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 127 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-5/value {"id":"0.908196436978898-5","value":["cornel.neacsu@roweb.ro"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-5/value 200 2320 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerPhone']) = count(//*[@name = 'customerPhone'])][count(. | //*[@placeholder = 'Telefon']) = count(//*[@placeholder = 'Telefon'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 197 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-6/clear {"id":"0.908196436978898-6"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-6/clear 200 416 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'customerPhone']) = count(//*[@name = 'customerPhone'])][count(. | //*[@placeholder = 'Telefon']) = count(//*[@placeholder = 'Telefon'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 98 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-6/value {"id":"0.908196436978898-6","value":["12345678"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-6/value 200 1138 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'firstname-0_1']) = count(//*[@name = 'firstname-0_1'])][count(. | //*[@placeholder = 'Fornavn']) = count(//*[@placeholder = 'Fornavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 203 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-7/clear {"id":"0.908196436978898-7"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-7/clear 200 346 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'firstname-0_1']) = count(//*[@name = 'firstname-0_1'])][count(. | //*[@placeholder = 'Fornavn']) = count(//*[@placeholder = 'Fornavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 115 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-7/value {"id":"0.908196436978898-7","value":["FirstName of passenger"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-7/value 200 2312 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'lastname0_1']) = count(//*[@name = 'lastname0_1'])][count(. | //*[@placeholder = 'Efternavn']) = count(//*[@placeholder = 'Efternavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 141 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-8/clear {"id":"0.908196436978898-8"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-8/clear 200 252 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//input[count(. | //*[@name = 'lastname0_1']) = count(//*[@name = 'lastname0_1'])][count(. | //*[@placeholder = 'Efternavn']) = count(//*[@placeholder = 'Efternavn'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 166 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-8/value {"id":"0.908196436978898-8","value":["Last name of passenger"]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-8/value 200 2275 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//span[count(. | id(\"booking\")/div[@class=\"wrapper fourth-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-7 col-md-4 text-right\"]/h2[1]/span[1]) = count(id(\"booking\")/div[@class=\"wrapper fourth-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-7 col-md-4 text-right\"]/h2[1]/span[1])][count(. | //*[starts-with(.,'kr.')]) = count(//*[starts-with(.,'kr.')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 152 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.908196436978898-9","element-6066-11e4-a52e-4f735466cecf":"0.908196436978898-9"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 31 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//span[count(. | id(\"booking\")/div[@class=\"wrapper fourth-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-7 col-md-4 text-right\"]/h2[1]/span[1]) = count(id(\"booking\")/div[@class=\"wrapper fourth-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-7 col-md-4 text-right\"]/h2[1]/span[1])][count(. | //*[starts-with(.,'kr.')]) = count(//*[starts-with(.,'kr.')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 182 ms - 107 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-9/click {"id":"0.908196436978898-9"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-9/click 200 444 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"id(\"booking\")/div[@class=\"wrapper\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-12 col-md-4 col-md-offset-8\"]/a[@class=\"btn btn-primary col-xs-12 step\"]/i[@class=\"fa fa-arrow-circle-right\"][count(. | //*[@class = 'fa fa-arrow-circle-right']) = count(//*[@class = 'fa fa-arrow-circle-right'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 191 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.908196436978898-10","element-6066-11e4-a52e-4f735466cecf":"0.908196436978898-10"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 29 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"id(\"booking\")/div[@class=\"wrapper\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-12 col-md-4 col-md-offset-8\"]/a[@class=\"btn btn-primary col-xs-12 step\"]/i[@class=\"fa fa-arrow-circle-right\"][count(. | //*[@class = 'fa fa-arrow-circle-right']) = count(//*[@class = 'fa fa-arrow-circle-right'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 88 ms - 108 
+[HTTP] --> GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-10/enabled {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-10/enabled 200 275 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"id(\"booking\")/div[@class=\"wrapper\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-12 col-md-4 col-md-offset-8\"]/a[@class=\"btn btn-primary col-xs-12 step\"]/i[@class=\"fa fa-arrow-circle-right\"][count(. | //*[@class = 'fa fa-arrow-circle-right']) = count(//*[@class = 'fa fa-arrow-circle-right'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 98 ms - 108 
+[HTTP] --> GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-10/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-10/displayed 200 241 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"id(\"booking\")/div[@class=\"wrapper\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-12 col-md-4 col-md-offset-8\"]/a[@class=\"btn btn-primary col-xs-12 step\"]/i[@class=\"fa fa-arrow-circle-right\"][count(. | //*[@class = 'fa fa-arrow-circle-right']) = count(//*[@class = 'fa fa-arrow-circle-right'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 56 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.908196436978898-10","element-6066-11e4-a52e-4f735466cecf":"0.908196436978898-10"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 24 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"id(\"booking\")/div[@class=\"wrapper\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-xs-12 col-md-4 col-md-offset-8\"]/a[@class=\"btn btn-primary col-xs-12 step\"]/i[@class=\"fa fa-arrow-circle-right\"][count(. | //*[@class = 'fa fa-arrow-circle-right']) = count(//*[@class = 'fa fa-arrow-circle-right'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 66 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-10/click {"id":"0.908196436978898-10"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-10/click 200 942 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 6361 ms - 143 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//span[count(. | //*[starts-with(@id,'select2-ddlInsurance')]) = count(//*[starts-with(@id,'select2-ddlInsurance')])][count(. | //*[contains(@class,'select2-selection__rendered')]) = count(//*[contains(@class,'select2-selection__rendered')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 2510 ms - 143 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-11/click {"id":"0.908196436978898-11"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-11/click 200 493 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//li[count(. | //*[contains(@id,'select2-ddlInsurance')]) = count(//*[contains(@id,'select2-ddlInsurance')])][count(. | //*[contains(.,'Har selv forsikring - kr. 0,-')]) = count(//*[contains(.,'Har selv forsikring - kr. 0,-')])][count(. | //*[starts-with(@class,'select2-results__option')]) = count(//*[starts-with(@class,'select2-results__option')])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 1003 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-13/click {"id":"0.908196436978898-13"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-13/click 200 817 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper first-bg-topmost\"]/div[@class=\"container-mx padding-top\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"]) = count(id(\"options\")/div[@class=\"wrapper first-bg-topmost\"]/div[@class=\"container-mx padding-top\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"])][count(. | //*[@href = '#']) = count(//*[@href = '#'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 114 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.908196436978898-14","element-6066-11e4-a52e-4f735466cecf":"0.908196436978898-14"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 33 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper first-bg-topmost\"]/div[@class=\"container-mx padding-top\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"]) = count(id(\"options\")/div[@class=\"wrapper first-bg-topmost\"]/div[@class=\"container-mx padding-top\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"])][count(. | //*[@href = '#']) = count(//*[@href = '#'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 58 ms - 108 
+[HTTP] --> GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-14/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-14/displayed 200 300 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper first-bg-topmost\"]/div[@class=\"container-mx padding-top\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"]) = count(id(\"options\")/div[@class=\"wrapper first-bg-topmost\"]/div[@class=\"container-mx padding-top\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"])][count(. | //*[@href = '#']) = count(//*[@href = '#'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 79 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-14/click {"id":"0.908196436978898-14"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-14/click 200 635 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper dynamicBackground third-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"product-category\"][1]/div[@class=\"row category-container\"][1]/div[@class=\"col-md-12\"]/div[@class=\"option-container\"]/div[@class=\"row\"]/div[@class=\"col-md-7 categoryDetails\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group radio-group\"]/a[@class=\"toggle radio kalypto\"]) = count(id(\"options\")/div[@class=\"wrapper dynamicBackground third-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"product-category\"][1]/div[@class=\"row category-container\"][1]/div[@class=\"col-md-12\"]/div[@class=\"option-container\"]/div[@class=\"row\"]/div[@class=\"col-md-7 categoryDetails\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group radio-group\"]/a[@class=\"toggle radio kalypto\"])][c
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 324 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.908196436978898-15","element-6066-11e4-a52e-4f735466cecf":"0.908196436978898-15"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 115 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper dynamicBackground third-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"product-category\"][1]/div[@class=\"row category-container\"][1]/div[@class=\"col-md-12\"]/div[@class=\"option-container\"]/div[@class=\"row\"]/div[@class=\"col-md-7 categoryDetails\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group radio-group\"]/a[@class=\"toggle radio kalypto\"]) = count(id(\"options\")/div[@class=\"wrapper dynamicBackground third-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"product-category\"][1]/div[@class=\"row category-container\"][1]/div[@class=\"col-md-12\"]/div[@class=\"option-container\"]/div[@class=\"row\"]/div[@class=\"col-md-7 categoryDetails\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group radio-group\"]/a[@class=\"toggle radio kalypto\"])][c
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 103 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-15/click {"id":"0.908196436978898-15"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-15/click 200 830 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper dynamicBackground third-bg\"]/div[@class=\"container-mx small-padding\"][1]/div[@class=\"product-category\"][1]/div[@class=\"row category-container\"][1]/div[@class=\"col-md-12\"]/div[@class=\"option-container\"]/div[@class=\"row\"]/div[@class=\"col-md-7 categoryDetails\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-xs-4 pull-right text-right\"]/div[@class=\"font-size-h3\"]/a[@class=\"toggle checkbox kalypto\"][1]) = count(id(\"options\")/div[@class=\"wrapper dynamicBackground third-bg\"]/div[@class=\"container-mx small-padding\"][1]/div[@class=\"product-category\"][1]/div[@class=\"row category-container\"][1]/div[@class=\"col-md-12\"]/div[@class=\"option-container\"]/div[@class=\"row\"]/div[@class=\"col-md-7 categoryDetails\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-xs-4 pull-right text-right\"]/div[@class=\"font-size-h3\"]/a[@c
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 296 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.908196436978898-16","element-6066-11e4-a52e-4f735466cecf":"0.908196436978898-16"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 203 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper dynamicBackground third-bg\"]/div[@class=\"container-mx small-padding\"][1]/div[@class=\"product-category\"][1]/div[@class=\"row category-container\"][1]/div[@class=\"col-md-12\"]/div[@class=\"option-container\"]/div[@class=\"row\"]/div[@class=\"col-md-7 categoryDetails\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-xs-4 pull-right text-right\"]/div[@class=\"font-size-h3\"]/a[@class=\"toggle checkbox kalypto\"][1]) = count(id(\"options\")/div[@class=\"wrapper dynamicBackground third-bg\"]/div[@class=\"container-mx small-padding\"][1]/div[@class=\"product-category\"][1]/div[@class=\"row category-container\"][1]/div[@class=\"col-md-12\"]/div[@class=\"option-container\"]/div[@class=\"row\"]/div[@class=\"col-md-7 categoryDetails\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"row\"]/div[@class=\"col-xs-4 pull-right text-right\"]/div[@class=\"font-size-h3\"]/a[@c
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 76 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-16/click {"id":"0.908196436978898-16"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-16/click 200 698 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper third-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"]) = count(id(\"options\")/div[@class=\"wrapper third-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"])][count(. | //*[@href = '#']) = count(//*[@href = '#'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 121 ms - 143 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.908196436978898-17","element-6066-11e4-a52e-4f735466cecf":"0.908196436978898-17"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 70 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | id(\"options\")/div[@class=\"wrapper third-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"]) = count(id(\"options\")/div[@class=\"wrapper third-bg\"]/div[@class=\"container-mx small-padding\"]/div[@class=\"row\"]/div[@class=\"col-md-12\"]/div[@class=\"form-group font-size-h4\"]/a[@class=\"toggle checkbox kalypto\"])][count(. | //*[@href = '#']) = count(//*[@href = '#'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 140 ms - 143 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-17/click {"id":"0.908196436978898-17"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-17/click 200 425 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@data-bind = 'css: tourpaq.bookingEngine.confirmation.nextStepButtonStyle']) = count(//*[@data-bind = 'css: tourpaq.bookingEngine.confirmation.nextStepButtonStyle'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 576 ms - 108 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"0.908196436978898-19","element-6066-11e4-a52e-4f735466cecf":"0.908196436978898-19"}]}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/execute 200 76 ms - 76 
+[HTTP] --> POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements {"using":"xpath","value":"//a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@data-bind = 'css: tourpaq.bookingEngine.confirmation.nextStepButtonStyle']) = count(//*[@data-bind = 'css: tourpaq.bookingEngine.confirmation.nextStepButtonStyle'])]"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- POST /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/elements 200 652 ms - 108 
+[HTTP] --> GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-19/enabled {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 99132650e806d40a60ef6dabf14ed1b9 with 0ea0452a-8b65-42f3-93be-0cd207d5b669
+[HTTP] <-- GET /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669/element/0.908196436978898-19/enabled 200 224 ms - 76 
+[HTTP] --> DELETE /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669 {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session 0ea0452a-8b65-42f3-93be-0cd207d5b669 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/0ea0452a-8b65-42f3-93be-0cd207d5b669 200 3882 ms - 76 

@@ -1,0 +1,60 @@
+1
+00:00:00,270 --> 00:00:04,969
+1. openBrowser
+
+2
+00:00:04,999 --> 00:00:06,130
+2. maximizeWindow
+
+3
+00:00:06,133 --> 00:00:12,723
+3. navigateToUrl
+
+4
+00:00:12,847 --> 00:00:13,077
+4. waitForPageLoad
+
+5
+00:00:13,089 --> 00:00:13,345
+5. scrollToElement
+
+6
+00:00:13,380 --> 00:00:13,662
+6. waitForElementClickable
+
+7
+00:00:13,681 --> 00:00:13,977
+7. click
+
+8
+00:00:13,986 --> 00:00:16,979
+8. click
+
+9
+00:00:17,021 --> 00:00:20,388
+9. Click search on Primotours.dk
+
+10
+00:00:20,436 --> 00:00:20,513
+10. waitForElementClickable
+
+11
+00:00:20,521 --> 00:00:20,648
+11. waitForPageLoad
+
+12
+00:00:20,655 --> 00:00:24,327
+12. scrollToElement
+
+13
+00:00:24,332 --> 00:00:27,987
+13. waitForElementVisible
+
+14
+00:00:28,007 --> 00:00:31,450
+14. waitForElementClickable
+
+15
+00:00:31,457 --> 00:00:35,681
+15. Click \"Book\" on Primotours.dk offer
+

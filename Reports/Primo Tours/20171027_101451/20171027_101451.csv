@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo Tours,Chrome 61.0.3163.100,,2017-10-27 10:14:55,2017-10-27 10:15:57,"1m - 1,874s",FAILED
+,,,,,,
+Test Cases/PrimoTours - place a booking with no payment,Chrome 61.0.3163.100,,2017-10-27 10:14:55,2017-10-27 10:15:45,"49,185s",PASSED
+openBrowser,Chrome 61.0.3163.100,,2017-10-27 10:14:56,2017-10-27 10:15:01,"4,834s",PASSED
+maximizeWindow,Chrome 61.0.3163.100,,2017-10-27 10:15:01,2017-10-27 10:15:02,"1,179s",PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-27 10:15:02,2017-10-27 10:15:08,"5,166s",PASSED
+waitForPageLoad,Chrome 61.0.3163.100,,2017-10-27 10:15:08,2017-10-27 10:15:08,"0,143s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:08,2017-10-27 10:15:08,"0,136s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-27 10:15:08,2017-10-27 10:15:08,"0,089s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-27 10:15:08,2017-10-27 10:15:08,"0,345s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-27 10:15:08,2017-10-27 10:15:12,"3,394s",PASSED
+click,Chrome 61.0.3163.100,Click search on Primotours.dk,2017-10-27 10:15:12,2017-10-27 10:15:16,"4,583s",PASSED
+waitForPageLoad,Chrome 61.0.3163.100,,2017-10-27 10:15:16,2017-10-27 10:15:16,"0,033s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-27 10:15:16,2017-10-27 10:15:16,"0,002s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:16,2017-10-27 10:15:16,"0,001s",NOT_RUN
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-27 10:15:16,2017-10-27 10:15:20,"3,786s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-27 10:15:20,2017-10-27 10:15:24,"4,089s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:24,2017-10-27 10:15:24,"0,001s",NOT_RUN
+click,Chrome 61.0.3163.100,"Click \""Book\"" on Primotours.dk offer",2017-10-27 10:15:24,2017-10-27 10:15:28,"3,664s",PASSED
+switchToWindowTitle,Chrome 61.0.3163.100,,2017-10-27 10:15:28,2017-10-27 10:15:32,"3,976s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:32,2017-10-27 10:15:33,"0,868s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:33,2017-10-27 10:15:33,"0,434s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:33,2017-10-27 10:15:34,"0,504s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:34,2017-10-27 10:15:34,"0,521s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:34,2017-10-27 10:15:35,"1,222s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:35,2017-10-27 10:15:36,"0,529s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:36,2017-10-27 10:15:37,"0,775s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:37,2017-10-27 10:15:37,"0,719s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:37,2017-10-27 10:15:37,"0,082s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-27 10:15:37,2017-10-27 10:15:38,"0,116s",PASSED
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-27 10:15:38,2017-10-27 10:15:38,"0,054s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-27 10:15:38,2017-10-27 10:15:38,"0,190s",PASSED
+waitForElementPresent,Chrome 61.0.3163.100,,2017-10-27 10:15:38,2017-10-27 10:15:40,"2,052s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-27 10:15:40,2017-10-27 10:15:41,"0,894s",PASSED
+click,Chrome 61.0.3163.100,Select default travel insurance\r\n,2017-10-27 10:15:41,2017-10-27 10:15:41,"0,561s",PASSED
+click,Chrome 61.0.3163.100,Click on individual pax insurance selection checkbox,2017-10-27 10:15:41,2017-10-27 10:15:41,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:41,2017-10-27 10:15:41,"0,000s",NOT_RUN
+click,Chrome 61.0.3163.100,,2017-10-27 10:15:41,2017-10-27 10:15:41,"0,002s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:41,2017-10-27 10:15:42,"0,504s",PASSED
+waitForElementVisible,Chrome 61.0.3163.100,,2017-10-27 10:15:42,2017-10-27 10:15:42,"0,188s",PASSED
+click,Chrome 61.0.3163.100,Click on individual pax insurance selection checkbox,2017-10-27 10:15:42,2017-10-27 10:15:42,"0,285s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:42,2017-10-27 10:15:42,"0,146s",PASSED
+click,Chrome 61.0.3163.100,"Click on first product category \""Individual choices\"" radio button",2017-10-27 10:15:42,2017-10-27 10:15:43,"0,506s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:43,2017-10-27 10:15:43,"0,387s",PASSED
+click,Chrome 61.0.3163.100,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-10-27 10:15:43,2017-10-27 10:15:44,"0,342s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:44,2017-10-27 10:15:44,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,Scroll to Accept terms checkbox LABEL,2017-10-27 10:15:44,2017-10-27 10:15:44,"0,001s",NOT_RUN
+click,Chrome 61.0.3163.100,Click on to Accept terms checkbox LABEL,2017-10-27 10:15:44,2017-10-27 10:15:44,"0,001s",NOT_RUN
+scrollToElement,Chrome 61.0.3163.100,Scroll to Accept terms checkbox ,2017-10-27 10:15:44,2017-10-27 10:15:44,"0,115s",PASSED
+click,Chrome 61.0.3163.100,Click on to Accept terms checkbox ,2017-10-27 10:15:44,2017-10-27 10:15:44,"0,160s",PASSED
+scrollToElement,Chrome 61.0.3163.100,,2017-10-27 10:15:44,2017-10-27 10:15:44,"0,330s",PASSED
+waitForElementClickable,Chrome 61.0.3163.100,,2017-10-27 10:15:44,2017-10-27 10:15:45,"0,279s",PASSED
+click,Chrome 61.0.3163.100,Click on save booking.,2017-10-27 10:15:45,2017-10-27 10:15:45,"0,002s",NOT_RUN
+closeBrowser,Chrome 61.0.3163.100,,2017-10-27 10:15:45,2017-10-27 10:15:45,"0,001s",NOT_RUN
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 61.0.3163.100,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2017-10-27 10:15:45,2017-10-27 10:15:56,"11,659s",PASSED
+comment,Chrome 61.0.3163.100,,2017-10-27 10:15:45,2017-10-27 10:15:45,"0,032s",PASSED
+comment,Chrome 61.0.3163.100,,2017-10-27 10:15:45,2017-10-27 10:15:45,"0,000s",PASSED
+openBrowser,Chrome 61.0.3163.100,,2017-10-27 10:15:45,2017-10-27 10:15:51,"6,385s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-27 10:15:51,2017-10-27 10:15:52,"0,890s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:52,2017-10-27 10:15:53,"0,486s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-27 10:15:53,2017-10-27 10:15:54,"0,755s",PASSED
+comment,Chrome 61.0.3163.100,,2017-10-27 10:15:54,2017-10-27 10:15:54,"0,001s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-27 10:15:54,2017-10-27 10:15:55,"1,161s",PASSED
+comment,Chrome 61.0.3163.100,,2017-10-27 10:15:55,2017-10-27 10:15:55,"0,002s",PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Chrome 61.0.3163.100,,2017-10-27 10:15:55,2017-10-27 10:15:55,"0,158s",PASSED
+closeBrowser,Chrome 61.0.3163.100,,2017-10-27 10:15:55,2017-10-27 10:15:56,"1,452s",PASSED
+,,,,,,
+Test Cases/Common Test Cases/Login,Chrome 61.0.3163.100,Common test case used to login. \nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2017-10-27 10:15:56,2017-10-27 10:15:57,"0,331s",FAILED
+click,Chrome 61.0.3163.100,,2017-10-27 10:15:57,2017-10-27 10:15:57,"0,022s",FAILED

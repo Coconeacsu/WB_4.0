@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Primo WB booking,Firefox 56.0,,2017-10-27 17:35:58,2017-10-27 17:36:36,"37,950s",PASSED
+,,,,,,
+Test Cases/WB Primo - place booking,Firefox 56.0,,2017-10-27 17:35:58,2017-10-27 17:36:35,"36,690s",PASSED
+openBrowser,Firefox 56.0,,2017-10-27 17:35:59,2017-10-27 17:36:07,"7,363s",PASSED
+maximizeWindow,Firefox 56.0,,2017-10-27 17:36:07,2017-10-27 17:36:07,"0,483s",PASSED
+navigateToUrl,Firefox 56.0,,2017-10-27 17:36:07,2017-10-27 17:36:13,"5,908s",PASSED
+setText,Firefox 56.0,,2017-10-27 17:36:13,2017-10-27 17:36:17,"3,624s",PASSED
+setText,Firefox 56.0,,2017-10-27 17:36:17,2017-10-27 17:36:18,"1,655s",PASSED
+setText,Firefox 56.0,,2017-10-27 17:36:18,2017-10-27 17:36:19,"0,871s",PASSED
+setText,Firefox 56.0,,2017-10-27 17:36:19,2017-10-27 17:36:20,"0,687s",PASSED
+setText,Firefox 56.0,,2017-10-27 17:36:20,2017-10-27 17:36:21,"0,835s",PASSED
+setText,Firefox 56.0,,2017-10-27 17:36:21,2017-10-27 17:36:21,"0,656s",PASSED
+setText,Firefox 56.0,,2017-10-27 17:36:21,2017-10-27 17:36:22,"0,627s",PASSED
+setText,Firefox 56.0,,2017-10-27 17:36:22,2017-10-27 17:36:23,"0,677s",PASSED
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:23,2017-10-27 17:36:23,"0,202s",PASSED
+click,Firefox 56.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-10-27 17:36:23,2017-10-27 17:36:24,"0,642s",PASSED
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:24,2017-10-27 17:36:24,"0,110s",PASSED
+waitForElementClickable,Firefox 56.0,,2017-10-27 17:36:24,2017-10-27 17:36:24,"0,164s",PASSED
+waitForElementVisible,Firefox 56.0,,2017-10-27 17:36:24,2017-10-27 17:36:24,"0,313s",PASSED
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:24,2017-10-27 17:36:24,"0,126s",PASSED
+click,Firefox 56.0,,2017-10-27 17:36:24,2017-10-27 17:36:27,"3,097s",PASSED
+waitForElementPresent,Firefox 56.0,,2017-10-27 17:36:27,2017-10-27 17:36:29,"1,751s",PASSED
+click,Firefox 56.0,,2017-10-27 17:36:29,2017-10-27 17:36:30,"1,034s",PASSED
+click,Firefox 56.0,Select default travel insurance\r\n,2017-10-27 17:36:30,2017-10-27 17:36:31,"0,892s",PASSED
+click,Firefox 56.0,Click on individual pax insurance selection checkbox,2017-10-27 17:36:31,2017-10-27 17:36:31,"0,003s",NOT_RUN
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:31,2017-10-27 17:36:31,"0,001s",NOT_RUN
+click,Firefox 56.0,,2017-10-27 17:36:31,2017-10-27 17:36:31,"0,001s",NOT_RUN
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:31,2017-10-27 17:36:31,"0,104s",PASSED
+waitForElementVisible,Firefox 56.0,,2017-10-27 17:36:31,2017-10-27 17:36:31,"0,119s",PASSED
+click,Firefox 56.0,Click on individual pax insurance selection checkbox,2017-10-27 17:36:31,2017-10-27 17:36:32,"0,485s",PASSED
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:32,2017-10-27 17:36:32,"0,257s",PASSED
+click,Firefox 56.0,"Click on first product category \""Individual choices\"" radio button",2017-10-27 17:36:32,2017-10-27 17:36:33,"0,568s",PASSED
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:33,2017-10-27 17:36:33,"0,115s",PASSED
+click,Firefox 56.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-10-27 17:36:33,2017-10-27 17:36:33,"0,627s",PASSED
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:33,2017-10-27 17:36:33,"0,001s",NOT_RUN
+scrollToElement,Firefox 56.0,Scroll to Accept terms checkbox LABEL,2017-10-27 17:36:33,2017-10-27 17:36:33,"0,000s",NOT_RUN
+click,Firefox 56.0,Click on to Accept terms checkbox LABEL,2017-10-27 17:36:33,2017-10-27 17:36:33,"0,000s",NOT_RUN
+scrollToElement,Firefox 56.0,Scroll to Accept terms checkbox ,2017-10-27 17:36:33,2017-10-27 17:36:34,"0,199s",PASSED
+click,Firefox 56.0,Click on to Accept terms checkbox ,2017-10-27 17:36:34,2017-10-27 17:36:34,"0,553s",PASSED
+scrollToElement,Firefox 56.0,,2017-10-27 17:36:34,2017-10-27 17:36:35,"0,488s",PASSED
+waitForElementClickable,Firefox 56.0,,2017-10-27 17:36:35,2017-10-27 17:36:35,"0,299s",PASSED
+click,Firefox 56.0,Click on save booking.,2017-10-27 17:36:35,2017-10-27 17:36:35,"0,001s",NOT_RUN
