@@ -2,6 +2,9 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import java.lang.invoke.LambdaForm.Name
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -9,6 +12,8 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.ExcelData
+import com.kms.katalon.core.testdata.InternalData
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
@@ -24,7 +29,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow(FailureHandling.OPTIONAL)
 
-WebUI.navigateToUrl('https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=')
+WebUI.navigateToUrl(WbUrl)
+
+InternalData paxDetails = findTestData("WB_Primo/Passenger_details")
+
+Random random = new Random()
+Number randomPaxIndex = random.nextInt(10 ** paxDetails.getRowNumbers());
+
 
 WebUI.setText(findTestObject('Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'), 'Cornel')
 
@@ -118,5 +129,5 @@ WebUI.waitForElementClickable(findTestObject('Coco/PrimoT/SaveBooking2/Page_Prim
     5)
 
 'Click on save booking.'
-WebUI.click(findTestObject('Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st'))
+not_run: WebUI.click(findTestObject('Coco/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st'))
 

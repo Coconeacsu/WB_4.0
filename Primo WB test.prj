@@ -3,21 +3,10 @@
    <description></description>
    <name>Primo WB test</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
    <UUID>418b5453-6a5c-42d6-80b8-6b6f6676832a</UUID>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/Coco</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/Coco/PrimoT</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/Coco/PrimoT/Page_Rejser til Kreta med danske gu</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/Coco/PrimoT/Page_Rejser til Kreta med danske gu/Page_Rejser til Kreta med danske gu</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Test Suites</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Reports</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Reports/Primo Tours</recentExpandedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Test Cases/PrimoTours - place a booking with no payment</recentOpenedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Test Suites/Primo Tours</recentOpenedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Object Repository/Coco/PrimoT/Page_Rejser til Kreta med danske gu/Page_Rejser til Kreta med danske gu/a_Book her</recentOpenedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Reports/Primo Tours/20171026_180824</recentOpenedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Reports/Primo Tours/20171026_180114</recentOpenedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Object Repository/Coco/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)</recentOpenedTreeEntityIds>
 </Project>

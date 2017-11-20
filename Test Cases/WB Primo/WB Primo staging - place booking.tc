@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WB Primo staging - place booking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31048743-69e2-428b-9666-720efce2ead0</testCaseGuid>
+   <variable>
+      <defaultValue>'https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&amp;p=1&amp;rno=1&amp;pt=1&amp;a=2&amp;c=0&amp;aa=&amp;ca='</defaultValue>
+      <description></description>
+      <id>8b69c774-427a-4a8d-8ce6-8cda756e2c4c</id>
+      <masked>false</masked>
+      <name>WbUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'T'</defaultValue>
+      <description></description>
+      <id>893052a3-26b8-4f8d-b73f-97ac99e46ad6</id>
+      <masked>false</masked>
+      <name>paxFirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TT'</defaultValue>
+      <description></description>
+      <id>3db693f4-79ab-4822-bac1-606ef3318d71</id>
+      <masked>false</masked>
+      <name>paxLastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>165182da-1438-47d0-987f-c1dfc961146d</id>
+      <masked>false</masked>
+      <name>paxGender</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>37ee2628-78c1-4d93-86cc-695635f0306b</id>
+      <masked>false</masked>
+      <name>paxDay</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>89962e45-32c6-435d-ad7a-ed39fdefc279</id>
+      <masked>false</masked>
+      <name>paxMonth</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8de3957-d794-4995-a4ac-0ae68b87386d</id>
+      <masked>false</masked>
+      <name>paxYear</name>
+   </variable>
+</TestCaseEntity>

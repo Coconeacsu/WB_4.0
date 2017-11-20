@@ -33,7 +33,49 @@
       <guid>677afd30-5ee2-4816-be09-bac1bcce9db1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WB Primo staging - place booking</testCaseId>
+      <testCaseId>Test Cases/WB Primo/WB Primo staging - place booking</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8b69c774-427a-4a8d-8ce6-8cda756e2c4c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>893052a3-26b8-4f8d-b73f-97ac99e46ad6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3db693f4-79ab-4822-bac1-606ef3318d71</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>165182da-1438-47d0-987f-c1dfc961146d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>37ee2628-78c1-4d93-86cc-695635f0306b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>89962e45-32c6-435d-ad7a-ed39fdefc279</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8de3957-d794-4995-a4ac-0ae68b87386d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>00e3be33-1452-4af0-a816-b60e406e4704</guid>
