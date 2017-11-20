@@ -15,7 +15,7 @@
       <guid>32eee134-a335-497d-90b6-b95b318e744a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WB Primo/WB Primo staging - place booking</testCaseId>
+      <testCaseId>Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6e9d28d6-4181-43f8-9d23-c53dafbae566</id>
