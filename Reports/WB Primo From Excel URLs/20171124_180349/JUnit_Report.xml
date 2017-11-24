@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WB Primo From Excel URLs" time="13" tests="0" failures="0" errors="1">
+   <testsuite name="WB Primo From Excel URLs" tests="0" failures="0" errors="1" time="13" timestamp="2017-11-24 18:03:51" hostname="Cornel - NEACSUNEW-PC.zlin.roweb.ro" id="Test Suites/WB Primo From Excel URLs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Software testing\\Tourpaq\\Automated Katalon tests\\Primo WB test\\Reports\\WB Primo From Excel URLs\\20171124_180349"/>
+         <property name="logFiles" value="D:\\Software testing\\Tourpaq\\Automated Katalon tests\\Primo WB test\\Reports\\WB Primo From Excel URLs\\20171124_180349\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Cornel - NEACSUNEW-PC.zlin.roweb.ro"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="10.10.10.211"/>
+         <property name="sessionId" value="6aa0051c458ce2ae5652924255af07f5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking" classname="Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking" status="ERROR">
+         <error type="ERROR" message="Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking FAILED because (of) Variable 'paxFirstName' is not defined for test case."/>
+         <system-out><![CDATA[2017-11-24 18:03:51 - [TEST_CASE][ERROR] - Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking: Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking FAILED because (of) Variable 'paxFirstName' is not defined for test case.
+
+2017-11-24 18:03:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-24 18:03:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-24 18:03:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-24 18:03:58 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-24 18:03:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=' successfully
+
+2017-11-24 18:04:04 - [MESSAGE][PASSED] - Navigate to 'https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=' successfully
+
+2017-11-24 18:04:04 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName']]></system-out>
+         <system-err><![CDATA[2017-11-24 18:03:51 - [TEST_CASE][ERROR] - Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking: Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking FAILED because (of) Variable 'paxFirstName' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-24 18:03:51 - [TEST_SUITE][ERROR] - WB Primo From Excel URLs: Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking FAILED because (of) Variable 'paxFirstName' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2017-11-24 18:03:51 - [TEST_SUITE][ERROR] - WB Primo From Excel URLs: Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking FAILED because (of) Variable 'paxFirstName' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

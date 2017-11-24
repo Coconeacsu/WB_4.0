@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WB Primo From Excel URLs,Chrome 62.0.3202.94,,2017-11-24 18:14:39,2017-11-24 18:16:08,"1m - 28,444s",FAILED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking,Chrome 62.0.3202.94,,2017-11-24 18:14:40,2017-11-24 18:16:07,"1m - 27,034s",FAILED
+openBrowser,Chrome 62.0.3202.94,,2017-11-24 18:14:42,2017-11-24 18:14:46,"4,390s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-24 18:14:46,2017-11-24 18:14:47,"1,255s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-24 18:14:47,2017-11-24 18:14:54,"7,243s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-24 18:14:54,2017-11-24 18:14:55,"0,766s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-24 18:14:55,2017-11-24 18:14:56,"0,729s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-24 18:14:56,2017-11-24 18:14:56,"0,472s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-24 18:14:56,2017-11-24 18:14:57,"0,296s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-24 18:14:57,2017-11-24 18:14:58,"1,192s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-24 18:14:58,2017-11-24 18:14:58,"0,390s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Chrome 62.0.3202.94,,2017-11-24 18:14:58,2017-11-24 18:14:58,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Chrome 62.0.3202.94,,2017-11-24 18:14:58,2017-11-24 18:15:02,"3,400s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,014s",PASSED
+Statement - randomPaxIndex = 1,Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,001s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,015s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[@class=""container-mx small-padding""]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,003s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,122s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,004s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,001s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,198s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-24 18:15:02,2017-11-24 18:15:02,"0,202s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,058s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:02,"0,139s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-24 18:15:02,2017-11-24 18:15:03,"0,118s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-24 18:15:03,2017-11-24 18:15:03,"0,060s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-24 18:15:03,2017-11-24 18:15:03,"0,820s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-24 18:15:03,2017-11-24 18:15:14,"10,438s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-24 18:15:14,2017-11-24 18:15:24,"10,355s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-24 18:15:24,2017-11-24 18:15:35,"10,393s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-24 18:15:35,2017-11-24 18:16:07,"32,264s",FAILED

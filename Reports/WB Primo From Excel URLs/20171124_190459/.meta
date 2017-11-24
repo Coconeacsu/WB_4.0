@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20171124_190459</name>
+   <tag></tag>
+   <displayName>20171124_190459</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking</testCaseId>
+      <testCaseName>WB Primo staging - place booking</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>

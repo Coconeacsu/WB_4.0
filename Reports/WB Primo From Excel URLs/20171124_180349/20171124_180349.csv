@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WB Primo From Excel URLs,Chrome 62.0.3202.94,,2017-11-24 18:03:51,2017-11-24 18:04:05,"13,750s",ERROR
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking,Chrome 62.0.3202.94,,2017-11-24 18:03:51,2017-11-24 18:04:04,"12,185s",ERROR
+openBrowser,Chrome 62.0.3202.94,,2017-11-24 18:03:53,2017-11-24 18:03:57,"4,441s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-24 18:03:57,2017-11-24 18:03:58,"1,063s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-24 18:03:58,2017-11-24 18:04:04,"5,043s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-24 18:04:04,2017-11-24 18:04:04,"0,014s",PASSED

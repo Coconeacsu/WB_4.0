@@ -4,10 +4,16 @@
    <name>li_Har selv forsikring - kr. 0</name>
    <tag></tag>
    <elementGuidId>4167c83b-bbeb-46b1-bf14-6b44735b3f95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'select2-results__option'][1]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,11 +27,11 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-ddlInsurance-11-result-mqj8-57&quot;)</value>
+      <value>//*[@class = 'select2-results__option'][1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,22 +41,22 @@
       <value>treeitem</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>select2-ddlInsurance</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Har selv forsikring - kr. 0,-</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>select2-results__option</value>

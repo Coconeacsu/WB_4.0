@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Place Booking For All URLs In Excel File</name>
+   <tag>dynamic</tag>
+   <comment></comment>
+   <testCaseGuid>2ce10c19-1540-488b-9f3e-68b1b275b250</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bac4b916-9635-4036-957a-417ab16ed5c3</id>
+      <masked>false</masked>
+      <name>WbUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>69f81799-7a0c-4ac4-9e74-93880cef9227</id>
+      <masked>false</masked>
+      <name>paxFirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ab74e846-8b1f-4eb1-9c29-45e71f906875</id>
+      <masked>false</masked>
+      <name>paxLastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be8a29b1-8a2a-4fb7-9720-79df979560f3</id>
+      <masked>false</masked>
+      <name>paxGender</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6a028cc-563d-4671-9b88-39ae4d2a833e</id>
+      <masked>false</masked>
+      <name>paxDay</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02285c78-c59c-448e-97ff-94273ae715bf</id>
+      <masked>false</masked>
+      <name>paxMonth</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e3bb251-0500-45b0-b7f9-f7323f859af5</id>
+      <masked>false</masked>
+      <name>paxYear</name>
+   </variable>
+</TestCaseEntity>

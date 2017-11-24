@@ -1,0 +1,317 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WB Primo From Excel URLs,Chrome 62.0.3202.94,,2017-11-22 12:33:16,2017-11-22 12:35:27,"2m - 11,068s",FAILED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 1,Chrome 62.0.3202.94,,2017-11-22 12:33:16,2017-11-22 12:33:30,"14,322s",FAILED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:33:17,2017-11-22 12:33:20,"3,049s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:33:20,2017-11-22 12:33:21,"1,062s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:33:21,2017-11-22 12:33:24,"3,096s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:24,2017-11-22 12:33:24,"0,328s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:24,2017-11-22 12:33:24,"0,355s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:24,2017-11-22 12:33:25,"0,351s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:25,2017-11-22 12:33:25,"0,165s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:25,2017-11-22 12:33:25,"0,401s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:25,2017-11-22 12:33:26,"0,227s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:26,2017-11-22 12:33:28,"1,947s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:28,2017-11-22 12:33:28,"0,351s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:28,2017-11-22 12:33:28,"0,052s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:33:28,2017-11-22 12:33:28,"0,096s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:28,2017-11-22 12:33:28,"0,047s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:33:28,2017-11-22 12:33:28,"0,169s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:33:28,2017-11-22 12:33:28,"0,097s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:28,2017-11-22 12:33:28,"0,041s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:33:28,2017-11-22 12:33:29,"0,117s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:33:29,2017-11-22 12:33:29,"0,880s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:33:29,2017-11-22 12:33:30,"0,845s",FAILED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 2,Chrome 62.0.3202.94,,2017-11-22 12:33:30,2017-11-22 12:33:42,"11,992s",FAILED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:33:30,2017-11-22 12:33:33,"2,847s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:33:33,2017-11-22 12:33:34,"1,147s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:33:34,2017-11-22 12:33:36,"1,671s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:36,2017-11-22 12:33:36,"0,343s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:36,2017-11-22 12:33:37,"0,367s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:37,2017-11-22 12:33:37,"0,375s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:37,2017-11-22 12:33:37,"0,215s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:37,2017-11-22 12:33:38,"0,286s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:38,2017-11-22 12:33:38,"0,212s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:38,2017-11-22 12:33:40,"2,021s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:40,2017-11-22 12:33:40,"0,315s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:40,2017-11-22 12:33:40,"0,044s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:33:40,2017-11-22 12:33:40,"0,071s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:40,2017-11-22 12:33:40,"0,040s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:33:40,2017-11-22 12:33:40,"0,039s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:33:40,2017-11-22 12:33:40,"0,078s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:40,2017-11-22 12:33:40,"0,031s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:33:40,2017-11-22 12:33:41,"0,076s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:33:41,2017-11-22 12:33:41,"0,867s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:33:41,2017-11-22 12:33:42,"0,881s",FAILED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 3,Chrome 62.0.3202.94,,2017-11-22 12:33:42,2017-11-22 12:33:56,"13,334s",PASSED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:33:42,2017-11-22 12:33:45,"2,799s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:33:45,2017-11-22 12:33:46,"1,159s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:33:46,2017-11-22 12:33:48,"1,856s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:48,2017-11-22 12:33:49,"0,434s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:49,2017-11-22 12:33:49,"0,235s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:49,2017-11-22 12:33:49,"0,403s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:49,2017-11-22 12:33:49,"0,195s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:49,2017-11-22 12:33:50,"0,389s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:50,2017-11-22 12:33:50,"0,232s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:50,2017-11-22 12:33:52,"1,488s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:33:52,2017-11-22 12:33:52,"0,316s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:52,2017-11-22 12:33:52,"0,036s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:33:52,2017-11-22 12:33:52,"0,069s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:52,2017-11-22 12:33:52,"0,051s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:33:52,2017-11-22 12:33:52,"0,043s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:33:52,2017-11-22 12:33:52,"0,118s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:52,2017-11-22 12:33:52,"0,018s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:33:52,2017-11-22 12:33:52,"0,085s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:33:52,2017-11-22 12:33:53,"0,877s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:33:53,2017-11-22 12:33:54,"0,847s",PASSED
+click,Chrome 62.0.3202.94,Select default travel insurance\r\n,2017-11-22 12:33:54,2017-11-22 12:33:54,"0,251s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:33:54,2017-11-22 12:33:54,"0,003s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:54,2017-11-22 12:33:54,"0,001s",NOT_RUN
+click,Chrome 62.0.3202.94,,2017-11-22 12:33:54,2017-11-22 12:33:54,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:54,2017-11-22 12:33:54,"0,038s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:33:54,2017-11-22 12:33:54,"0,035s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:33:54,2017-11-22 12:33:54,"0,099s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:54,2017-11-22 12:33:55,"0,107s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Individual choices\"" radio button",2017-11-22 12:33:55,2017-11-22 12:33:55,"0,270s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:55,2017-11-22 12:33:55,"0,085s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-22 12:33:55,2017-11-22 12:33:55,"0,226s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:55,2017-11-22 12:33:55,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox LABEL,2017-11-22 12:33:55,2017-11-22 12:33:55,"0,003s",NOT_RUN
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox LABEL,2017-11-22 12:33:55,2017-11-22 12:33:55,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox ,2017-11-22 12:33:55,2017-11-22 12:33:55,"0,138s",PASSED
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox ,2017-11-22 12:33:55,2017-11-22 12:33:55,"0,119s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:33:55,2017-11-22 12:33:56,"0,138s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:33:56,2017-11-22 12:33:56,"0,097s",PASSED
+click,Chrome 62.0.3202.94,Click on save booking.,2017-11-22 12:33:56,2017-11-22 12:33:56,"0,000s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 4,Chrome 62.0.3202.94,,2017-11-22 12:33:56,2017-11-22 12:34:07,"11,686s",FAILED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:33:56,2017-11-22 12:33:59,"2,767s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:33:59,2017-11-22 12:34:00,"1,179s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:34:00,2017-11-22 12:34:01,"1,790s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:01,2017-11-22 12:34:02,"0,362s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:02,2017-11-22 12:34:02,"0,241s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:02,2017-11-22 12:34:02,"0,344s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:02,2017-11-22 12:34:03,"0,174s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:03,2017-11-22 12:34:03,"0,316s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:03,2017-11-22 12:34:03,"0,214s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:03,2017-11-22 12:34:05,"1,974s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:05,2017-11-22 12:34:05,"0,329s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:05,2017-11-22 12:34:05,"0,042s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:34:05,2017-11-22 12:34:06,"0,065s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:06,2017-11-22 12:34:06,"0,046s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:34:06,2017-11-22 12:34:06,"0,058s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:34:06,2017-11-22 12:34:06,"0,047s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:06,2017-11-22 12:34:06,"0,025s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:06,2017-11-22 12:34:06,"0,064s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:34:06,2017-11-22 12:34:07,"0,789s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:07,2017-11-22 12:34:07,"0,838s",FAILED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 5,Chrome 62.0.3202.94,,2017-11-22 12:34:07,2017-11-22 12:34:21,"13,151s",PASSED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:34:08,2017-11-22 12:34:10,"2,856s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:34:10,2017-11-22 12:34:12,"1,152s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:34:12,2017-11-22 12:34:13,"1,720s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:13,2017-11-22 12:34:14,"0,304s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:14,2017-11-22 12:34:14,"0,295s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:14,2017-11-22 12:34:14,"0,352s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:14,2017-11-22 12:34:14,"0,158s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:14,2017-11-22 12:34:15,"0,313s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:15,2017-11-22 12:34:15,"0,220s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:15,2017-11-22 12:34:17,"1,985s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:17,2017-11-22 12:34:17,"0,362s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:17,2017-11-22 12:34:17,"0,043s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:34:17,2017-11-22 12:34:17,"0,069s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:17,2017-11-22 12:34:17,"0,038s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:34:17,2017-11-22 12:34:17,"0,032s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:34:17,2017-11-22 12:34:17,"0,041s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:17,2017-11-22 12:34:17,"0,027s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:17,2017-11-22 12:34:18,"0,080s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:34:18,2017-11-22 12:34:19,"1,022s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,322s",PASSED
+click,Chrome 62.0.3202.94,Select default travel insurance\r\n,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,220s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,001s",NOT_RUN
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,129s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,017s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,092s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:19,2017-11-22 12:34:19,"0,081s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Individual choices\"" radio button",2017-11-22 12:34:19,2017-11-22 12:34:20,"0,296s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:20,2017-11-22 12:34:20,"0,146s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-22 12:34:20,2017-11-22 12:34:20,"0,214s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:20,2017-11-22 12:34:20,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox LABEL,2017-11-22 12:34:20,2017-11-22 12:34:20,"0,001s",NOT_RUN
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox LABEL,2017-11-22 12:34:20,2017-11-22 12:34:20,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox ,2017-11-22 12:34:20,2017-11-22 12:34:20,"0,130s",PASSED
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox ,2017-11-22 12:34:20,2017-11-22 12:34:20,"0,209s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:20,2017-11-22 12:34:21,"0,095s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:34:21,2017-11-22 12:34:21,"0,086s",PASSED
+click,Chrome 62.0.3202.94,Click on save booking.,2017-11-22 12:34:21,2017-11-22 12:34:21,"0,001s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 6,Chrome 62.0.3202.94,,2017-11-22 12:34:21,2017-11-22 12:34:32,"11,650s",FAILED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:34:21,2017-11-22 12:34:24,"2,792s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:34:24,2017-11-22 12:34:25,"1,163s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:34:25,2017-11-22 12:34:26,"1,753s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:26,2017-11-22 12:34:27,"0,404s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:27,2017-11-22 12:34:27,"0,320s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:27,2017-11-22 12:34:28,"0,365s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:28,2017-11-22 12:34:28,"0,287s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:28,2017-11-22 12:34:28,"0,375s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:28,2017-11-22 12:34:28,"0,218s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:28,2017-11-22 12:34:30,"1,359s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:30,2017-11-22 12:34:30,"0,380s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:30,2017-11-22 12:34:30,"0,092s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:34:30,2017-11-22 12:34:30,"0,065s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:30,2017-11-22 12:34:30,"0,037s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:34:30,2017-11-22 12:34:30,"0,037s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:34:30,2017-11-22 12:34:30,"0,036s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:30,2017-11-22 12:34:30,"0,028s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:30,2017-11-22 12:34:31,"0,082s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:34:31,2017-11-22 12:34:31,"0,933s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:31,2017-11-22 12:34:32,"0,902s",FAILED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 7,Chrome 62.0.3202.94,,2017-11-22 12:34:32,2017-11-22 12:34:46,"13,302s",PASSED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:34:32,2017-11-22 12:34:35,"2,705s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:34:35,2017-11-22 12:34:36,"1,174s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:34:36,2017-11-22 12:34:38,"1,816s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:38,2017-11-22 12:34:38,"0,266s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:38,2017-11-22 12:34:39,"0,444s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:39,2017-11-22 12:34:39,"0,451s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:39,2017-11-22 12:34:39,"0,137s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:39,2017-11-22 12:34:40,"0,312s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:40,2017-11-22 12:34:40,"0,218s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:40,2017-11-22 12:34:42,"1,981s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:42,2017-11-22 12:34:42,"0,318s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:42,2017-11-22 12:34:42,"0,046s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:34:42,2017-11-22 12:34:42,"0,091s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:42,2017-11-22 12:34:42,"0,040s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:34:42,2017-11-22 12:34:42,"0,033s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:34:42,2017-11-22 12:34:42,"0,037s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:42,2017-11-22 12:34:43,"0,028s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:43,2017-11-22 12:34:43,"0,073s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:34:43,2017-11-22 12:34:44,"1,157s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:44,2017-11-22 12:34:44,"0,316s",PASSED
+click,Chrome 62.0.3202.94,Select default travel insurance\r\n,2017-11-22 12:34:44,2017-11-22 12:34:44,"0,247s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:34:44,2017-11-22 12:34:44,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:44,2017-11-22 12:34:44,"0,001s",NOT_RUN
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:44,2017-11-22 12:34:44,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:44,2017-11-22 12:34:44,"0,030s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:34:44,2017-11-22 12:34:44,"0,032s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:34:44,2017-11-22 12:34:44,"0,075s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:44,2017-11-22 12:34:45,"0,058s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Individual choices\"" radio button",2017-11-22 12:34:45,2017-11-22 12:34:45,"0,236s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:45,2017-11-22 12:34:45,"0,066s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-22 12:34:45,2017-11-22 12:34:45,"0,196s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:45,2017-11-22 12:34:45,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox LABEL,2017-11-22 12:34:45,2017-11-22 12:34:45,"0,000s",NOT_RUN
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox LABEL,2017-11-22 12:34:45,2017-11-22 12:34:45,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox ,2017-11-22 12:34:45,2017-11-22 12:34:45,"0,106s",PASSED
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox ,2017-11-22 12:34:45,2017-11-22 12:34:45,"0,307s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:45,2017-11-22 12:34:46,"0,166s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:34:46,2017-11-22 12:34:46,"0,108s",PASSED
+click,Chrome 62.0.3202.94,Click on save booking.,2017-11-22 12:34:46,2017-11-22 12:34:46,"0,000s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 8,Chrome 62.0.3202.94,,2017-11-22 12:34:46,2017-11-22 12:34:59,"13,722s",PASSED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:34:46,2017-11-22 12:34:49,"2,793s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:34:49,2017-11-22 12:34:50,"1,207s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:34:50,2017-11-22 12:34:52,"1,733s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:52,2017-11-22 12:34:52,"0,326s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:52,2017-11-22 12:34:52,"0,321s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:52,2017-11-22 12:34:52,"0,243s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:52,2017-11-22 12:34:53,"0,252s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:53,2017-11-22 12:34:53,"0,340s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:53,2017-11-22 12:34:53,"0,240s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:53,2017-11-22 12:34:55,"2,068s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:34:55,2017-11-22 12:34:56,"0,541s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:56,2017-11-22 12:34:56,"0,047s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:34:56,2017-11-22 12:34:56,"0,067s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:56,2017-11-22 12:34:56,"0,049s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:34:56,2017-11-22 12:34:56,"0,035s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:34:56,2017-11-22 12:34:56,"0,051s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:56,2017-11-22 12:34:56,"0,041s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:56,2017-11-22 12:34:56,"0,074s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:34:56,2017-11-22 12:34:58,"1,371s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,378s",PASSED
+click,Chrome 62.0.3202.94,Select default travel insurance\r\n,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,213s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,000s",NOT_RUN
+click,Chrome 62.0.3202.94,,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,040s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,035s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,076s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:58,2017-11-22 12:34:58,"0,112s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Individual choices\"" radio button",2017-11-22 12:34:58,2017-11-22 12:34:59,"0,253s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,125s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-22 12:34:59,2017-11-22 12:34:59,"0,265s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox LABEL,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,001s",NOT_RUN
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox LABEL,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox ,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,056s",PASSED
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox ,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,137s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,118s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,092s",PASSED
+click,Chrome 62.0.3202.94,Click on save booking.,2017-11-22 12:34:59,2017-11-22 12:34:59,"0,001s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 9,Chrome 62.0.3202.94,,2017-11-22 12:35:00,2017-11-22 12:35:12,"12,890s",FAILED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:35:00,2017-11-22 12:35:04,"3,960s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:35:04,2017-11-22 12:35:05,"1,161s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:35:05,2017-11-22 12:35:06,"1,700s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:06,2017-11-22 12:35:07,"0,257s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:07,2017-11-22 12:35:07,"0,402s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:07,2017-11-22 12:35:07,"0,384s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:07,2017-11-22 12:35:08,"0,168s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:08,2017-11-22 12:35:08,"0,314s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:08,2017-11-22 12:35:08,"0,212s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:08,2017-11-22 12:35:10,"1,923s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:10,2017-11-22 12:35:10,"0,322s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:10,2017-11-22 12:35:10,"0,036s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:35:10,2017-11-22 12:35:10,"0,075s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:10,2017-11-22 12:35:11,"0,037s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:35:11,2017-11-22 12:35:11,"0,038s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:35:11,2017-11-22 12:35:11,"0,040s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:11,2017-11-22 12:35:11,"0,027s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:35:11,2017-11-22 12:35:11,"0,075s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:35:11,2017-11-22 12:35:12,"0,839s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:35:12,2017-11-22 12:35:12,"0,901s",FAILED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 10,Chrome 62.0.3202.94,,2017-11-22 12:35:13,2017-11-22 12:35:26,"13,479s",PASSED
+openBrowser,Chrome 62.0.3202.94,,2017-11-22 12:35:13,2017-11-22 12:35:16,"3,186s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-22 12:35:16,2017-11-22 12:35:17,"1,162s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-22 12:35:17,2017-11-22 12:35:19,"1,669s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:19,2017-11-22 12:35:19,"0,292s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:19,2017-11-22 12:35:19,"0,283s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:19,2017-11-22 12:35:19,"0,220s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:19,2017-11-22 12:35:20,"0,256s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:20,2017-11-22 12:35:20,"0,335s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:20,2017-11-22 12:35:20,"0,166s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:20,2017-11-22 12:35:22,"1,988s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-22 12:35:22,2017-11-22 12:35:22,"0,269s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:22,2017-11-22 12:35:22,"0,033s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-22 12:35:22,2017-11-22 12:35:22,"0,061s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:22,2017-11-22 12:35:23,"0,052s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:35:23,2017-11-22 12:35:23,"0,036s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:35:23,2017-11-22 12:35:23,"0,144s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:23,2017-11-22 12:35:23,"0,031s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:35:23,2017-11-22 12:35:23,"0,128s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-22 12:35:23,2017-11-22 12:35:24,"1,435s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-22 12:35:24,2017-11-22 12:35:25,"0,376s",PASSED
+click,Chrome 62.0.3202.94,Select default travel insurance\r\n,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,193s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,000s",NOT_RUN
+click,Chrome 62.0.3202.94,,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,027s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,019s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,094s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,049s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Individual choices\"" radio button",2017-11-22 12:35:25,2017-11-22 12:35:25,"0,190s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:25,2017-11-22 12:35:25,"0,059s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-22 12:35:25,2017-11-22 12:35:26,"0,210s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:26,2017-11-22 12:35:26,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox LABEL,2017-11-22 12:35:26,2017-11-22 12:35:26,"0,000s",NOT_RUN
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox LABEL,2017-11-22 12:35:26,2017-11-22 12:35:26,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox ,2017-11-22 12:35:26,2017-11-22 12:35:26,"0,081s",PASSED
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox ,2017-11-22 12:35:26,2017-11-22 12:35:26,"0,144s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-22 12:35:26,2017-11-22 12:35:26,"0,151s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-22 12:35:26,2017-11-22 12:35:26,"0,096s",PASSED
+click,Chrome 62.0.3202.94,Click on save booking.,2017-11-22 12:35:26,2017-11-22 12:35:26,"0,000s",NOT_RUN

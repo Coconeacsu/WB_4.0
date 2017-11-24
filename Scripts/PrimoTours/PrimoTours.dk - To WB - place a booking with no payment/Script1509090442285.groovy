@@ -36,9 +36,11 @@ WebUI.waitForElementClickable(findTestObject('PrimoTours/Old Objects/Coco/PrimoT
 
 WebUI.click(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Charter rejser med Primo Tours/span_jquery-select-trigger-arr'))
 
-WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Charter rejser med Primo Tours/a_Kreta'), 3)
+WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Charter rejser med Primo Tours/a_Kreta'), 
+    3)
 
-WebUI.waitForElementVisible(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Charter rejser med Primo Tours/a_Kreta'), 3)
+WebUI.waitForElementVisible(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Charter rejser med Primo Tours/a_Kreta'), 
+    3)
 
 'Choose departure resort'
 WebUI.click(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Charter rejser med Primo Tours/a_Kreta'))
@@ -48,36 +50,47 @@ WebUI.click(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Charter rejs
 
 WebUI.waitForPageLoad(3)
 
-not_run: WebUI.waitForElementClickable(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 10)
+not_run: WebUI.waitForElementClickable(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 
+    10)
 
-not_run: WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 10)
+not_run: WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 
+    10)
 
 WebUI.waitForElementVisible(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 10)
 
-WebUI.waitForElementClickable(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 10)
+WebUI.waitForElementClickable(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 
+    10)
 
-not_run: WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 10)
+not_run: WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'), 
+    10)
 
 'Click "Book" on Primotours.dk offer'
 WebUI.click(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_Book her'))
 
 WebUI.switchToWindowTitle('Primo Tours – Danmarks bedste charterbureau')
 
-WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'), 'Cornel')
+WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'), 
+    'Cornel Automated Test')
 
 WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName'), 'Neacsu')
 
-WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress'), 'Home address')
+WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress'), 
+    'Home address')
 
-WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode'), '6700')
+WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode'), 
+    '6700')
 
-WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail'), 'cornel.neacsu@roweb.ro')
+WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail'), 
+    'cornel.neacsu@roweb.ro')
 
-WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone'), '12345678')
+WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone'), 
+    '12345678')
 
-WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstname-0_1'), 'FirstName of passenger')
+WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstname-0_1'), 
+    'FirstName of passenger')
 
-WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastname0_1'), 'Last name of passenger')
+WebUI.setText(findTestObject('PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastname0_1'), 
+    'Last name of passenger')
 
 WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right'), 
     5)
@@ -115,27 +128,32 @@ WebUI.waitForElementVisible(findTestObject('PrimoTours/Old Objects/Coco (1)/Prim
 'Click on individual pax insurance selection checkbox'
 WebUI.click(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto'))
 
-WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle radio kalypto'), 5)
+WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle radio kalypto'), 
+    5)
 
 'Click on first product category "Individual choices" radio button'
 WebUI.click(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle radio kalypto'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)'), 5)
+WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)'), 
+    5)
 
 'Click on first product category "Yes please" checkbox, so all passengers get default product in category'
-WebUI.click(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto (2)'), 
     3)
 
 'Scroll to Accept terms checkbox LABEL'
-not_run: WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Keep trying/label_Jeg accepterer hermed de'), 3)
+not_run: WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Keep trying/label_Jeg accepterer hermed de'), 
+    3)
 
 'Click on to Accept terms checkbox LABEL'
 not_run: WebUI.click(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Keep trying/label_Jeg accepterer hermed de'))
 
 'Scroll to Accept terms checkbox '
-WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto'), 3)
+WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto'), 
+    3)
 
 'Click on to Accept terms checkbox '
 WebUI.click(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto'))

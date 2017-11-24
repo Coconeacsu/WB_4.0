@@ -1,0 +1,3010 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-11-24T18:07:07</date>
+  <millis>1511539627063</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : WB Primo From Excel URLs</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">WB Primo From Excel URLs</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/WB Primo From Excel URLs</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:07</date>
+  <millis>1511539627087</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Cornel - NEACSUNEW-PC.zlin.roweb.ro&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Cornel - NEACSUNEW-PC.zlin.roweb.ro</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:07</date>
+  <millis>1511539627088</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 8.1 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 8.1 64bit</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:07</date>
+  <millis>1511539627088</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.10.10.211&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.10.10.211</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:07</date>
+  <millis>1511539627089</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.1.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.1.0.1</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:07</date>
+  <millis>1511539627386</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking</property>
+  <property name="source">D:\\Software testing\\Tourpaq\\Automated Katalon tests\\Primo WB testTest Cases\\PrimoTours\\WB Primo\\WB Primo staging - place booking.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:08</date>
+  <millis>1511539628226</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:08</date>
+  <millis>1511539628311</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;WbUrl&amp;apos; is set to https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&amp;amp;p=1&amp;amp;rno=1&amp;amp;pt=1&amp;amp;a=2&amp;amp;c=0&amp;amp;aa=&amp;amp;ca=</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:08</date>
+  <millis>1511539628311</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;paxFirstName&amp;apos; is set to Pedersen</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:08</date>
+  <millis>1511539628311</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;paxLastName&amp;apos; is set to Vibe Dalby</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:09</date>
+  <millis>1511539629269</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:09</date>
+  <millis>1511539629650</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:09</date>
+  <millis>1511539629650</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:09</date>
+  <millis>1511539629681</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632107</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;b1781639f39d86e2bbb35ee40342a5a2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">b1781639f39d86e2bbb35ee40342a5a2</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632158</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 62.0.3202.94&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 62.0.3202.94</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632158</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 8.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 8.1</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632160</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632161</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632162</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632163</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632163</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:12</date>
+  <millis>1511539632206</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:14</date>
+  <millis>1511539634122</millis>
+  <sequence>24</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is normal\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;NEACSUNEW-PC&amp;apos;, ip: &amp;apos;10.10.10.211&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_102&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\\Users\\Cornel\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: b1781639f39d86e2bbb35ee40342a5a2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1511539633560.png</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:14</date>
+  <millis>1511539634124</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:14</date>
+  <millis>1511539634124</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:14</date>
+  <millis>1511539634135</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:14</date>
+  <millis>1511539634137</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&amp;amp;p=1&amp;amp;rno=1&amp;amp;pt=1&amp;amp;a=2&amp;amp;c=0&amp;amp;aa=&amp;amp;ca=&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636702</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&amp;amp;p=1&amp;amp;rno=1&amp;amp;pt=1&amp;amp;a=2&amp;amp;c=0&amp;amp;aa=&amp;amp;ca=&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636703</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636706</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636723</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636748</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636749</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636749</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636767</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;firstName&amp;apos;]) = count(//*[@name = &amp;apos;firstName&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Fornavn&amp;apos;]) = count(//*[@placeholder = &amp;apos;Fornavn&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636881</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;firstName&amp;apos;]) = count(//*[@name = &amp;apos;firstName&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Fornavn&amp;apos;]) = count(//*[@placeholder = &amp;apos;Fornavn&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636883</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636993</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:16</date>
+  <millis>1511539636994</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;firstName&amp;apos;]) = count(//*[@name = &amp;apos;firstName&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Fornavn&amp;apos;]) = count(//*[@placeholder = &amp;apos;Fornavn&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637078</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;firstName&amp;apos;]) = count(//*[@name = &amp;apos;firstName&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Fornavn&amp;apos;]) = count(//*[@placeholder = &amp;apos;Fornavn&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637102</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName&amp;apos; to value &amp;apos;Pedersen AUT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637449</millis>
+  <sequence>43</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Pedersen AUT&amp;apos; is set on object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637449</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637450</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637451</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637457</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637458</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637459</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637460</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;lastName&amp;apos;]) = count(//*[@name = &amp;apos;lastName&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Efternavn&amp;apos;]) = count(//*[@placeholder = &amp;apos;Efternavn&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637569</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;lastName&amp;apos;]) = count(//*[@name = &amp;apos;lastName&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Efternavn&amp;apos;]) = count(//*[@placeholder = &amp;apos;Efternavn&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637569</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637644</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:17</date>
+  <millis>1511539637645</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;lastName&amp;apos;]) = count(//*[@name = &amp;apos;lastName&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Efternavn&amp;apos;]) = count(//*[@placeholder = &amp;apos;Efternavn&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638161</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;lastName&amp;apos;]) = count(//*[@name = &amp;apos;lastName&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Efternavn&amp;apos;]) = count(//*[@placeholder = &amp;apos;Efternavn&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638162</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName&amp;apos; to value &amp;apos;Vibe Dalby&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638661</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Vibe Dalby&amp;apos; is set on object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638664</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638666</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638670</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638682</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638682</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638682</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638683</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerAddress&amp;apos;]) = count(//*[@name = &amp;apos;customerAddress&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Adresse&amp;apos;]) = count(//*[@placeholder = &amp;apos;Adresse&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638762</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerAddress&amp;apos;]) = count(//*[@name = &amp;apos;customerAddress&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Adresse&amp;apos;]) = count(//*[@placeholder = &amp;apos;Adresse&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638763</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638936</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638937</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerAddress&amp;apos;]) = count(//*[@name = &amp;apos;customerAddress&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Adresse&amp;apos;]) = count(//*[@placeholder = &amp;apos;Adresse&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638969</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerAddress&amp;apos;]) = count(//*[@name = &amp;apos;customerAddress&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Adresse&amp;apos;]) = count(//*[@placeholder = &amp;apos;Adresse&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:18</date>
+  <millis>1511539638970</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress&amp;apos; to value &amp;apos;Home address&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639247</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Home address&amp;apos; is set on object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639248</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639248</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639250</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639255</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639255</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639255</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639256</millis>
+  <sequence>78</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerPostcode&amp;apos;]) = count(//*[@name = &amp;apos;customerPostcode&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Post nr.&amp;apos;]) = count(//*[@placeholder = &amp;apos;Post nr.&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639337</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerPostcode&amp;apos;]) = count(//*[@name = &amp;apos;customerPostcode&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Post nr.&amp;apos;]) = count(//*[@placeholder = &amp;apos;Post nr.&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639337</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639378</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639383</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerPostcode&amp;apos;]) = count(//*[@name = &amp;apos;customerPostcode&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Post nr.&amp;apos;]) = count(//*[@placeholder = &amp;apos;Post nr.&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639410</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerPostcode&amp;apos;]) = count(//*[@name = &amp;apos;customerPostcode&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Post nr.&amp;apos;]) = count(//*[@placeholder = &amp;apos;Post nr.&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639411</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode&amp;apos; to value &amp;apos;6700&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639599</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;6700&amp;apos; is set on object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639600</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639601</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639602</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639608</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639609</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639609</millis>
+  <sequence>91</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639610</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerEmail&amp;apos;]) = count(//*[@name = &amp;apos;customerEmail&amp;apos;])][count(. | //*[@placeholder = &amp;apos;E-mail&amp;apos;]) = count(//*[@placeholder = &amp;apos;E-mail&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639658</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerEmail&amp;apos;]) = count(//*[@name = &amp;apos;customerEmail&amp;apos;])][count(. | //*[@placeholder = &amp;apos;E-mail&amp;apos;]) = count(//*[@placeholder = &amp;apos;E-mail&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639658</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639734</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639735</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerEmail&amp;apos;]) = count(//*[@name = &amp;apos;customerEmail&amp;apos;])][count(. | //*[@placeholder = &amp;apos;E-mail&amp;apos;]) = count(//*[@placeholder = &amp;apos;E-mail&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639758</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerEmail&amp;apos;]) = count(//*[@name = &amp;apos;customerEmail&amp;apos;])][count(. | //*[@placeholder = &amp;apos;E-mail&amp;apos;]) = count(//*[@placeholder = &amp;apos;E-mail&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:19</date>
+  <millis>1511539639759</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail&amp;apos; to value &amp;apos;cornel.neacsu@roweb.ro&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640654</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;cornel.neacsu@roweb.ro&amp;apos; is set on object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640654</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640655</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640656</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640660</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640661</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640665</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640669</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerPhone&amp;apos;]) = count(//*[@name = &amp;apos;customerPhone&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Telefon&amp;apos;]) = count(//*[@placeholder = &amp;apos;Telefon&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640746</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerPhone&amp;apos;]) = count(//*[@name = &amp;apos;customerPhone&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Telefon&amp;apos;]) = count(//*[@placeholder = &amp;apos;Telefon&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640746</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640839</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640840</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerPhone&amp;apos;]) = count(//*[@name = &amp;apos;customerPhone&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Telefon&amp;apos;]) = count(//*[@placeholder = &amp;apos;Telefon&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640887</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@name = &amp;apos;customerPhone&amp;apos;]) = count(//*[@name = &amp;apos;customerPhone&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Telefon&amp;apos;]) = count(//*[@placeholder = &amp;apos;Telefon&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:20</date>
+  <millis>1511539640888</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone&amp;apos; to value &amp;apos;12345678&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641141</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;12345678&amp;apos; is set on object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641141</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641142</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - excelInfo = [\&amp;quot;fname\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;lname\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;pgender\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;pday\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;pmonth\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;pyear\&amp;quot;:\&amp;quot;\&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641143</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - excelInfo = [\&amp;quot;fname\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;lname\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;pgender\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;pday\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;pmonth\&amp;quot;:\&amp;quot;\&amp;quot;, \&amp;quot;pyear\&amp;quot;:\&amp;quot;\&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641143</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(\&amp;quot;Data Files/WB_Primo/Passenger_details\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641153</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking test data id</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641153</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/WB_Primo/Passenger_details&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641156</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:21</date>
+  <millis>1511539641157</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\Software testing\\Tourpaq\\Automated Katalon tests\\Primo WB test\\Data Files\\Primo_URLs_For_Automated_Test.xlsx&amp;apos; and sheet name &amp;apos;Passenger Names&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644668</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(\&amp;quot;Data Files/WB_Primo/Passenger_details\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644685</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - excelRowNo = rawData.getRowNumbers()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644699</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - excelRowNo = rawData.getRowNumbers()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644700</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - randomPaxIndex = 1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644705</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - randomPaxIndex = 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644714</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644754</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644770</millis>
+  <sequence>129</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - roomContainerXpath = \&amp;quot;id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper second-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12 roomContainer\&amp;quot;]\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644774</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - roomContainerXpath = \&amp;quot;id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper second-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12 roomContainer\&amp;quot;]\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644775</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644894</millis>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644894</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - println(\&amp;quot;roomsCount=\&amp;quot; + roomsCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644910</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - println(\&amp;quot;roomsCount=\&amp;quot; + roomsCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644912</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - For ([i = 1, i &amp;lt;= roomsCount, (i++)])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644913</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - For ([i = 1, i &amp;lt;= roomsCount, (i++)])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644914</millis>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">133</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644915</millis>
+  <sequence>138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644929</millis>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644930</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644931</millis>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:24</date>
+  <millis>1511539644936</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos; located by &amp;apos;By.xpath: //span[count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper fourth-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-7 col-md-4 text-right\&amp;quot;]/h2[1]/span[1]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper fourth-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-7 col-md-4 text-right\&amp;quot;]/h2[1]/span[1])][count(. | //*[starts-with(.,&amp;apos;kr.&amp;apos;)]) = count(//*[starts-with(.,&amp;apos;kr.&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645004</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos; located by &amp;apos;By.xpath: //span[count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper fourth-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-7 col-md-4 text-right\&amp;quot;]/h2[1]/span[1]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper fourth-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-7 col-md-4 text-right\&amp;quot;]/h2[1]/span[1])][count(. | //*[starts-with(.,&amp;apos;kr.&amp;apos;)]) = count(//*[starts-with(.,&amp;apos;kr.&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645004</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scrolling to object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645025</millis>
+  <sequence>145</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645027</millis>
+  <sequence>146</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645027</millis>
+  <sequence>147</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">136</property>
+  <property name="stepIndex">20</property>
+  <property name="description">Done so that click on \&quot;Next\&quot; button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645027</millis>
+  <sequence>148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645056</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645057</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645059</millis>
+  <sequence>151</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos; located by &amp;apos;By.xpath: //span[count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper fourth-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-7 col-md-4 text-right\&amp;quot;]/h2[1]/span[1]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper fourth-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-7 col-md-4 text-right\&amp;quot;]/h2[1]/span[1])][count(. | //*[starts-with(.,&amp;apos;kr.&amp;apos;)]) = count(//*[starts-with(.,&amp;apos;kr.&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645123</millis>
+  <sequence>152</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos; located by &amp;apos;By.xpath: //span[count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper fourth-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-7 col-md-4 text-right\&amp;quot;]/h2[1]/span[1]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper fourth-bg\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-7 col-md-4 text-right\&amp;quot;]/h2[1]/span[1])][count(. | //*[starts-with(.,&amp;apos;kr.&amp;apos;)]) = count(//*[starts-with(.,&amp;apos;kr.&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645124</millis>
+  <sequence>153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645238</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645239</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645239</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">138</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645240</millis>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645243</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645244</millis>
+  <sequence>159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645244</millis>
+  <sequence>160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645244</millis>
+  <sequence>161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645327</millis>
+  <sequence>162</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645328</millis>
+  <sequence>163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scrolling to object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645346</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645346</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645347</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">141</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645347</millis>
+  <sequence>167</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645367</millis>
+  <sequence>168</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645367</millis>
+  <sequence>169</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645367</millis>
+  <sequence>170</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645369</millis>
+  <sequence>171</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;5&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645396</millis>
+  <sequence>172</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;5&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645455</millis>
+  <sequence>173</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645459</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645459</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">144</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645459</millis>
+  <sequence>176</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645492</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645493</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645493</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645494</millis>
+  <sequence>180</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645600</millis>
+  <sequence>181</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645707</millis>
+  <sequence>182</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645708</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645708</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">147</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645709</millis>
+  <sequence>185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645712</millis>
+  <sequence>186</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645713</millis>
+  <sequence>187</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645713</millis>
+  <sequence>188</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645714</millis>
+  <sequence>189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645760</millis>
+  <sequence>190</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645760</millis>
+  <sequence>191</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scrolling to object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645770</millis>
+  <sequence>192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645771</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645771</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">150</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645772</millis>
+  <sequence>195</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645776</millis>
+  <sequence>196</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645776</millis>
+  <sequence>197</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645777</millis>
+  <sequence>198</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645806</millis>
+  <sequence>199</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; located by &amp;apos;By.xpath: //i[count(. | //*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;]) = count(//*[@class = &amp;apos;fa fa-arrow-circle-right&amp;apos;])][count(. | id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;]) = count(id(\&amp;quot;booking\&amp;quot;)/div[@class=\&amp;quot;wrapper\&amp;quot;]/div[@class=\&amp;quot;container-mx small-padding\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-xs-12 col-md-4 col-md-offset-8\&amp;quot;]/a[@class=\&amp;quot;btn btn-primary col-xs-12 step\&amp;quot;]/i[@class=\&amp;quot;fa fa-arrow-circle-right\&amp;quot;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645807</millis>
+  <sequence>200</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645926</millis>
+  <sequence>201</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645927</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645927</millis>
+  <sequence>203</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">152</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645927</millis>
+  <sequence>204</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645945</millis>
+  <sequence>205</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645945</millis>
+  <sequence>206</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:25</date>
+  <millis>1511539645946</millis>
+  <sequence>207</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;options\&amp;quot;)/div[@class=\&amp;quot;wrapper first-bg-topmost\&amp;quot;]/div[@class=\&amp;quot;container-mx padding-top\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;row confirmation-passenger-insurances\&amp;quot;][1]/div[@class=\&amp;quot;col-md-4\&amp;quot;]/div[@class=\&amp;quot;form-group ddl withlabel travelInsOfPax\&amp;quot;]/*[contains(@class,&amp;apos;select2 select2-container&amp;apos;)]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:36</date>
+  <millis>1511539656614</millis>
+  <sequence>208</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; is not present after 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:36</date>
+  <millis>1511539656614</millis>
+  <sequence>209</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:36</date>
+  <millis>1511539656616</millis>
+  <sequence>210</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">155</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:36</date>
+  <millis>1511539656617</millis>
+  <sequence>211</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:36</date>
+  <millis>1511539656627</millis>
+  <sequence>212</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:36</date>
+  <millis>1511539656628</millis>
+  <sequence>213</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:36</date>
+  <millis>1511539656628</millis>
+  <sequence>214</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:36</date>
+  <millis>1511539656629</millis>
+  <sequence>215</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;options\&amp;quot;)/div[@class=\&amp;quot;wrapper first-bg-topmost\&amp;quot;]/div[@class=\&amp;quot;container-mx padding-top\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;row confirmation-passenger-insurances\&amp;quot;][1]/div[@class=\&amp;quot;col-md-4\&amp;quot;]/div[@class=\&amp;quot;form-group ddl withlabel travelInsOfPax\&amp;quot;]/*[contains(@class,&amp;apos;select2 select2-container&amp;apos;)]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:47</date>
+  <millis>1511539667253</millis>
+  <sequence>216</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;options\&amp;quot;)/div[@class=\&amp;quot;wrapper first-bg-topmost\&amp;quot;]/div[@class=\&amp;quot;container-mx padding-top\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;row confirmation-passenger-insurances\&amp;quot;][1]/div[@class=\&amp;quot;col-md-4\&amp;quot;]/div[@class=\&amp;quot;form-group ddl withlabel travelInsOfPax\&amp;quot;]/*[contains(@class,&amp;apos;select2 select2-container&amp;apos;)]&amp;apos; not found</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:47</date>
+  <millis>1511539667253</millis>
+  <sequence>217</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:47</date>
+  <millis>1511539667253</millis>
+  <sequence>218</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">158</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:47</date>
+  <millis>1511539667257</millis>
+  <sequence>219</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:47</date>
+  <millis>1511539667258</millis>
+  <sequence>220</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:47</date>
+  <millis>1511539667258</millis>
+  <sequence>221</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:47</date>
+  <millis>1511539667258</millis>
+  <sequence>222</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:47</date>
+  <millis>1511539667258</millis>
+  <sequence>223</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;options\&amp;quot;)/div[@class=\&amp;quot;wrapper first-bg-topmost\&amp;quot;]/div[@class=\&amp;quot;container-mx padding-top\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;row confirmation-passenger-insurances\&amp;quot;][1]/div[@class=\&amp;quot;col-md-4\&amp;quot;]/div[@class=\&amp;quot;form-group ddl withlabel travelInsOfPax\&amp;quot;]/*[contains(@class,&amp;apos;select2 select2-container&amp;apos;)]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:57</date>
+  <millis>1511539677638</millis>
+  <sequence>224</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;options\&amp;quot;)/div[@class=\&amp;quot;wrapper first-bg-topmost\&amp;quot;]/div[@class=\&amp;quot;container-mx padding-top\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;row confirmation-passenger-insurances\&amp;quot;][1]/div[@class=\&amp;quot;col-md-4\&amp;quot;]/div[@class=\&amp;quot;form-group ddl withlabel travelInsOfPax\&amp;quot;]/*[contains(@class,&amp;apos;select2 select2-container&amp;apos;)]&amp;apos; not found</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:57</date>
+  <millis>1511539677638</millis>
+  <sequence>225</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:57</date>
+  <millis>1511539677639</millis>
+  <sequence>226</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">161</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2017-11-24T18:07:57</date>
+  <millis>1511539677640</millis>
+  <sequence>227</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:57</date>
+  <millis>1511539677642</millis>
+  <sequence>228</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:57</date>
+  <millis>1511539677658</millis>
+  <sequence>229</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:07:57</date>
+  <millis>1511539677658</millis>
+  <sequence>230</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;options\&amp;quot;)/div[@class=\&amp;quot;wrapper first-bg-topmost\&amp;quot;]/div[@class=\&amp;quot;container-mx padding-top\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;row confirmation-passenger-insurances\&amp;quot;][1]/div[@class=\&amp;quot;col-md-4\&amp;quot;]/div[@class=\&amp;quot;form-group ddl withlabel travelInsOfPax\&amp;quot;]/*[contains(@class,&amp;apos;select2 select2-container&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:08:29</date>
+  <millis>1511539709161</millis>
+  <sequence>231</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;options\&amp;quot;)/div[@class=\&amp;quot;wrapper first-bg-topmost\&amp;quot;]/div[@class=\&amp;quot;container-mx padding-top\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;row confirmation-passenger-insurances\&amp;quot;][1]/div[@class=\&amp;quot;col-md-4\&amp;quot;]/div[@class=\&amp;quot;form-group ddl withlabel travelInsOfPax\&amp;quot;]/*[contains(@class,&amp;apos;select2 select2-container&amp;apos;)]&amp;apos; not found)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1511539708659.png</property>
+</record>
+<record>
+  <date>2017-11-24T18:08:29</date>
+  <millis>1511539709167</millis>
+  <sequence>232</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:08:29</date>
+  <millis>1511539709170</millis>
+  <sequence>233</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking FAILED because (of) Unable to click on object &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;options\&amp;quot;)/div[@class=\&amp;quot;wrapper first-bg-topmost\&amp;quot;]/div[@class=\&amp;quot;container-mx padding-top\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;row confirmation-passenger-insurances\&amp;quot;][1]/div[@class=\&amp;quot;col-md-4\&amp;quot;]/div[@class=\&amp;quot;form-group ddl withlabel travelInsOfPax\&amp;quot;]/*[contains(@class,&amp;apos;select2 select2-container&amp;apos;)]&amp;apos; not found)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' located by 'By.xpath: id("options")/div[@class="wrapper first-bg-topmost"]/div[@class="container-mx padding-top"]/div[@class="row"]/div[@class="col-md-12"]/div[@class="row confirmation-passenger-insurances"][1]/div[@class="col-md-4"]/div[@class="form-group ddl withlabel travelInsOfPax"]/*[contains(@class,'select2 select2-container')]' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>click</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>click</method>
+      <line>616</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>125</line>
+    </frame>
+    <frame>
+      <class>Script1509368304895</class>
+      <method>run</method>
+      <line>161</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>215</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>206</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>177</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>102</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$runTestCase$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1511539625175</class>
+      <method>runTestCase_0</method>
+      <line>18</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.reflection.CachedMethod</class>
+      <method>invoke</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.MetaMethod</class>
+      <method>doMethodInvoke</method>
+      <line>325</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.metaclass.ClosureMetaClass</class>
+      <method>invokeMethod</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.ScriptBytecodeAdapter</class>
+      <method>invokeMethodOnCurrentN</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.ScriptBytecodeAdapter</class>
+      <method>invokeMethodOnCurrent0</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1511539625175$_run_closure1</class>
+      <method>doCall</method>
+      <line>45</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.reflection.CachedMethod</class>
+      <method>invoke</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.MetaMethod</class>
+      <method>doMethodInvoke</method>
+      <line>325</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.metaclass.ClosureMetaClass</class>
+      <method>invokeMethod</method>
+      <line>294</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.MetaClassImpl</class>
+      <method>invokeMethod</method>
+      <line>1024</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.Closure</class>
+      <method>call</method>
+      <line>414</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.Closure</class>
+      <method>call</method>
+      <line>430</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.DefaultGroovyMethods</class>
+      <method>each</method>
+      <line>2030</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.DefaultGroovyMethods</class>
+      <method>each</method>
+      <line>2015</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.DefaultGroovyMethods</class>
+      <method>each</method>
+      <line>2056</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.dgm$162</class>
+      <method>invoke</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce</class>
+      <method>invoke</method>
+      <line>274</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite</class>
+      <method>call</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>125</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1511539625175</class>
+      <method>run</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:08:29</date>
+  <millis>1511539709171</millis>
+  <sequence>234</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-24T18:08:29</date>
+  <millis>1511539709976</millis>
+  <sequence>235</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : WB Primo From Excel URLs</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WB Primo From Excel URLs" time="27" tests="1" failures="0" errors="0">
+   <testsuite name="WB Primo From Excel URLs" tests="1" failures="0" errors="0" time="27" timestamp="2017-11-24 19:24:03" hostname="Cornel - NEACSUNEW-PC.zlin.roweb.ro" id="Test Suites/WB Primo From Excel URLs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Software testing\\Tourpaq\\Automated Katalon tests\\Primo WB test\\Reports\\WB Primo From Excel URLs\\20171124_192401"/>
+         <property name="logFiles" value="D:\\Software testing\\Tourpaq\\Automated Katalon tests\\Primo WB test\\Reports\\WB Primo From Excel URLs\\20171124_192401\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Cornel - NEACSUNEW-PC.zlin.roweb.ro"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="10.10.10.211"/>
+         <property name="sessionId" value="dd69c82e1625228ca20f6e42b09a0362"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking" classname="Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking" status="PASSED">
+         <system-out><![CDATA[2017-11-24 19:24:04 - [TEST_CASE][PASSED] - Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking: Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking
+
+2017-11-24 19:24:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-24 19:24:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-24 19:24:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-24 19:24:10 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-24 19:24:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=' successfully
+
+2017-11-24 19:24:14 - [MESSAGE][PASSED] - Navigate to 'https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&p=1&rno=1&pt=1&a=2&c=0&aa=&ca=' successfully
+
+2017-11-24 19:24:14 - [TEST_STEP][PASSED] - setText: Text 'Pedersen AUT' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'
+
+2017-11-24 19:24:14 - [MESSAGE][PASSED] - Text 'Pedersen AUT' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstName'
+
+2017-11-24 19:24:14 - [TEST_STEP][PASSED] - setText: Text 'Vibe Dalby' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName'
+
+2017-11-24 19:24:15 - [MESSAGE][PASSED] - Text 'Vibe Dalby' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_lastName'
+
+2017-11-24 19:24:15 - [TEST_STEP][PASSED] - setText: Text 'Home address' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress'
+
+2017-11-24 19:24:16 - [MESSAGE][PASSED] - Text 'Home address' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerAddress'
+
+2017-11-24 19:24:16 - [TEST_STEP][PASSED] - setText: Text '6700' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode'
+
+2017-11-24 19:24:16 - [MESSAGE][PASSED] - Text '6700' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPostcode'
+
+2017-11-24 19:24:16 - [TEST_STEP][PASSED] - setText: Text 'cornel.neacsu@roweb.ro' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail'
+
+2017-11-24 19:24:17 - [MESSAGE][PASSED] - Text 'cornel.neacsu@roweb.ro' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerEmail'
+
+2017-11-24 19:24:17 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone'
+
+2017-11-24 19:24:18 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_customerPhone'
+
+2017-11-24 19:24:18 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstname-0_1' is clickable
+
+2017-11-24 19:24:18 - [MESSAGE][PASSED] - Object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Page_Primo Tours  Danmarks bedste c/input_firstname-0_1' is clickable
+
+2017-11-24 19:24:18 - [TEST_STEP][PASSED] - Statement - excelInfo = ["fname":"", "lname":"", "pgender":"", "pday":"", "pmonth":"", "pyear":""]: null
+
+2017-11-24 19:24:18 - [TEST_STEP][PASSED] - Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/WB_Primo/Passenger_details"): Reading excel file with source file 'D:\Software testing\Tourpaq\Automated Katalon tests\Primo WB test\Data Files\Primo_URLs_For_Automated_Test.xlsx' and sheet name 'Passenger Names'
+
+2017-11-24 19:24:22 - [TEST_STEP][PASSED] - Statement - excelRowNo = rawData.getRowNumbers(): null
+
+2017-11-24 19:24:22 - [TEST_STEP][PASSED] - Statement - randomPaxIndex = 1: null
+
+2017-11-24 19:24:22 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2017-11-24 19:24:22 - [TEST_STEP][PASSED] - Statement - roomContainerXpath = "id("booking")/div[@class="wrapper second-bg"]/div[contains(@class,"container-mx")]/div[@class="row"]/div[@class="col-md-12 roomContainer"]": null
+
+2017-11-24 19:24:22 - [TEST_STEP][PASSED] - Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - println("roomsCount=" + roomsCount): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= roomsCount, (i++)]): Text 'Jørgen ' is set on object 'Object Repository/PrimoTours/Old Objects/allPaxLastNameFields'
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - paxInRoomXpath = roomContainerXpath + "[" + i + "]/div[@class="row"]/div[@class="col-md-12"]/div[@class="row"]": null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - paxInRoomCount = driver.findElements(org.openqa.selenium.By.xpath(paxInRoomXpath)).size(): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - println("paxInRoomCount=" + paxInRoomCount): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - For ([j = 1, j <= paxInRoomCount, (j++)]): Text 'Jørgen ' is set on object 'Object Repository/PrimoTours/Old Objects/allPaxLastNameFields'
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - If (i == 1 & j == 1): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - If (i == 1 & j == 1): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1: null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - println(randomPaxIndex): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - fname = rawData.getValue("FirstName", randomPaxIndex) + " AUT": null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - lname = rawData.getValue("LastName", randomPaxIndex): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - pgender = rawData.getValue("Gender", randomPaxIndex): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - pday = rawData.getValue("Day DOB", randomPaxIndex): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - pmonth = rawData.getValue("Month DOB", randomPaxIndex): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - pyear = rawData.getValue("Year DOB", randomPaxIndex): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - paxDetailFields = paxInRoomXpath + "[" + j + "]/div[@class="col-md-x col-md-9"]/div[@class="row paxContainer"]/div[@class="col-md-5"]": null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - xpathval = paxDetailFields + "[1]/div[contains(@class,"form-group")]/input[@class="form-control paxFirstName"]": null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - println("fn: " + xpathval): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - repObj = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/PrimoTours/Old Objects/allPaxFirstNameFields): Finding Test Object with id 'Object Repository/PrimoTours/Old Objects/allPaxFirstNameFields'
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - repObj.findProperty("xpath").setValue(xpathval): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - setText: Text 'Bak AUT' is set on object 'Object Repository/PrimoTours/Old Objects/allPaxFirstNameFields'
+
+2017-11-24 19:24:23 - [MESSAGE][PASSED] - Text 'Bak AUT' is set on object 'Object Repository/PrimoTours/Old Objects/allPaxFirstNameFields'
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - xpathval = paxDetailFields + "[2]/div[contains(@class,"form-group")]/input[@class="form-control paxLastName"]": null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - println("ln: " + xpathval): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - repObj = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/PrimoTours/Old Objects/allPaxLastNameFields): Finding Test Object with id 'Object Repository/PrimoTours/Old Objects/allPaxLastNameFields'
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - Statement - repObj.findProperty("xpath").setValue(xpathval): null
+
+2017-11-24 19:24:23 - [TEST_STEP][PASSED] - setText: Text 'Jørgen ' is set on object 'Object Repository/PrimoTours/Old Objects/allPaxLastNameFields'
+
+2017-11-24 19:24:24 - [MESSAGE][PASSED] - Text 'Jørgen ' is set on object 'Object Repository/PrimoTours/Old Objects/allPaxLastNameFields'
+
+2017-11-24 19:24:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-' successfully
+
+2017-11-24 19:24:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-' successfully
+
+2017-11-24 19:24:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-' is clicked on
+
+2017-11-24 19:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/span_kr. 7.892-' is clicked on
+
+2017-11-24 19:24:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-11-24 19:24:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-11-24 19:24:24 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clickable
+
+2017-11-24 19:24:24 - [MESSAGE][PASSED] - Object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clickable
+
+2017-11-24 19:24:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is visible
+
+2017-11-24 19:24:24 - [MESSAGE][PASSED] - Object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is visible
+
+2017-11-24 19:24:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-11-24 19:24:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' successfully
+
+2017-11-24 19:24:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clicked on
+
+2017-11-24 19:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/Page_Primo Tours  Danmarks bedste c/i_fa fa-arrow-circle-right' is clicked on
+
+2017-11-24 19:24:25 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is present
+
+2017-11-24 19:24:26 - [MESSAGE][PASSED] - Object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is present
+
+2017-11-24 19:24:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is visible
+
+2017-11-24 19:24:27 - [MESSAGE][PASSED] - Object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is visible
+
+2017-11-24 19:24:27 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is clickable
+
+2017-11-24 19:24:27 - [MESSAGE][PASSED] - Object 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is clickable
+
+2017-11-24 19:24:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is clicked on
+
+2017-11-24 19:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/span_Vlg forsikring' is clicked on
+
+2017-11-24 19:24:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/li_Har selv forsikring - kr. 0' is clicked on
+
+2017-11-24 19:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PrimoTours/Old Objects/Coco/PrimoT/Ins2/Page_Primo Tours  Danmarks bedste c/li_Har selv forsikring - kr. 0' is clicked on
+
+2017-11-24 19:24:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:24:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:24:27 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-11-24 19:24:27 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-11-24 19:24:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:24:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:24:27 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' successfully
+
+2017-11-24 19:24:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' successfully
+
+2017-11-24 19:24:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is visible
+
+2017-11-24 19:24:27 - [MESSAGE][PASSED] - Object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is visible
+
+2017-11-24 19:24:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is clicked on
+
+2017-11-24 19:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_toggle checkbox kalypto' is clicked on
+
+2017-11-24 19:24:27 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' successfully
+
+2017-11-24 19:24:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' successfully
+
+2017-11-24 19:24:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' is clicked on
+
+2017-11-24 19:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle radio kalypto' is clicked on
+
+2017-11-24 19:24:28 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' successfully
+
+2017-11-24 19:24:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' successfully
+
+2017-11-24 19:24:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' is clicked on
+
+2017-11-24 19:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto (1)' is clicked on
+
+2017-11-24 19:24:28 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-11-24 19:24:28 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-11-24 19:24:28 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-11-24 19:24:28 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-11-24 19:24:28 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:24:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:24:28 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' successfully
+
+2017-11-24 19:24:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' successfully
+
+2017-11-24 19:24:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' is clicked on
+
+2017-11-24 19:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Success/a_toggle checkbox kalypto' is clicked on
+
+2017-11-24 19:24:29 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' successfully
+
+2017-11-24 19:24:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' successfully
+
+2017-11-24 19:24:29 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' is clickable
+
+2017-11-24 19:24:29 - [MESSAGE][PASSED] - Object 'Object Repository/PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Page_Primo Tours  Danmarks bedste c/a_btn btn-success col-xs-12 st' is clickable
+
+2017-11-24 19:24:29 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:24:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-24 19:24:03 - [TEST_SUITE][PASSED] - WB Primo From Excel URLs: Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

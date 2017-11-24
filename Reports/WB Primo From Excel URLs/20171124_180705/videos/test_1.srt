@@ -1,0 +1,116 @@
+1
+00:00:07,225 --> 00:00:07,664
+1. openBrowser
+
+2
+00:00:07,666 --> 00:00:07,845
+2. maximizeWindow
+
+3
+00:00:07,846 --> 00:00:09,361
+3. navigateToUrl
+
+4
+00:00:09,369 --> 00:00:10,234
+4. setText
+
+5
+00:00:10,244 --> 00:00:11,411
+5. setText
+
+6
+00:00:11,412 --> 00:00:12,229
+6. setText
+
+7
+00:00:12,235 --> 00:00:13,009
+7. setText
+
+8
+00:00:13,014 --> 00:00:13,815
+8. setText
+
+9
+00:00:13,824 --> 00:00:14,544
+9. setText
+
+10
+00:00:14,570 --> 00:00:14,628
+10. Statement - excelInfo = ["fname":"", "lname":"", "pgender":"", "pday":"", "pmonth":"", "pyear":""]
+
+11
+00:00:14,629 --> 00:00:17,367
+11. Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/WB_Primo/Passenger_details")
+
+12
+00:00:17,437 --> 00:00:17,519
+12. Statement - excelRowNo = rawData.getRowNumbers()
+
+13
+00:00:17,525 --> 00:00:17,667
+13. Statement - randomPaxIndex = 1
+
+14
+00:00:17,702 --> 00:00:17,775
+14. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+15
+00:00:17,786 --> 00:00:17,895
+15. Statement - roomContainerXpath = "id("booking")/div[@class="wrapper second-bg"]/div[@class="container-mx small-padding"]/div[@class="row"]/div[@class="col-md-12 roomContainer"]"
+
+16
+00:00:17,899 --> 00:00:18,189
+16. Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size()
+
+17
+00:00:18,236 --> 00:00:18,388
+17. Statement - println("roomsCount=" + roomsCount)
+
+18
+00:00:18,393 --> 00:00:18,689
+18. Statement - For ([i = 1, i <= roomsCount, (i++)])
+
+19
+00:00:18,704 --> 00:00:19,478
+19. scrollToElement
+
+20
+00:00:19,523 --> 00:00:19,936
+20. Done so that click on \"Next\" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.
+
+21
+00:00:19,938 --> 00:00:20,813
+21. scrollToElement
+
+22
+00:00:20,816 --> 00:00:21,299
+22. waitForElementClickable
+
+23
+00:00:21,304 --> 00:00:21,646
+23. waitForElementVisible
+
+24
+00:00:21,646 --> 00:00:22,171
+24. scrollToElement
+
+25
+00:00:22,176 --> 00:00:22,649
+25. click
+
+26
+00:00:22,649 --> 00:00:29,285
+26. waitForElementPresent
+
+27
+00:00:29,285 --> 00:00:39,918
+27. waitForElementVisible
+
+28
+00:00:39,920 --> 00:00:50,315
+28. waitForElementClickable
+
+29
+00:00:50,315 --> 00:01:21,807
+29. click
+

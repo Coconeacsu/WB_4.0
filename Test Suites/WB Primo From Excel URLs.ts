@@ -4,7 +4,7 @@
    <name>WB Primo From Excel URLs</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-16T19:22:35</lastRun>
+   <lastRun>2017-11-24T19:25:26</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -17,64 +17,40 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>6e9d28d6-4181-43f8-9d23-c53dafbae566</id>
+         <combinationType>MANY</combinationType>
+         <id>caa0bfb2-1079-457b-bbcc-7d680950a56b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/WB_Primo/Starting_URLs</testDataId>
       </testDataLink>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>706577ea-ff48-4a62-8087-52ab2763edb9</id>
+         <id>0186b781-2680-4f6e-a0fe-4b20da1fc0c4</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/WB_Primo/Passenger_details</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>6e9d28d6-4181-43f8-9d23-c53dafbae566</testDataLinkId>
+         <testDataLinkId>caa0bfb2-1079-457b-bbcc-7d680950a56b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>URL</value>
          <variableId>8b69c774-427a-4a8d-8ce6-8cda756e2c4c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>706577ea-ff48-4a62-8087-52ab2763edb9</testDataLinkId>
+         <testDataLinkId>0186b781-2680-4f6e-a0fe-4b20da1fc0c4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
-         <variableId>893052a3-26b8-4f8d-b73f-97ac99e46ad6</variableId>
+         <variableId>e9122649-b0f4-47e7-b34a-f748ecbba26b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>706577ea-ff48-4a62-8087-52ab2763edb9</testDataLinkId>
+         <testDataLinkId>0186b781-2680-4f6e-a0fe-4b20da1fc0c4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
-         <variableId>3db693f4-79ab-4822-bac1-606ef3318d71</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>706577ea-ff48-4a62-8087-52ab2763edb9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Gender</value>
-         <variableId>165182da-1438-47d0-987f-c1dfc961146d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>706577ea-ff48-4a62-8087-52ab2763edb9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Day DOB</value>
-         <variableId>37ee2628-78c1-4d93-86cc-695635f0306b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>706577ea-ff48-4a62-8087-52ab2763edb9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Month DOB</value>
-         <variableId>89962e45-32c6-435d-ad7a-ed39fdefc279</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>706577ea-ff48-4a62-8087-52ab2763edb9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Year DOB</value>
-         <variableId>c8de3957-d794-4995-a4ac-0ae68b87386d</variableId>
+         <variableId>6ecf05f6-8300-4837-832d-11fe1a42db39</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
