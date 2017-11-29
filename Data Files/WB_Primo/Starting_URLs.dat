@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>1f72536e-2803-4c74-ac0e-c689b4da9e52</dataFileGUID>
-   <dataSourceUrl>Data Files/Primo_URLs_For_Automated_Test.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/Primo_URLs_For_Automated_Test.xls</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

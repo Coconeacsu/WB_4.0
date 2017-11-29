@@ -1,0 +1,488 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WB Primo From Excel URLs,IE 11,,2017-11-27 19:06:05,2017-11-27 19:10:26,"4m - 21,218s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 1,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:06:05,2017-11-27 19:06:31,"25,810s",PASSED
+openBrowser,IE 11,,2017-11-27 19:06:06,2017-11-27 19:06:09,"3,266s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:06:09,2017-11-27 19:06:09,"0,124s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:06:09,2017-11-27 19:06:10,"1,297s",PASSED
+setText,IE 11,,2017-11-27 19:06:10,2017-11-27 19:06:12,"1,060s",PASSED
+setText,IE 11,,2017-11-27 19:06:12,2017-11-27 19:06:12,"0,532s",PASSED
+setText,IE 11,,2017-11-27 19:06:12,2017-11-27 19:06:13,"0,555s",PASSED
+setText,IE 11,,2017-11-27 19:06:13,2017-11-27 19:06:14,"1,001s",PASSED
+setText,IE 11,,2017-11-27 19:06:14,2017-11-27 19:06:14,"0,671s",PASSED
+setText,IE 11,,2017-11-27 19:06:14,2017-11-27 19:06:15,"0,553s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:06:15,2017-11-27 19:06:15,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:06:15,2017-11-27 19:06:15,"0,306s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:06:15,2017-11-27 19:06:15,"0,013s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:06:15,2017-11-27 19:06:15,"0,002s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:15,2017-11-27 19:06:15,"0,218s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:06:15,2017-11-27 19:06:15,"0,007s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:06:15,2017-11-27 19:06:15,"0,001s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:06:15,2017-11-27 19:06:16,"0,090s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:06:16,2017-11-27 19:06:16,"0,003s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:06:16,2017-11-27 19:06:17,"1,132s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:17,2017-11-27 19:06:17,"0,167s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:06:17,2017-11-27 19:06:18,"1,005s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:18,2017-11-27 19:06:18,"0,148s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:18,2017-11-27 19:06:18,"0,137s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:06:18,2017-11-27 19:06:18,"0,163s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:18,2017-11-27 19:06:18,"0,095s",PASSED
+click,IE 11,,2017-11-27 19:06:18,2017-11-27 19:06:19,"0,930s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:19,2017-11-27 19:06:22,"2,972s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:06:22,2017-11-27 19:06:22,"0,071s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:06:22,2017-11-27 19:06:22,"0,096s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:22,2017-11-27 19:06:23,"0,117s",PASSED
+click,IE 11,,2017-11-27 19:06:23,2017-11-27 19:06:23,"0,931s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:06:23,2017-11-27 19:06:24,"0,980s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:06:24,2017-11-27 19:06:24,"0,004s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:06:24,2017-11-27 19:06:24,"0,002s",NOT_RUN
+click,IE 11,,2017-11-27 19:06:24,2017-11-27 19:06:24,"0,003s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:06:24,2017-11-27 19:06:25,"0,192s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:06:25,2017-11-27 19:06:25,"0,159s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:06:25,2017-11-27 19:06:26,"1,033s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:26,2017-11-27 19:06:26,"0,291s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:26,2017-11-27 19:06:26,"0,180s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:06:26,2017-11-27 19:06:27,"1,063s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:27,2017-11-27 19:06:28,"0,155s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:06:28,2017-11-27 19:06:29,"1,187s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:29,2017-11-27 19:06:29,"0,001s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:06:29,2017-11-27 19:06:29,"0,001s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:06:29,2017-11-27 19:06:29,"0,003s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:06:29,2017-11-27 19:06:29,"0,169s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:06:29,2017-11-27 19:06:30,"1,044s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:30,2017-11-27 19:06:30,"0,388s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:30,2017-11-27 19:06:31,"0,370s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:06:31,2017-11-27 19:06:31,"0,001s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:06:31,2017-11-27 19:06:31,"0,000s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 2,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:06:31,2017-11-27 19:06:57,"26,613s",PASSED
+openBrowser,IE 11,,2017-11-27 19:06:31,2017-11-27 19:06:34,"3,064s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:06:34,2017-11-27 19:06:34,"0,017s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:06:34,2017-11-27 19:06:35,"1,193s",PASSED
+setText,IE 11,,2017-11-27 19:06:35,2017-11-27 19:06:36,"0,630s",PASSED
+setText,IE 11,,2017-11-27 19:06:36,2017-11-27 19:06:37,"0,781s",PASSED
+setText,IE 11,,2017-11-27 19:06:37,2017-11-27 19:06:37,"0,538s",PASSED
+setText,IE 11,,2017-11-27 19:06:37,2017-11-27 19:06:38,"0,712s",PASSED
+setText,IE 11,,2017-11-27 19:06:38,2017-11-27 19:06:39,"0,921s",PASSED
+setText,IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,563s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,020s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,001s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,000s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,132s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,001s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,048s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:39,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:06:39,2017-11-27 19:06:43,"3,082s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:43,2017-11-27 19:06:43,"0,174s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:06:43,2017-11-27 19:06:44,"0,974s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:44,2017-11-27 19:06:44,"0,127s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:44,2017-11-27 19:06:44,"0,099s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:06:44,2017-11-27 19:06:44,"0,099s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:44,2017-11-27 19:06:44,"0,100s",PASSED
+click,IE 11,,2017-11-27 19:06:44,2017-11-27 19:06:45,"0,975s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:45,2017-11-27 19:06:49,"3,728s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:06:49,2017-11-27 19:06:49,"0,081s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:06:49,2017-11-27 19:06:49,"0,103s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:49,2017-11-27 19:06:49,"0,085s",PASSED
+click,IE 11,,2017-11-27 19:06:49,2017-11-27 19:06:50,"0,977s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:06:50,2017-11-27 19:06:51,"1,008s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:06:51,2017-11-27 19:06:51,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:06:51,2017-11-27 19:06:51,"0,001s",NOT_RUN
+click,IE 11,,2017-11-27 19:06:51,2017-11-27 19:06:51,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:06:51,2017-11-27 19:06:51,"0,178s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:06:51,2017-11-27 19:06:51,"0,126s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:06:51,2017-11-27 19:06:52,"1,016s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:52,2017-11-27 19:06:53,"0,246s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:53,2017-11-27 19:06:53,"0,182s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:06:53,2017-11-27 19:06:54,"1,091s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:54,2017-11-27 19:06:54,"0,197s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:06:54,2017-11-27 19:06:55,"1,233s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:55,2017-11-27 19:06:55,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:06:55,2017-11-27 19:06:55,"0,001s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:06:55,2017-11-27 19:06:55,"0,001s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:06:55,2017-11-27 19:06:55,"0,160s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:06:55,2017-11-27 19:06:57,"1,017s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:06:57,2017-11-27 19:06:57,"0,459s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:06:57,2017-11-27 19:06:57,"0,398s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:06:57,2017-11-27 19:06:57,"0,000s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:06:57,2017-11-27 19:06:57,"0,001s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 3,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:06:57,2017-11-27 19:07:25,"27,078s",PASSED
+openBrowser,IE 11,,2017-11-27 19:06:57,2017-11-27 19:07:00,"3,025s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:07:00,2017-11-27 19:07:01,"0,015s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:07:01,2017-11-27 19:07:02,"1,229s",PASSED
+setText,IE 11,,2017-11-27 19:07:02,2017-11-27 19:07:02,"0,618s",PASSED
+setText,IE 11,,2017-11-27 19:07:02,2017-11-27 19:07:03,"0,528s",PASSED
+setText,IE 11,,2017-11-27 19:07:03,2017-11-27 19:07:03,"0,528s",PASSED
+setText,IE 11,,2017-11-27 19:07:03,2017-11-27 19:07:04,"0,754s",PASSED
+setText,IE 11,,2017-11-27 19:07:04,2017-11-27 19:07:05,"0,586s",PASSED
+setText,IE 11,,2017-11-27 19:07:05,2017-11-27 19:07:06,"1,147s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,027s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,001s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,000s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,148s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,048s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:06,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:07:06,2017-11-27 19:07:10,"3,387s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:10,2017-11-27 19:07:10,"0,193s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:07:10,2017-11-27 19:07:11,"0,990s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:11,2017-11-27 19:07:11,"0,166s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:11,2017-11-27 19:07:11,"0,104s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:07:11,2017-11-27 19:07:11,"0,113s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:11,2017-11-27 19:07:11,"0,104s",PASSED
+click,IE 11,,2017-11-27 19:07:11,2017-11-27 19:07:12,"0,952s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:12,2017-11-27 19:07:16,"3,769s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:07:16,2017-11-27 19:07:16,"0,052s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:07:16,2017-11-27 19:07:16,"0,138s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:16,2017-11-27 19:07:16,"0,102s",PASSED
+click,IE 11,,2017-11-27 19:07:16,2017-11-27 19:07:17,"0,927s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:07:17,2017-11-27 19:07:18,"0,990s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:07:18,2017-11-27 19:07:18,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:07:18,2017-11-27 19:07:18,"0,001s",NOT_RUN
+click,IE 11,,2017-11-27 19:07:18,2017-11-27 19:07:18,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:07:18,2017-11-27 19:07:18,"0,185s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:07:18,2017-11-27 19:07:18,"0,161s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:07:18,2017-11-27 19:07:20,"1,107s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:20,2017-11-27 19:07:20,"0,211s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:20,2017-11-27 19:07:20,"0,179s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:07:20,2017-11-27 19:07:21,"1,069s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:21,2017-11-27 19:07:21,"0,218s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:07:21,2017-11-27 19:07:22,"1,208s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:22,2017-11-27 19:07:22,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:07:22,2017-11-27 19:07:22,"0,001s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:07:22,2017-11-27 19:07:22,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:07:22,2017-11-27 19:07:23,"0,173s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:07:23,2017-11-27 19:07:24,"1,015s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:24,2017-11-27 19:07:24,"0,466s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:24,2017-11-27 19:07:25,"0,396s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:07:25,2017-11-27 19:07:25,"0,000s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:07:25,2017-11-27 19:07:25,"0,001s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 4,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:07:25,2017-11-27 19:07:56,"31,735s",PASSED
+openBrowser,IE 11,,2017-11-27 19:07:25,2017-11-27 19:07:28,"3,132s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:07:28,2017-11-27 19:07:28,"0,015s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:07:28,2017-11-27 19:07:29,"1,227s",PASSED
+setText,IE 11,,2017-11-27 19:07:29,2017-11-27 19:07:30,"0,644s",PASSED
+setText,IE 11,,2017-11-27 19:07:30,2017-11-27 19:07:31,"0,907s",PASSED
+setText,IE 11,,2017-11-27 19:07:31,2017-11-27 19:07:31,"0,589s",PASSED
+setText,IE 11,,2017-11-27 19:07:31,2017-11-27 19:07:33,"1,501s",PASSED
+setText,IE 11,,2017-11-27 19:07:33,2017-11-27 19:07:33,"0,656s",PASSED
+setText,IE 11,,2017-11-27 19:07:33,2017-11-27 19:07:34,"0,613s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,022s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,000s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,000s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,154s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,047s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:34,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:07:34,2017-11-27 19:07:39,"5,405s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:39,2017-11-27 19:07:40,"0,197s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:07:40,2017-11-27 19:07:41,"1,002s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:41,2017-11-27 19:07:41,"0,102s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:41,2017-11-27 19:07:41,"0,091s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:07:41,2017-11-27 19:07:41,"0,093s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:41,2017-11-27 19:07:41,"0,091s",PASSED
+click,IE 11,,2017-11-27 19:07:41,2017-11-27 19:07:42,"0,949s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:42,2017-11-27 19:07:47,"4,960s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:07:47,2017-11-27 19:07:47,"0,052s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:07:47,2017-11-27 19:07:47,"0,139s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:47,2017-11-27 19:07:47,"0,113s",PASSED
+click,IE 11,,2017-11-27 19:07:47,2017-11-27 19:07:48,"0,970s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:07:48,2017-11-27 19:07:49,"1,013s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:07:49,2017-11-27 19:07:49,"0,000s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:07:49,2017-11-27 19:07:49,"0,000s",NOT_RUN
+click,IE 11,,2017-11-27 19:07:49,2017-11-27 19:07:49,"0,000s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:07:49,2017-11-27 19:07:49,"0,163s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:07:49,2017-11-27 19:07:50,"0,149s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:07:50,2017-11-27 19:07:51,"1,116s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:51,2017-11-27 19:07:51,"0,256s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:51,2017-11-27 19:07:51,"0,277s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:07:51,2017-11-27 19:07:52,"1,056s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:52,2017-11-27 19:07:53,"0,229s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:07:53,2017-11-27 19:07:54,"1,335s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:54,2017-11-27 19:07:54,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:07:54,2017-11-27 19:07:54,"0,001s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:07:54,2017-11-27 19:07:54,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:07:54,2017-11-27 19:07:54,"0,205s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:07:54,2017-11-27 19:07:55,"1,043s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:07:55,2017-11-27 19:07:56,"0,610s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:07:56,2017-11-27 19:07:56,"0,571s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:07:56,2017-11-27 19:07:56,"0,000s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:07:56,2017-11-27 19:07:56,"0,001s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 5,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:07:56,2017-11-27 19:08:36,"39,881s",PASSED
+openBrowser,IE 11,,2017-11-27 19:07:56,2017-11-27 19:07:59,"3,052s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:07:59,2017-11-27 19:07:59,"0,015s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:07:59,2017-11-27 19:08:01,"1,249s",PASSED
+setText,IE 11,,2017-11-27 19:08:01,2017-11-27 19:08:01,"0,618s",PASSED
+setText,IE 11,,2017-11-27 19:08:01,2017-11-27 19:08:02,"0,905s",PASSED
+setText,IE 11,,2017-11-27 19:08:02,2017-11-27 19:08:03,"0,562s",PASSED
+setText,IE 11,,2017-11-27 19:08:03,2017-11-27 19:08:03,"0,509s",PASSED
+setText,IE 11,,2017-11-27 19:08:03,2017-11-27 19:08:05,"2,043s",PASSED
+setText,IE 11,,2017-11-27 19:08:05,2017-11-27 19:08:06,"0,586s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,001s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,008s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,001s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,000s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,194s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,001s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,048s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:06,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:08:06,2017-11-27 19:08:15,"8,535s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:15,2017-11-27 19:08:15,"0,165s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:08:15,2017-11-27 19:08:16,"0,990s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:16,2017-11-27 19:08:16,"0,176s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:16,2017-11-27 19:08:16,"0,084s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:08:16,2017-11-27 19:08:16,"0,114s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:16,2017-11-27 19:08:16,"0,097s",PASSED
+click,IE 11,,2017-11-27 19:08:16,2017-11-27 19:08:17,"0,942s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:17,2017-11-27 19:08:26,"8,293s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:08:26,2017-11-27 19:08:26,"0,061s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:08:26,2017-11-27 19:08:26,"0,130s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:26,2017-11-27 19:08:26,"0,164s",PASSED
+click,IE 11,,2017-11-27 19:08:26,2017-11-27 19:08:27,"1,104s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:08:27,2017-11-27 19:08:28,"0,947s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:08:28,2017-11-27 19:08:28,"0,000s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:08:28,2017-11-27 19:08:28,"0,000s",NOT_RUN
+click,IE 11,,2017-11-27 19:08:28,2017-11-27 19:08:28,"0,000s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:08:28,2017-11-27 19:08:28,"0,142s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:08:28,2017-11-27 19:08:28,"0,147s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:08:28,2017-11-27 19:08:30,"1,279s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:30,2017-11-27 19:08:30,"0,647s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:30,2017-11-27 19:08:30,"0,169s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:08:30,2017-11-27 19:08:31,"1,100s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:31,2017-11-27 19:08:32,"0,386s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:08:32,2017-11-27 19:08:33,"1,435s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:33,2017-11-27 19:08:33,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:08:33,2017-11-27 19:08:33,"0,000s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:08:33,2017-11-27 19:08:33,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:08:33,2017-11-27 19:08:33,"0,196s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:08:33,2017-11-27 19:08:35,"1,047s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:35,2017-11-27 19:08:35,"0,852s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:35,2017-11-27 19:08:36,"0,835s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:08:36,2017-11-27 19:08:36,"0,000s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:08:36,2017-11-27 19:08:36,"0,000s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 6,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:08:36,2017-11-27 19:09:00,"23,243s",PASSED
+openBrowser,IE 11,,2017-11-27 19:08:36,2017-11-27 19:08:39,"2,977s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:08:39,2017-11-27 19:08:39,"0,014s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:08:39,2017-11-27 19:08:41,"1,239s",PASSED
+setText,IE 11,,2017-11-27 19:08:41,2017-11-27 19:08:41,"0,608s",PASSED
+setText,IE 11,,2017-11-27 19:08:41,2017-11-27 19:08:42,"0,774s",PASSED
+setText,IE 11,,2017-11-27 19:08:42,2017-11-27 19:08:42,"0,533s",PASSED
+setText,IE 11,,2017-11-27 19:08:42,2017-11-27 19:08:43,"0,672s",PASSED
+setText,IE 11,,2017-11-27 19:08:43,2017-11-27 19:08:44,"0,923s",PASSED
+setText,IE 11,,2017-11-27 19:08:44,2017-11-27 19:08:45,"0,509s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,007s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,000s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,000s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,126s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,050s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:45,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:08:45,2017-11-27 19:08:46,"1,063s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:46,2017-11-27 19:08:46,"0,172s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:08:46,2017-11-27 19:08:47,"0,979s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:47,2017-11-27 19:08:47,"0,171s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:47,2017-11-27 19:08:47,"0,090s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:08:47,2017-11-27 19:08:47,"0,101s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:47,2017-11-27 19:08:47,"0,095s",PASSED
+click,IE 11,,2017-11-27 19:08:47,2017-11-27 19:08:48,"0,941s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:48,2017-11-27 19:08:51,"2,756s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:08:51,2017-11-27 19:08:51,"0,063s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:08:51,2017-11-27 19:08:51,"0,101s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:51,2017-11-27 19:08:51,"0,098s",PASSED
+click,IE 11,,2017-11-27 19:08:51,2017-11-27 19:08:52,"0,953s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:08:52,2017-11-27 19:08:53,"1,006s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:08:53,2017-11-27 19:08:53,"0,002s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:08:53,2017-11-27 19:08:53,"0,001s",NOT_RUN
+click,IE 11,,2017-11-27 19:08:53,2017-11-27 19:08:53,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:08:53,2017-11-27 19:08:54,"0,223s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:08:54,2017-11-27 19:08:54,"0,134s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:08:54,2017-11-27 19:08:55,"1,022s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:55,2017-11-27 19:08:55,"0,232s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:55,2017-11-27 19:08:55,"0,168s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:08:55,2017-11-27 19:08:56,"1,111s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:56,2017-11-27 19:08:56,"0,151s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:08:56,2017-11-27 19:08:58,"1,206s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:58,2017-11-27 19:08:58,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:08:58,2017-11-27 19:08:58,"0,001s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:08:58,2017-11-27 19:08:58,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:08:58,2017-11-27 19:08:58,"0,163s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:08:58,2017-11-27 19:08:59,"1,002s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:08:59,2017-11-27 19:08:59,"0,403s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:08:59,2017-11-27 19:09:00,"0,350s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:09:00,2017-11-27 19:09:00,"0,000s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:09:00,2017-11-27 19:09:00,"0,000s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 7,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:09:00,2017-11-27 19:09:26,"26,492s",PASSED
+openBrowser,IE 11,,2017-11-27 19:09:00,2017-11-27 19:09:03,"3,095s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:09:03,2017-11-27 19:09:03,"0,015s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:09:03,2017-11-27 19:09:04,"1,224s",PASSED
+setText,IE 11,,2017-11-27 19:09:04,2017-11-27 19:09:05,"0,604s",PASSED
+setText,IE 11,,2017-11-27 19:09:05,2017-11-27 19:09:05,"0,816s",PASSED
+setText,IE 11,,2017-11-27 19:09:05,2017-11-27 19:09:06,"0,601s",PASSED
+setText,IE 11,,2017-11-27 19:09:06,2017-11-27 19:09:07,"1,161s",PASSED
+setText,IE 11,,2017-11-27 19:09:07,2017-11-27 19:09:08,"0,651s",PASSED
+setText,IE 11,,2017-11-27 19:09:08,2017-11-27 19:09:08,"0,576s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:09:08,2017-11-27 19:09:08,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:09:08,2017-11-27 19:09:08,"0,006s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:09:08,2017-11-27 19:09:08,"0,001s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:09:08,2017-11-27 19:09:08,"0,000s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:08,2017-11-27 19:09:09,"0,140s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:09:09,2017-11-27 19:09:09,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:09:09,2017-11-27 19:09:09,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:09:09,2017-11-27 19:09:09,"0,046s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:09:09,2017-11-27 19:09:09,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:09:09,2017-11-27 19:09:12,"3,077s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:12,2017-11-27 19:09:12,"0,169s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:09:12,2017-11-27 19:09:13,"0,967s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:13,2017-11-27 19:09:13,"0,125s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:13,2017-11-27 19:09:13,"0,089s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:09:13,2017-11-27 19:09:13,"0,094s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:13,2017-11-27 19:09:13,"0,090s",PASSED
+click,IE 11,,2017-11-27 19:09:13,2017-11-27 19:09:14,"0,981s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:14,2017-11-27 19:09:17,"3,133s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:09:17,2017-11-27 19:09:17,"0,057s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:09:17,2017-11-27 19:09:17,"0,127s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:17,2017-11-27 19:09:18,"0,106s",PASSED
+click,IE 11,,2017-11-27 19:09:18,2017-11-27 19:09:19,"0,984s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:09:19,2017-11-27 19:09:20,"1,063s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:09:20,2017-11-27 19:09:20,"0,002s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:09:20,2017-11-27 19:09:20,"0,001s",NOT_RUN
+click,IE 11,,2017-11-27 19:09:20,2017-11-27 19:09:20,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:09:20,2017-11-27 19:09:20,"0,194s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:09:20,2017-11-27 19:09:20,"0,152s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:09:20,2017-11-27 19:09:21,"1,069s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:21,2017-11-27 19:09:21,"0,254s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:21,2017-11-27 19:09:22,"0,230s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:09:22,2017-11-27 19:09:23,"1,068s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:23,2017-11-27 19:09:23,"0,213s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:09:23,2017-11-27 19:09:24,"1,231s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:24,2017-11-27 19:09:24,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:09:24,2017-11-27 19:09:24,"0,000s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:09:24,2017-11-27 19:09:24,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:09:24,2017-11-27 19:09:24,"0,189s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:09:24,2017-11-27 19:09:25,"0,999s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:25,2017-11-27 19:09:26,"0,441s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:26,2017-11-27 19:09:26,"0,396s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:09:26,2017-11-27 19:09:26,"0,000s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:09:26,2017-11-27 19:09:26,"0,001s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 8,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:09:26,2017-11-27 19:09:53,"26,643s",PASSED
+openBrowser,IE 11,,2017-11-27 19:09:26,2017-11-27 19:09:29,"3,053s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:09:29,2017-11-27 19:09:29,"0,014s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:09:29,2017-11-27 19:09:30,"1,252s",PASSED
+setText,IE 11,,2017-11-27 19:09:30,2017-11-27 19:09:31,"0,607s",PASSED
+setText,IE 11,,2017-11-27 19:09:31,2017-11-27 19:09:32,"0,927s",PASSED
+setText,IE 11,,2017-11-27 19:09:32,2017-11-27 19:09:33,"0,547s",PASSED
+setText,IE 11,,2017-11-27 19:09:33,2017-11-27 19:09:33,"0,495s",PASSED
+setText,IE 11,,2017-11-27 19:09:33,2017-11-27 19:09:34,"1,184s",PASSED
+setText,IE 11,,2017-11-27 19:09:34,2017-11-27 19:09:35,"0,516s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,022s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,001s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,001s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,144s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,001s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,038s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:35,"0,001s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:09:35,2017-11-27 19:09:38,"3,107s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:38,2017-11-27 19:09:38,"0,142s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:09:38,2017-11-27 19:09:39,"0,975s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:39,2017-11-27 19:09:39,"0,111s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:39,2017-11-27 19:09:39,"0,083s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:09:39,2017-11-27 19:09:39,"0,103s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:39,2017-11-27 19:09:40,"0,111s",PASSED
+click,IE 11,,2017-11-27 19:09:40,2017-11-27 19:09:41,"0,954s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:41,2017-11-27 19:09:44,"3,430s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:09:44,2017-11-27 19:09:44,"0,059s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:09:44,2017-11-27 19:09:44,"0,126s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:44,2017-11-27 19:09:44,"0,106s",PASSED
+click,IE 11,,2017-11-27 19:09:44,2017-11-27 19:09:45,"0,970s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:09:45,2017-11-27 19:09:46,"0,990s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:09:46,2017-11-27 19:09:46,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:09:46,2017-11-27 19:09:46,"0,000s",NOT_RUN
+click,IE 11,,2017-11-27 19:09:46,2017-11-27 19:09:46,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:09:46,2017-11-27 19:09:46,"0,165s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:09:46,2017-11-27 19:09:47,"0,132s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:09:47,2017-11-27 19:09:48,"1,103s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:48,2017-11-27 19:09:48,"0,206s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:48,2017-11-27 19:09:48,"0,292s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:09:48,2017-11-27 19:09:49,"1,073s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:49,2017-11-27 19:09:49,"0,225s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:09:49,2017-11-27 19:09:51,"1,246s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:51,2017-11-27 19:09:51,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:09:51,2017-11-27 19:09:51,"0,000s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:09:51,2017-11-27 19:09:51,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:09:51,2017-11-27 19:09:51,"0,181s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:09:51,2017-11-27 19:09:52,"1,038s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:09:52,2017-11-27 19:09:52,"0,473s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:09:52,2017-11-27 19:09:53,"0,416s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:09:53,2017-11-27 19:09:53,"0,000s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:09:53,2017-11-27 19:09:53,"0,000s",NOT_RUN
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 9,IE 11,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 19:09:53,2017-11-27 19:10:25,"32,224s",PASSED
+openBrowser,IE 11,,2017-11-27 19:09:53,2017-11-27 19:09:56,"3,170s",PASSED
+maximizeWindow,IE 11,,2017-11-27 19:09:56,2017-11-27 19:09:56,"0,015s",PASSED
+navigateToUrl,IE 11,,2017-11-27 19:09:56,2017-11-27 19:09:57,"1,251s",PASSED
+setText,IE 11,,2017-11-27 19:09:57,2017-11-27 19:09:58,"0,657s",PASSED
+setText,IE 11,,2017-11-27 19:09:58,2017-11-27 19:09:58,"0,503s",PASSED
+setText,IE 11,,2017-11-27 19:09:58,2017-11-27 19:10:00,"1,061s",PASSED
+setText,IE 11,,2017-11-27 19:10:00,2017-11-27 19:10:00,"0,493s",PASSED
+setText,IE 11,,2017-11-27 19:10:00,2017-11-27 19:10:02,"1,708s",PASSED
+setText,IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,555s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,006s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,000s",PASSED
+Statement - randomPaxIndex = 1,IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,000s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,138s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,046s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:02,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",IE 11,,2017-11-27 19:10:02,2017-11-27 19:10:08,"5,197s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:10:08,2017-11-27 19:10:08,"0,160s",PASSED
+click,IE 11,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 19:10:08,2017-11-27 19:10:09,"0,983s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:10:09,2017-11-27 19:10:09,"0,118s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:10:09,2017-11-27 19:10:09,"0,085s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:10:09,2017-11-27 19:10:09,"0,101s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:10:09,2017-11-27 19:10:09,"0,105s",PASSED
+click,IE 11,,2017-11-27 19:10:09,2017-11-27 19:10:10,"0,971s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:10:10,2017-11-27 19:10:16,"5,671s",PASSED
+waitForElementPresent,IE 11,,2017-11-27 19:10:16,2017-11-27 19:10:16,"0,049s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:10:16,2017-11-27 19:10:16,"0,106s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:10:16,2017-11-27 19:10:16,"0,087s",PASSED
+click,IE 11,,2017-11-27 19:10:16,2017-11-27 19:10:17,"0,929s",PASSED
+click,IE 11,Select default travel insurance\r\n,2017-11-27 19:10:17,2017-11-27 19:10:18,"0,996s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:10:18,2017-11-27 19:10:18,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:10:18,2017-11-27 19:10:18,"0,001s",NOT_RUN
+click,IE 11,,2017-11-27 19:10:18,2017-11-27 19:10:18,"0,001s",NOT_RUN
+scrollToElement,IE 11,,2017-11-27 19:10:18,2017-11-27 19:10:18,"0,205s",PASSED
+waitForElementVisible,IE 11,,2017-11-27 19:10:18,2017-11-27 19:10:18,"0,168s",PASSED
+click,IE 11,Click on individual pax insurance selection checkbox,2017-11-27 19:10:18,2017-11-27 19:10:20,"1,092s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:10:20,2017-11-27 19:10:20,"0,267s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:10:20,2017-11-27 19:10:20,"0,251s",PASSED
+click,IE 11,"Click on first product category \""Individual choices\"" radio button",2017-11-27 19:10:20,2017-11-27 19:10:21,"1,054s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:10:21,2017-11-27 19:10:21,"0,218s",PASSED
+click,IE 11,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 19:10:21,2017-11-27 19:10:23,"1,384s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:10:23,2017-11-27 19:10:23,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox LABEL,2017-11-27 19:10:23,2017-11-27 19:10:23,"0,001s",NOT_RUN
+click,IE 11,Click on to Accept terms checkbox LABEL,2017-11-27 19:10:23,2017-11-27 19:10:23,"0,000s",NOT_RUN
+scrollToElement,IE 11,Scroll to Accept terms checkbox ,2017-11-27 19:10:23,2017-11-27 19:10:23,"0,199s",PASSED
+click,IE 11,Click on to Accept terms checkbox ,2017-11-27 19:10:23,2017-11-27 19:10:24,"1,013s",PASSED
+scrollToElement,IE 11,,2017-11-27 19:10:24,2017-11-27 19:10:25,"0,615s",PASSED
+waitForElementClickable,IE 11,,2017-11-27 19:10:25,2017-11-27 19:10:25,"0,534s",PASSED
+click,IE 11,Click on save booking.,2017-11-27 19:10:25,2017-11-27 19:10:25,"0,000s",NOT_RUN
+waitForElementClickable,IE 11,"Wait for booking to be placed, max 30 seconds",2017-11-27 19:10:25,2017-11-27 19:10:25,"0,000s",NOT_RUN

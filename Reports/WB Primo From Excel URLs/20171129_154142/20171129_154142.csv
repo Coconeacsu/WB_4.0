@@ -1,0 +1,1034 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WB Primo From Excel URLs,Firefox 57.0,,2017-11-29 15:41:44,2017-11-29 15:48:44,"7m - 0,044s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 1,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:41:44,2017-11-29 15:42:22,"37,588s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:41:45,2017-11-29 15:41:50,"5,274s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:41:50,2017-11-29 15:41:50,"0,125s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:41:50,2017-11-29 15:41:51,"0,923s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:41:51,2017-11-29 15:41:51,"0,001s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:41:51,2017-11-29 15:41:52,"0,660s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:41:52,2017-11-29 15:41:52,"0,015s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:41:52,2017-11-29 15:41:52,"0,032s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:41:52,2017-11-29 15:41:52,"0,021s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:41:52,2017-11-29 15:41:52,"0,002s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:41:52,2017-11-29 15:41:52,"0,001s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:41:52,2017-11-29 15:41:52,"0,280s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:41:52,2017-11-29 15:41:53,"0,254s",PASSED
+click,Firefox 57.0,,2017-11-29 15:41:53,2017-11-29 15:41:53,"0,306s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:41:53,2017-11-29 15:41:53,"0,101s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:41:53,2017-11-29 15:41:53,"0,085s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:41:53,2017-11-29 15:41:53,"0,117s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:41:53,2017-11-29 15:41:53,"0,089s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:41:53,2017-11-29 15:41:56,"3,164s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:41:56,2017-11-29 15:41:56,"0,015s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:41:56,2017-11-29 15:41:56,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:41:56,2017-11-29 15:41:56,"0,063s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:41:56,2017-11-29 15:41:56,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:41:56,2017-11-29 15:41:57,"0,550s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:41:57,2017-11-29 15:41:57,"0,047s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:41:57,2017-11-29 15:41:57,"0,266s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:41:57,2017-11-29 15:41:57,"0,169s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:41:57,2017-11-29 15:41:58,"0,125s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:41:58,2017-11-29 15:41:58,"0,078s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:41:58,2017-11-29 15:41:58,"0,031s",PASSED
+click,Firefox 57.0,,2017-11-29 15:41:58,2017-11-29 15:41:59,"0,913s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:41:59,2017-11-29 15:42:02,"3,028s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,078s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,016s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,031s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,031s",PASSED
+click,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,261s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,328s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:02,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:42:02,2017-11-29 15:42:03,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:03,2017-11-29 15:42:03,"0,015s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:42:03,2017-11-29 15:42:03,"0,335s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:03,2017-11-29 15:42:03,"0,126s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:03,2017-11-29 15:42:03,"0,141s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:03,2017-11-29 15:42:03,"0,172s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:42:03,2017-11-29 15:42:04,"0,314s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:04,2017-11-29 15:42:04,"0,016s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:04,2017-11-29 15:42:04,"0,093s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:42:04,2017-11-29 15:42:04,"0,442s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:04,2017-11-29 15:42:04,"0,001s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:42:04,2017-11-29 15:42:04,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:42:04,2017-11-29 15:42:04,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:42:04,2017-11-29 15:42:04,"0,015s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:42:04,2017-11-29 15:42:04,"0,250s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:04,2017-11-29 15:42:05,"0,047s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:05,2017-11-29 15:42:06,"1,010s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:06,2017-11-29 15:42:06,"0,031s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:42:06,2017-11-29 15:42:06,"0,252s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:06,2017-11-29 15:42:08,"2,015s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:42:08,2017-11-29 15:42:08,"0,062s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:42:08,2017-11-29 15:42:12,"3,681s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:12,2017-11-29 15:42:12,"0,032s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:12,2017-11-29 15:42:12,"0,594s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:42:12,2017-11-29 15:42:12,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:42:12,2017-11-29 15:42:12,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:42:12,2017-11-29 15:42:12,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:42:12,2017-11-29 15:42:12,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:42:12,2017-11-29 15:42:12,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:42:12,2017-11-29 15:42:12,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:12,2017-11-29 15:42:12,"0,016s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:42:12,2017-11-29 15:42:18,"5,277s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:18,2017-11-29 15:42:20,"2,004s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:42:20,2017-11-29 15:42:20,"0,110s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:20,2017-11-29 15:42:20,"0,016s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:42:20,2017-11-29 15:42:21,"0,712s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:42:21,2017-11-29 15:42:21,"0,047s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:42:21,2017-11-29 15:42:21,"0,047s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:21,2017-11-29 15:42:21,"0,016s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:21,2017-11-29 15:42:21,"0,015s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:42:21,2017-11-29 15:42:21,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:42:21,2017-11-29 15:42:21,"0,032s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:21,2017-11-29 15:42:22,"1,001s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 2,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:42:22,2017-11-29 15:42:58,"35,870s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:42:22,2017-11-29 15:42:25,"3,455s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:42:25,2017-11-29 15:42:25,"0,064s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:42:25,2017-11-29 15:42:26,"0,631s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,001s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,016s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,000s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,001s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,000s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,002s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,002s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,173s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:26,"0,198s",PASSED
+click,Firefox 57.0,,2017-11-29 15:42:26,2017-11-29 15:42:27,"0,262s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:42:27,2017-11-29 15:42:27,"0,103s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:42:27,2017-11-29 15:42:27,"0,052s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:42:27,2017-11-29 15:42:27,"0,062s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:42:27,2017-11-29 15:42:27,"0,056s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:27,2017-11-29 15:42:30,"3,346s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:42:30,2017-11-29 15:42:30,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:42:30,2017-11-29 15:42:30,"0,001s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:42:30,2017-11-29 15:42:30,"0,010s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:42:30,2017-11-29 15:42:30,"0,001s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:42:30,2017-11-29 15:42:32,"1,306s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:32,2017-11-29 15:42:32,"0,031s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:42:32,2017-11-29 15:42:32,"0,269s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:32,2017-11-29 15:42:32,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:32,2017-11-29 15:42:32,"0,031s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:42:32,2017-11-29 15:42:32,"0,032s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:32,2017-11-29 15:42:32,"0,046s",PASSED
+click,Firefox 57.0,,2017-11-29 15:42:32,2017-11-29 15:42:33,"1,207s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:33,2017-11-29 15:42:36,"3,002s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:36,2017-11-29 15:42:36,"0,062s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:36,2017-11-29 15:42:36,"0,032s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:42:36,2017-11-29 15:42:36,"0,015s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:42:36,2017-11-29 15:42:36,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:36,2017-11-29 15:42:37,"0,052s",PASSED
+click,Firefox 57.0,,2017-11-29 15:42:37,2017-11-29 15:42:37,"0,271s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:42:37,2017-11-29 15:42:37,"0,391s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:42:37,2017-11-29 15:42:37,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:37,2017-11-29 15:42:37,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:42:37,2017-11-29 15:42:37,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:42:37,2017-11-29 15:42:37,"0,031s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:37,2017-11-29 15:42:37,"0,016s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:42:37,2017-11-29 15:42:38,"0,285s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:38,2017-11-29 15:42:38,"0,095s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:38,2017-11-29 15:42:38,"0,047s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:38,2017-11-29 15:42:38,"0,109s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:42:38,2017-11-29 15:42:38,"0,326s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:38,2017-11-29 15:42:38,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:38,2017-11-29 15:42:38,"0,062s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:42:38,2017-11-29 15:42:39,"0,331s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:39,2017-11-29 15:42:39,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:42:39,2017-11-29 15:42:39,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:42:39,2017-11-29 15:42:39,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:42:39,2017-11-29 15:42:39,"0,000s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:42:39,2017-11-29 15:42:39,"0,250s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:42:39,2017-11-29 15:42:39,"0,031s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:39,2017-11-29 15:42:40,"1,001s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:40,2017-11-29 15:42:40,"0,031s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:42:40,2017-11-29 15:42:40,"0,263s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:40,2017-11-29 15:42:42,"2,014s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:42:42,2017-11-29 15:42:42,"0,016s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:42:42,2017-11-29 15:42:47,"5,262s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:47,2017-11-29 15:42:47,"0,048s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:47,2017-11-29 15:42:48,"0,588s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:42:48,2017-11-29 15:42:48,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:42:48,2017-11-29 15:42:48,"0,015s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:42:48,2017-11-29 15:42:48,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:42:48,2017-11-29 15:42:48,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:42:48,2017-11-29 15:42:48,"0,046s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:42:48,2017-11-29 15:42:48,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:48,2017-11-29 15:42:48,"0,016s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:42:48,2017-11-29 15:42:54,"5,263s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:54,2017-11-29 15:42:56,"2,010s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:42:56,2017-11-29 15:42:56,"0,115s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:42:56,2017-11-29 15:42:56,"0,015s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:42:56,2017-11-29 15:42:56,"0,678s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:42:56,2017-11-29 15:42:56,"0,093s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:42:56,2017-11-29 15:42:57,"0,094s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:57,2017-11-29 15:42:57,"0,024s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:42:57,2017-11-29 15:42:57,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:42:57,2017-11-29 15:42:57,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:42:57,2017-11-29 15:42:57,"0,031s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:42:57,2017-11-29 15:42:58,"1,000s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 3,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:42:58,2017-11-29 15:43:31,"33,802s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:42:58,2017-11-29 15:43:01,"3,636s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:43:01,2017-11-29 15:43:01,"0,062s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:43:01,2017-11-29 15:43:02,"0,634s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,019s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,001s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,003s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,001s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,002s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,129s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:02,"0,073s",PASSED
+click,Firefox 57.0,,2017-11-29 15:43:02,2017-11-29 15:43:03,"0,250s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:03,2017-11-29 15:43:03,"0,104s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:03,2017-11-29 15:43:03,"0,052s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:03,2017-11-29 15:43:03,"0,065s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:03,2017-11-29 15:43:03,"0,058s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:03,2017-11-29 15:43:06,"2,775s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:43:06,2017-11-29 15:43:06,"0,001s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:43:06,2017-11-29 15:43:06,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:43:06,2017-11-29 15:43:06,"0,005s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:43:06,2017-11-29 15:43:06,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:43:06,2017-11-29 15:43:07,"1,295s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:07,2017-11-29 15:43:07,"0,000s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:43:07,2017-11-29 15:43:07,"0,250s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:07,2017-11-29 15:43:07,"0,062s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:07,2017-11-29 15:43:07,"0,032s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:43:07,2017-11-29 15:43:07,"0,047s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:07,2017-11-29 15:43:07,"0,062s",PASSED
+click,Firefox 57.0,,2017-11-29 15:43:07,2017-11-29 15:43:09,"1,204s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:09,2017-11-29 15:43:12,"3,012s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,078s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,015s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,000s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,032s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,015s",PASSED
+click,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,294s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,344s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:12,"0,078s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:12,2017-11-29 15:43:13,"0,031s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:43:13,2017-11-29 15:43:13,"0,288s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:13,2017-11-29 15:43:13,"0,080s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:13,2017-11-29 15:43:13,"0,125s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:13,2017-11-29 15:43:13,"0,062s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:43:13,2017-11-29 15:43:13,"0,304s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:13,2017-11-29 15:43:13,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:13,2017-11-29 15:43:13,"0,062s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:43:13,2017-11-29 15:43:14,"0,321s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:14,2017-11-29 15:43:14,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:43:14,2017-11-29 15:43:14,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:43:14,2017-11-29 15:43:14,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:43:14,2017-11-29 15:43:14,"0,015s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:43:14,2017-11-29 15:43:14,"0,250s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:14,2017-11-29 15:43:14,"0,016s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:14,2017-11-29 15:43:15,"1,008s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:15,2017-11-29 15:43:15,"0,017s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:43:15,2017-11-29 15:43:15,"0,287s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:15,2017-11-29 15:43:17,"2,009s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:43:17,2017-11-29 15:43:17,"0,001s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:43:17,2017-11-29 15:43:21,"3,885s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:43:21,2017-11-29 15:43:21,"0,016s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:43:21,2017-11-29 15:43:22,"0,566s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:43:22,2017-11-29 15:43:22,"0,015s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:43:22,2017-11-29 15:43:22,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:43:22,2017-11-29 15:43:22,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:43:22,2017-11-29 15:43:22,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:43:22,2017-11-29 15:43:22,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:43:22,2017-11-29 15:43:22,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:22,2017-11-29 15:43:22,"0,016s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:43:22,2017-11-29 15:43:27,"5,245s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:27,2017-11-29 15:43:29,"2,002s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:43:29,2017-11-29 15:43:29,"0,181s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:29,2017-11-29 15:43:29,"0,011s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:43:29,2017-11-29 15:43:30,"0,539s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:43:30,2017-11-29 15:43:30,"0,063s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:43:30,2017-11-29 15:43:30,"0,016s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:43:30,2017-11-29 15:43:30,"0,015s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:43:30,2017-11-29 15:43:30,"0,298s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:43:30,2017-11-29 15:43:30,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:43:30,2017-11-29 15:43:30,"0,031s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:30,2017-11-29 15:43:31,"1,014s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 4,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:43:32,2017-11-29 15:44:02,"30,053s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:43:32,2017-11-29 15:43:35,"3,539s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:43:35,2017-11-29 15:43:35,"0,064s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:43:35,2017-11-29 15:43:36,"0,652s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,029s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,000s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,001s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,000s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,000s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,152s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,172s",PASSED
+click,Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:36,"0,260s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:36,2017-11-29 15:43:37,"0,086s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:37,2017-11-29 15:43:37,"0,053s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:37,2017-11-29 15:43:37,"0,062s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:43:37,2017-11-29 15:43:37,"0,058s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:37,2017-11-29 15:43:40,"2,983s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:43:40,2017-11-29 15:43:40,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:43:40,2017-11-29 15:43:40,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:43:40,2017-11-29 15:43:40,"0,006s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:43:40,2017-11-29 15:43:40,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:43:40,2017-11-29 15:43:42,"2,288s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:42,2017-11-29 15:43:42,"0,047s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:43:42,2017-11-29 15:43:42,"0,281s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:42,2017-11-29 15:43:42,"0,094s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:42,2017-11-29 15:43:42,"0,046s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:43:42,2017-11-29 15:43:43,"0,032s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:43,2017-11-29 15:43:43,"0,031s",PASSED
+click,Firefox 57.0,,2017-11-29 15:43:43,2017-11-29 15:43:44,"1,698s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:44,2017-11-29 15:43:47,"3,015s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:43:47,2017-11-29 15:43:47,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:47,2017-11-29 15:43:47,"0,031s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:43:47,2017-11-29 15:43:47,"0,016s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:43:47,2017-11-29 15:43:47,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:47,2017-11-29 15:43:47,"0,015s",PASSED
+click,Firefox 57.0,,2017-11-29 15:43:47,2017-11-29 15:43:48,"0,274s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:43:48,2017-11-29 15:43:48,"0,388s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:43:48,2017-11-29 15:43:48,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:48,2017-11-29 15:43:48,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:43:48,2017-11-29 15:43:48,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:43:48,2017-11-29 15:43:48,"0,062s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:48,2017-11-29 15:43:48,"0,016s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:43:48,2017-11-29 15:43:48,"0,305s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:48,2017-11-29 15:43:49,"0,141s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:49,2017-11-29 15:43:49,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:49,2017-11-29 15:43:49,"0,062s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:43:49,2017-11-29 15:43:49,"0,318s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:49,2017-11-29 15:43:49,"0,048s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:49,2017-11-29 15:43:49,"0,047s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:43:49,2017-11-29 15:43:50,"0,394s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:50,2017-11-29 15:43:50,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:43:50,2017-11-29 15:43:50,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:43:50,2017-11-29 15:43:50,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:43:50,2017-11-29 15:43:50,"0,016s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:43:50,2017-11-29 15:43:50,"0,257s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:43:50,2017-11-29 15:43:50,"0,031s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:50,2017-11-29 15:43:51,"1,006s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:51,2017-11-29 15:43:51,"0,017s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:43:51,2017-11-29 15:43:51,"0,280s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:51,2017-11-29 15:43:53,"2,007s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:43:53,2017-11-29 15:43:53,"0,017s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:43:53,2017-11-29 15:43:54,"1,045s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:43:54,2017-11-29 15:43:54,"0,001s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:43:54,2017-11-29 15:43:55,"0,723s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:43:55,2017-11-29 15:43:57,"2,030s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:43:57,2017-11-29 15:43:57,"0,026s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:43:57,2017-11-29 15:43:57,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:43:57,2017-11-29 15:43:57,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:43:57,2017-11-29 15:43:57,"0,063s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:43:57,2017-11-29 15:43:57,"0,062s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:43:57,2017-11-29 15:43:57,"0,016s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:43:57,2017-11-29 15:43:58,"0,328s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:43:58,2017-11-29 15:44:00,"2,002s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:44:00,2017-11-29 15:44:00,"0,063s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:00,2017-11-29 15:44:00,"0,016s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:44:00,2017-11-29 15:44:00,"0,762s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:44:00,2017-11-29 15:44:00,"0,031s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:44:00,2017-11-29 15:44:01,"0,062s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:44:01,2017-11-29 15:44:01,"0,016s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:44:01,2017-11-29 15:44:01,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:44:01,2017-11-29 15:44:01,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:44:01,2017-11-29 15:44:01,"0,033s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:44:01,2017-11-29 15:44:02,"1,005s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 5,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:44:02,2017-11-29 15:44:38,"36,488s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:44:02,2017-11-29 15:44:05,"3,675s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:44:05,2017-11-29 15:44:05,"0,063s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:44:05,2017-11-29 15:44:06,"0,682s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,016s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,002s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,001s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,000s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,000s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,106s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:06,"0,098s",PASSED
+click,Firefox 57.0,,2017-11-29 15:44:06,2017-11-29 15:44:07,"0,263s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:07,2017-11-29 15:44:07,"0,108s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:07,2017-11-29 15:44:07,"0,059s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:07,2017-11-29 15:44:07,"0,059s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:07,2017-11-29 15:44:07,"0,142s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:07,2017-11-29 15:44:10,"2,791s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:44:10,2017-11-29 15:44:10,"0,001s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:44:10,2017-11-29 15:44:10,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:44:10,2017-11-29 15:44:10,"0,016s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:44:10,2017-11-29 15:44:10,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:44:10,2017-11-29 15:44:13,"2,827s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:13,2017-11-29 15:44:13,"0,078s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:44:13,2017-11-29 15:44:13,"0,265s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:13,2017-11-29 15:44:13,"0,033s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:13,2017-11-29 15:44:13,"0,046s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:44:13,2017-11-29 15:44:13,"0,047s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:13,2017-11-29 15:44:13,"0,016s",PASSED
+click,Firefox 57.0,,2017-11-29 15:44:13,2017-11-29 15:44:15,"2,006s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:44:15,2017-11-29 15:44:18,"3,004s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:44:18,2017-11-29 15:44:18,"0,032s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:18,2017-11-29 15:44:18,"0,016s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:44:18,2017-11-29 15:44:18,"0,015s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:44:18,2017-11-29 15:44:18,"0,032s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:18,2017-11-29 15:44:18,"0,015s",PASSED
+click,Firefox 57.0,,2017-11-29 15:44:18,2017-11-29 15:44:18,"0,253s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:44:18,2017-11-29 15:44:19,"0,361s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:44:19,2017-11-29 15:44:19,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:19,2017-11-29 15:44:19,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:44:19,2017-11-29 15:44:19,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:44:19,2017-11-29 15:44:19,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:19,2017-11-29 15:44:19,"0,015s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:44:19,2017-11-29 15:44:19,"0,317s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:19,2017-11-29 15:44:19,"0,115s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:19,2017-11-29 15:44:19,"0,078s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:19,2017-11-29 15:44:20,"0,066s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:44:20,2017-11-29 15:44:20,"0,321s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:20,2017-11-29 15:44:20,"0,046s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:20,2017-11-29 15:44:20,"0,063s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:44:20,2017-11-29 15:44:20,"0,410s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:20,2017-11-29 15:44:20,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:44:20,2017-11-29 15:44:20,"0,001s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:44:20,2017-11-29 15:44:20,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:44:20,2017-11-29 15:44:20,"0,016s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:44:20,2017-11-29 15:44:21,"0,234s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:21,2017-11-29 15:44:21,"0,047s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:44:21,2017-11-29 15:44:22,"1,001s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:22,2017-11-29 15:44:22,"0,031s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:44:22,2017-11-29 15:44:22,"0,307s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:44:22,2017-11-29 15:44:24,"2,010s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:44:24,2017-11-29 15:44:24,"0,000s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:44:24,2017-11-29 15:44:28,"3,967s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:44:28,2017-11-29 15:44:28,"0,032s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:44:28,2017-11-29 15:44:29,"0,578s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:44:29,2017-11-29 15:44:29,"0,000s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:44:29,2017-11-29 15:44:29,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:44:29,2017-11-29 15:44:29,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:44:29,2017-11-29 15:44:29,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:44:29,2017-11-29 15:44:29,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:44:29,2017-11-29 15:44:29,"0,032s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:29,2017-11-29 15:44:29,"0,031s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:44:29,2017-11-29 15:44:34,"5,254s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:44:34,2017-11-29 15:44:36,"2,008s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:44:36,2017-11-29 15:44:36,"0,156s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:36,2017-11-29 15:44:36,"0,016s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:44:36,2017-11-29 15:44:37,"0,750s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:44:37,2017-11-29 15:44:37,"0,031s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:44:37,2017-11-29 15:44:37,"0,037s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:44:37,2017-11-29 15:44:37,"0,015s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:44:37,2017-11-29 15:44:37,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:44:37,2017-11-29 15:44:37,"0,015s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:44:37,2017-11-29 15:44:37,"0,032s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:44:37,2017-11-29 15:44:38,"1,003s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 6,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:44:38,2017-11-29 15:45:17,"39,276s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:44:38,2017-11-29 15:44:42,"3,376s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,064s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,587s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,001s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,016s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,000s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,000s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,000s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,001s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:42,"0,163s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:42,2017-11-29 15:44:43,"0,086s",PASSED
+click,Firefox 57.0,,2017-11-29 15:44:43,2017-11-29 15:44:43,"0,239s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:43,2017-11-29 15:44:43,"0,118s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:43,2017-11-29 15:44:43,"0,062s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:43,2017-11-29 15:44:43,"0,062s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:44:43,2017-11-29 15:44:43,"0,058s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:43,2017-11-29 15:44:47,"3,442s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:44:47,2017-11-29 15:44:47,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:44:47,2017-11-29 15:44:47,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:44:47,2017-11-29 15:44:47,"0,005s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:44:47,2017-11-29 15:44:47,"0,001s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:44:47,2017-11-29 15:44:50,"3,817s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:50,2017-11-29 15:44:50,"0,031s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:44:50,2017-11-29 15:44:51,"0,269s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:51,2017-11-29 15:44:51,"0,062s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:51,2017-11-29 15:44:51,"0,031s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:44:51,2017-11-29 15:44:51,"0,032s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:51,2017-11-29 15:44:51,"0,031s",PASSED
+click,Firefox 57.0,,2017-11-29 15:44:51,2017-11-29 15:44:53,"2,468s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:44:53,2017-11-29 15:44:56,"3,011s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:44:56,2017-11-29 15:44:56,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:56,2017-11-29 15:44:56,"0,016s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:44:56,2017-11-29 15:44:56,"0,016s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:44:56,2017-11-29 15:44:56,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:56,2017-11-29 15:44:56,"0,000s",PASSED
+click,Firefox 57.0,,2017-11-29 15:44:56,2017-11-29 15:44:57,"0,259s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:44:57,2017-11-29 15:44:57,"0,423s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:44:57,2017-11-29 15:44:57,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:57,2017-11-29 15:44:57,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:44:57,2017-11-29 15:44:57,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:44:57,2017-11-29 15:44:57,"0,062s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:57,2017-11-29 15:44:57,"0,032s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:44:57,2017-11-29 15:44:58,"0,326s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,106s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,047s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,047s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:44:58,2017-11-29 15:44:58,"0,304s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,063s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:44:58,2017-11-29 15:44:58,"0,338s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:44:58,2017-11-29 15:44:58,"0,016s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:44:58,2017-11-29 15:44:59,"0,250s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:44:59,2017-11-29 15:44:59,"0,033s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:44:59,2017-11-29 15:45:00,"1,017s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:00,2017-11-29 15:45:00,"0,032s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:45:00,2017-11-29 15:45:00,"0,323s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:45:00,2017-11-29 15:45:02,"2,006s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:45:02,2017-11-29 15:45:02,"0,017s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:45:02,2017-11-29 15:45:04,"1,718s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:04,2017-11-29 15:45:04,"0,269s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:04,2017-11-29 15:45:08,"3,646s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:45:08,2017-11-29 15:45:08,"0,003s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:45:08,2017-11-29 15:45:08,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:45:08,2017-11-29 15:45:08,"0,078s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:45:08,2017-11-29 15:45:08,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:45:08,2017-11-29 15:45:08,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:45:08,2017-11-29 15:45:08,"0,063s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:08,2017-11-29 15:45:08,"0,015s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:45:08,2017-11-29 15:45:13,"5,259s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:45:13,2017-11-29 15:45:15,"2,019s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:45:15,2017-11-29 15:45:15,"0,063s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:15,2017-11-29 15:45:15,"0,016s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:45:15,2017-11-29 15:45:16,"0,847s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:45:16,2017-11-29 15:45:16,"0,047s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:45:16,2017-11-29 15:45:16,"0,042s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:16,2017-11-29 15:45:16,"0,000s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:16,2017-11-29 15:45:16,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:45:16,2017-11-29 15:45:16,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:45:16,2017-11-29 15:45:16,"0,035s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:45:16,2017-11-29 15:45:17,"1,008s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 7,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:45:18,2017-11-29 15:45:57,"39,609s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:45:18,2017-11-29 15:45:21,"3,490s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:45:21,2017-11-29 15:45:21,"0,064s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:45:21,2017-11-29 15:45:22,"0,607s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,010s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,001s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,000s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,001s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,000s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,105s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,093s",PASSED
+click,Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,257s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,054s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,046s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:22,"0,068s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:45:22,2017-11-29 15:45:23,"0,138s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:23,2017-11-29 15:45:26,"3,213s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:45:26,2017-11-29 15:45:26,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:45:26,2017-11-29 15:45:26,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:45:26,2017-11-29 15:45:26,"0,006s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:45:26,2017-11-29 15:45:26,"0,001s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:45:26,2017-11-29 15:45:30,"3,773s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:30,2017-11-29 15:45:30,"0,046s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:45:30,2017-11-29 15:45:30,"0,270s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:30,2017-11-29 15:45:30,"0,062s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:30,2017-11-29 15:45:30,"0,032s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:45:30,2017-11-29 15:45:30,"0,046s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:30,2017-11-29 15:45:30,"0,032s",PASSED
+click,Firefox 57.0,,2017-11-29 15:45:30,2017-11-29 15:45:33,"2,540s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:45:33,2017-11-29 15:45:36,"3,014s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,064s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,015s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,016s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,000s",PASSED
+click,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,269s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,422s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:36,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:45:36,2017-11-29 15:45:37,"0,077s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:37,2017-11-29 15:45:37,"0,016s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:45:37,2017-11-29 15:45:37,"0,307s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:37,2017-11-29 15:45:37,"0,063s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:37,2017-11-29 15:45:37,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:37,2017-11-29 15:45:37,"0,047s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:45:37,2017-11-29 15:45:37,"0,307s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:37,2017-11-29 15:45:37,"0,032s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:37,2017-11-29 15:45:37,"0,031s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:45:37,2017-11-29 15:45:38,"0,375s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:38,2017-11-29 15:45:38,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:45:38,2017-11-29 15:45:38,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:45:38,2017-11-29 15:45:38,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:45:38,2017-11-29 15:45:38,"0,000s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:45:38,2017-11-29 15:45:38,"0,254s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:45:38,2017-11-29 15:45:38,"0,017s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:45:38,2017-11-29 15:45:39,"1,011s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:39,2017-11-29 15:45:39,"0,031s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:45:39,2017-11-29 15:45:39,"0,326s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:45:39,2017-11-29 15:45:41,"2,008s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:45:41,2017-11-29 15:45:41,"0,017s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:45:41,2017-11-29 15:45:43,"1,863s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:43,2017-11-29 15:45:43,"0,017s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:43,2017-11-29 15:45:47,"4,136s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:45:47,2017-11-29 15:45:47,"0,001s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:45:47,2017-11-29 15:45:47,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:45:47,2017-11-29 15:45:47,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:45:47,2017-11-29 15:45:48,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:45:48,2017-11-29 15:45:48,"0,078s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:45:48,2017-11-29 15:45:48,"0,062s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:48,2017-11-29 15:45:48,"0,063s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:45:48,2017-11-29 15:45:53,"5,237s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:45:53,2017-11-29 15:45:55,"2,004s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:45:55,2017-11-29 15:45:55,"0,079s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:45:55,2017-11-29 15:45:55,"0,015s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:45:55,2017-11-29 15:45:56,"0,518s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:45:56,2017-11-29 15:45:56,"0,125s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:45:56,2017-11-29 15:45:56,"0,031s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:56,2017-11-29 15:45:56,"0,016s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:45:56,2017-11-29 15:45:56,"0,326s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:45:56,2017-11-29 15:45:56,"0,078s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:45:56,2017-11-29 15:45:56,"0,016s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:45:56,2017-11-29 15:45:57,"1,010s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 8,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:45:57,2017-11-29 15:46:34,"37,227s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:45:57,2017-11-29 15:46:01,"3,447s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,078s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,655s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,015s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,000s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,001s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,000s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:01,"0,000s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:01,2017-11-29 15:46:02,"0,116s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:02,2017-11-29 15:46:02,"0,099s",PASSED
+click,Firefox 57.0,,2017-11-29 15:46:02,2017-11-29 15:46:02,"0,246s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:02,2017-11-29 15:46:02,"0,066s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:02,2017-11-29 15:46:02,"0,053s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:02,2017-11-29 15:46:02,"0,057s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:02,2017-11-29 15:46:02,"0,057s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:02,2017-11-29 15:46:05,"2,925s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:46:05,2017-11-29 15:46:05,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:46:05,2017-11-29 15:46:05,"0,001s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:46:05,2017-11-29 15:46:05,"0,007s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:46:05,2017-11-29 15:46:05,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:46:05,2017-11-29 15:46:08,"3,194s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:08,2017-11-29 15:46:08,"0,031s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:46:08,2017-11-29 15:46:09,"0,271s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:09,2017-11-29 15:46:09,"0,079s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:09,2017-11-29 15:46:09,"0,031s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:46:09,2017-11-29 15:46:09,"0,047s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:09,2017-11-29 15:46:09,"0,015s",PASSED
+click,Firefox 57.0,,2017-11-29 15:46:09,2017-11-29 15:46:11,"2,383s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:11,2017-11-29 15:46:14,"3,002s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:14,2017-11-29 15:46:14,"0,034s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:14,2017-11-29 15:46:14,"0,015s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:46:14,2017-11-29 15:46:14,"0,016s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:46:14,2017-11-29 15:46:14,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:14,2017-11-29 15:46:14,"0,000s",PASSED
+click,Firefox 57.0,,2017-11-29 15:46:14,2017-11-29 15:46:14,"0,253s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:46:14,2017-11-29 15:46:15,"0,422s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:46:15,2017-11-29 15:46:15,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:15,2017-11-29 15:46:15,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:46:15,2017-11-29 15:46:15,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:46:15,2017-11-29 15:46:15,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:15,2017-11-29 15:46:15,"0,062s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:46:15,2017-11-29 15:46:15,"0,323s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:15,2017-11-29 15:46:15,"0,095s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:15,2017-11-29 15:46:15,"0,047s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:15,2017-11-29 15:46:16,"0,078s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:46:16,2017-11-29 15:46:16,"0,328s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:16,2017-11-29 15:46:16,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:16,2017-11-29 15:46:16,"0,032s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:46:16,2017-11-29 15:46:16,"0,316s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:16,2017-11-29 15:46:16,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:46:16,2017-11-29 15:46:16,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:46:16,2017-11-29 15:46:16,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:46:16,2017-11-29 15:46:16,"0,016s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:46:16,2017-11-29 15:46:17,"0,253s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:17,2017-11-29 15:46:17,"0,017s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:17,2017-11-29 15:46:18,"1,022s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:18,2017-11-29 15:46:18,"0,035s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:46:18,2017-11-29 15:46:18,"0,289s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:18,2017-11-29 15:46:20,"2,012s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:46:20,2017-11-29 15:46:20,"0,021s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:46:20,2017-11-29 15:46:24,"4,413s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:24,2017-11-29 15:46:24,"0,049s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:24,2017-11-29 15:46:25,"0,589s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:46:25,2017-11-29 15:46:25,"0,016s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:46:25,2017-11-29 15:46:25,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:46:25,2017-11-29 15:46:25,"0,062s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:46:25,2017-11-29 15:46:25,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:46:25,2017-11-29 15:46:25,"0,015s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:46:25,2017-11-29 15:46:25,"0,032s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:25,2017-11-29 15:46:25,"0,015s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:46:25,2017-11-29 15:46:30,"5,241s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:30,2017-11-29 15:46:32,"2,010s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:46:32,2017-11-29 15:46:33,"0,051s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:33,2017-11-29 15:46:33,"0,000s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:46:33,2017-11-29 15:46:33,"0,766s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:46:33,2017-11-29 15:46:33,"0,031s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:46:33,2017-11-29 15:46:33,"0,031s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:33,2017-11-29 15:46:33,"0,016s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:33,2017-11-29 15:46:33,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:46:33,2017-11-29 15:46:33,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:46:33,2017-11-29 15:46:33,"0,016s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:33,2017-11-29 15:46:34,"1,012s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 9,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:46:35,2017-11-29 15:47:00,"25,354s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:46:35,2017-11-29 15:46:38,"3,438s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:46:38,2017-11-29 15:46:38,"0,064s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:46:38,2017-11-29 15:46:39,"0,674s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,008s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,001s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,000s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,000s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,001s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,096s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,074s",PASSED
+click,Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,243s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,125s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,069s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:39,"0,057s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:46:39,2017-11-29 15:46:40,"0,224s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:40,2017-11-29 15:46:42,"2,287s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:46:42,2017-11-29 15:46:42,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:46:42,2017-11-29 15:46:42,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:46:42,2017-11-29 15:46:42,"0,004s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:46:42,2017-11-29 15:46:42,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:46:42,2017-11-29 15:46:42,"0,406s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:42,2017-11-29 15:46:42,"0,025s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:46:42,2017-11-29 15:46:43,"0,247s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:43,2017-11-29 15:46:43,"0,049s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:43,2017-11-29 15:46:43,"0,028s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:46:43,2017-11-29 15:46:43,"0,031s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:43,2017-11-29 15:46:43,"0,016s",PASSED
+click,Firefox 57.0,,2017-11-29 15:46:43,2017-11-29 15:46:44,"0,880s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:44,2017-11-29 15:46:47,"3,013s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,015s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,016s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,000s",PASSED
+click,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,266s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,361s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:47,"0,078s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:47,2017-11-29 15:46:48,"0,016s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:46:48,2017-11-29 15:46:48,"0,280s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:48,2017-11-29 15:46:48,"0,125s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:48,2017-11-29 15:46:48,"0,062s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:48,2017-11-29 15:46:48,"0,110s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:46:48,2017-11-29 15:46:48,"0,314s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:48,2017-11-29 15:46:48,"0,062s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:48,2017-11-29 15:46:48,"0,016s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:46:48,2017-11-29 15:46:49,"0,371s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:49,2017-11-29 15:46:49,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:46:49,2017-11-29 15:46:49,"0,001s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:46:49,2017-11-29 15:46:49,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:46:49,2017-11-29 15:46:49,"0,015s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:46:49,2017-11-29 15:46:49,"0,282s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:46:49,2017-11-29 15:46:49,"0,015s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:49,2017-11-29 15:46:50,"1,016s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:50,2017-11-29 15:46:50,"0,031s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:46:50,2017-11-29 15:46:50,"0,262s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:50,2017-11-29 15:46:52,"2,002s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:46:52,2017-11-29 15:46:52,"0,022s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:46:52,2017-11-29 15:46:53,"0,609s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:53,2017-11-29 15:46:53,"0,032s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:53,2017-11-29 15:46:53,"0,200s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:46:53,2017-11-29 15:46:55,"2,035s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:46:55,2017-11-29 15:46:55,"0,048s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:46:55,2017-11-29 15:46:55,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:46:55,2017-11-29 15:46:55,"0,034s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:46:55,2017-11-29 15:46:56,"0,054s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:46:56,2017-11-29 15:46:56,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:56,2017-11-29 15:46:56,"0,000s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:46:56,2017-11-29 15:46:56,"0,277s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:56,2017-11-29 15:46:58,"2,002s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:46:58,2017-11-29 15:46:58,"0,079s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:46:58,2017-11-29 15:46:58,"0,016s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:46:58,2017-11-29 15:46:59,"0,739s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:46:59,2017-11-29 15:46:59,"0,063s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:46:59,2017-11-29 15:46:59,"0,015s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:59,2017-11-29 15:46:59,"0,016s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:46:59,2017-11-29 15:46:59,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:46:59,2017-11-29 15:46:59,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:46:59,2017-11-29 15:46:59,"0,016s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:46:59,2017-11-29 15:47:00,"1,014s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 10,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:47:00,2017-11-29 15:47:33,"32,626s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:47:00,2017-11-29 15:47:03,"3,254s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:47:03,2017-11-29 15:47:03,"0,063s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:47:03,2017-11-29 15:47:04,"0,684s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,006s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,001s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,000s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,000s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,000s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,115s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,153s",PASSED
+click,Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:04,"0,249s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:04,2017-11-29 15:47:05,"0,052s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:05,2017-11-29 15:47:05,"0,054s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:05,2017-11-29 15:47:05,"0,063s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:05,2017-11-29 15:47:05,"0,222s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:05,2017-11-29 15:47:07,"2,187s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:47:07,2017-11-29 15:47:07,"0,001s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:47:07,2017-11-29 15:47:07,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:47:07,2017-11-29 15:47:07,"0,017s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:47:07,2017-11-29 15:47:07,"0,001s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:47:07,2017-11-29 15:47:08,"1,150s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:08,2017-11-29 15:47:08,"0,021s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:47:08,2017-11-29 15:47:08,"0,237s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:08,2017-11-29 15:47:09,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:09,2017-11-29 15:47:09,"0,032s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:47:09,2017-11-29 15:47:09,"0,031s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:09,2017-11-29 15:47:09,"0,031s",PASSED
+click,Firefox 57.0,,2017-11-29 15:47:09,2017-11-29 15:47:10,"1,210s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:47:10,2017-11-29 15:47:13,"3,004s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:47:13,2017-11-29 15:47:13,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:13,2017-11-29 15:47:13,"0,016s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:47:13,2017-11-29 15:47:13,"0,015s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:47:13,2017-11-29 15:47:13,"0,032s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:13,2017-11-29 15:47:13,"0,031s",PASSED
+click,Firefox 57.0,,2017-11-29 15:47:13,2017-11-29 15:47:13,"0,310s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:47:13,2017-11-29 15:47:14,"0,346s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,016s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,267s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,079s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,109s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:14,2017-11-29 15:47:14,"0,094s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:47:14,2017-11-29 15:47:15,"0,301s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:15,2017-11-29 15:47:15,"0,000s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:15,2017-11-29 15:47:15,"0,047s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:47:15,2017-11-29 15:47:15,"0,378s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:15,2017-11-29 15:47:15,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:47:15,2017-11-29 15:47:15,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:47:15,2017-11-29 15:47:15,"0,001s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:47:15,2017-11-29 15:47:15,"0,007s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:47:15,2017-11-29 15:47:15,"0,250s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:15,2017-11-29 15:47:15,"0,031s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:47:15,2017-11-29 15:47:16,"1,012s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:16,2017-11-29 15:47:16,"0,031s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:47:16,2017-11-29 15:47:17,"0,314s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:47:17,2017-11-29 15:47:19,"2,006s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:47:19,2017-11-29 15:47:19,"0,001s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:47:19,2017-11-29 15:47:23,"3,878s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:47:23,2017-11-29 15:47:23,"0,001s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:47:23,2017-11-29 15:47:23,"0,578s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:47:23,2017-11-29 15:47:23,"0,016s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:47:23,2017-11-29 15:47:23,"0,015s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:47:23,2017-11-29 15:47:23,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:47:23,2017-11-29 15:47:23,"0,015s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:47:23,2017-11-29 15:47:23,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:47:23,2017-11-29 15:47:23,"0,029s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:23,2017-11-29 15:47:23,"0,015s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:47:23,2017-11-29 15:47:29,"5,258s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:47:29,2017-11-29 15:47:31,"2,008s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:47:31,2017-11-29 15:47:31,"0,125s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:31,2017-11-29 15:47:31,"0,015s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:47:31,2017-11-29 15:47:31,"0,696s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:47:31,2017-11-29 15:47:31,"0,031s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:47:31,2017-11-29 15:47:31,"0,068s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:47:31,2017-11-29 15:47:31,"0,008s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:47:31,2017-11-29 15:47:32,"0,024s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:47:32,2017-11-29 15:47:32,"0,016s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:47:32,2017-11-29 15:47:32,"0,032s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:47:32,2017-11-29 15:47:33,"1,007s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 11,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:47:33,2017-11-29 15:48:06,"33,678s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:47:33,2017-11-29 15:47:36,"3,511s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:47:36,2017-11-29 15:47:36,"0,063s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:47:36,2017-11-29 15:47:37,"0,623s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,012s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,000s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,000s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,001s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,000s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,001s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,099s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,107s",PASSED
+click,Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,239s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,066s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:37,"0,051s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:37,2017-11-29 15:47:38,"0,053s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:47:38,2017-11-29 15:47:38,"0,054s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:38,2017-11-29 15:47:40,"2,612s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:47:40,2017-11-29 15:47:40,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:47:40,2017-11-29 15:47:40,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:47:40,2017-11-29 15:47:40,"0,005s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:47:40,2017-11-29 15:47:40,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:47:40,2017-11-29 15:47:41,"1,139s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:41,2017-11-29 15:47:41,"0,035s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:47:41,2017-11-29 15:47:42,"0,266s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:42,2017-11-29 15:47:42,"0,015s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:42,2017-11-29 15:47:42,"0,032s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:47:42,2017-11-29 15:47:42,"0,031s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:42,2017-11-29 15:47:42,"0,016s",PASSED
+click,Firefox 57.0,,2017-11-29 15:47:42,2017-11-29 15:47:43,"1,135s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:47:43,2017-11-29 15:47:46,"3,011s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:47:46,2017-11-29 15:47:46,"0,078s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:46,2017-11-29 15:47:46,"0,031s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:47:46,2017-11-29 15:47:46,"0,031s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:47:46,2017-11-29 15:47:46,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:46,2017-11-29 15:47:46,"0,000s",PASSED
+click,Firefox 57.0,,2017-11-29 15:47:46,2017-11-29 15:47:46,"0,290s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:47:46,2017-11-29 15:47:47,"0,399s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,001s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,001s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,001s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,081s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,015s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,365s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,079s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,094s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:47,2017-11-29 15:47:47,"0,016s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:47:47,2017-11-29 15:47:48,"0,357s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:48,2017-11-29 15:47:48,"0,047s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:48,2017-11-29 15:47:48,"0,078s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:47:48,2017-11-29 15:47:48,"0,312s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:48,2017-11-29 15:47:48,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:47:48,2017-11-29 15:47:48,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:47:48,2017-11-29 15:47:48,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:47:48,2017-11-29 15:47:48,"0,000s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:47:48,2017-11-29 15:47:48,"0,254s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:47:48,2017-11-29 15:47:48,"0,045s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:47:48,2017-11-29 15:47:49,"1,001s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:50,2017-11-29 15:47:50,"0,036s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:47:50,2017-11-29 15:47:50,"0,287s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:47:50,2017-11-29 15:47:52,"2,015s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:47:52,2017-11-29 15:47:52,"0,004s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:47:52,2017-11-29 15:47:56,"4,218s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:47:56,2017-11-29 15:47:56,"0,034s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:47:56,2017-11-29 15:47:57,"0,549s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:47:57,2017-11-29 15:47:57,"0,016s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:47:57,2017-11-29 15:47:57,"0,015s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:47:57,2017-11-29 15:47:57,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:47:57,2017-11-29 15:47:57,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:47:57,2017-11-29 15:47:57,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:47:57,2017-11-29 15:47:57,"0,015s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:47:57,2017-11-29 15:47:57,"0,016s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:47:57,2017-11-29 15:48:02,"5,250s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:48:02,2017-11-29 15:48:04,"2,016s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:48:04,2017-11-29 15:48:04,"0,114s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:04,2017-11-29 15:48:04,"0,015s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:48:04,2017-11-29 15:48:05,"0,546s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:48:05,2017-11-29 15:48:05,"0,047s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:48:05,2017-11-29 15:48:05,"0,218s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:48:05,2017-11-29 15:48:05,"0,073s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:48:05,2017-11-29 15:48:05,"0,095s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:48:05,2017-11-29 15:48:05,"0,031s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:48:05,2017-11-29 15:48:05,"0,047s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:48:05,2017-11-29 15:48:06,"1,002s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking - Iteration 12,Firefox 57.0,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-29 15:48:06,2017-11-29 15:48:43,"37,012s",PASSED
+openBrowser,Firefox 57.0,,2017-11-29 15:48:06,2017-11-29 15:48:10,"3,423s",PASSED
+maximizeWindow,Firefox 57.0,,2017-11-29 15:48:10,2017-11-29 15:48:10,"0,063s",PASSED
+navigateToUrl,Firefox 57.0,,2017-11-29 15:48:10,2017-11-29 15:48:11,"0,652s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,000s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,010s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,000s",PASSED
+Statement - randomPaxIndex = java.lang.Math.abs(new java.util.Random().nextInt() % excelRowNo) + 1,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,000s",PASSED
+"Statement - fname = rawData.getValue(""FirstName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,002s",PASSED
+"Statement - lname = rawData.getValue(""LastName"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,001s",PASSED
+"Statement - pgender = rawData.getValue(""Gender"", randomPaxIndex)",Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,000s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,115s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,110s",PASSED
+click,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,231s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,116s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,064s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,068s",PASSED
+setText,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:11,"0,056s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:11,2017-11-29 15:48:14,"2,871s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 57.0,,2017-11-29 15:48:14,2017-11-29 15:48:14,"0,000s",PASSED
+"Statement - roomContainerXpath = ""id(""roomAndStaticOptionsContainer"")/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Firefox 57.0,,2017-11-29 15:48:14,2017-11-29 15:48:14,"0,000s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Firefox 57.0,,2017-11-29 15:48:14,2017-11-29 15:48:14,"0,004s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Firefox 57.0,,2017-11-29 15:48:14,2017-11-29 15:48:14,"0,001s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Firefox 57.0,,2017-11-29 15:48:14,2017-11-29 15:48:16,"1,901s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:16,2017-11-29 15:48:16,"0,032s",PASSED
+click,Firefox 57.0,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-29 15:48:16,2017-11-29 15:48:16,"0,286s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:16,2017-11-29 15:48:16,"0,017s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:16,2017-11-29 15:48:16,"0,031s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:48:16,2017-11-29 15:48:16,"0,038s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:16,2017-11-29 15:48:16,"0,014s",PASSED
+click,Firefox 57.0,,2017-11-29 15:48:16,2017-11-29 15:48:18,"1,650s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:48:18,2017-11-29 15:48:21,"3,005s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:48:21,2017-11-29 15:48:21,"0,032s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:21,2017-11-29 15:48:21,"0,015s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-11-29 15:48:21,2017-11-29 15:48:21,"0,016s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:48:21,2017-11-29 15:48:21,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:21,2017-11-29 15:48:21,"0,016s",PASSED
+click,Firefox 57.0,,2017-11-29 15:48:21,2017-11-29 15:48:22,"0,283s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,391s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,000s",NOT_RUN
+click,Firefox 57.0,,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,000s",NOT_RUN
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,063s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,015s",PASSED
+click,Firefox 57.0,Click on individual pax insurance selection checkbox,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,324s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,064s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:22,2017-11-29 15:48:22,"0,047s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:22,2017-11-29 15:48:23,"0,109s",PASSED
+click,Firefox 57.0,"Click on first product category \""Individual choices\"" radio button",2017-11-29 15:48:23,2017-11-29 15:48:23,"0,288s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:23,2017-11-29 15:48:23,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:23,2017-11-29 15:48:23,"0,047s",PASSED
+click,Firefox 57.0,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-29 15:48:23,2017-11-29 15:48:23,"0,313s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:23,2017-11-29 15:48:23,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox LABEL,2017-11-29 15:48:23,2017-11-29 15:48:23,"0,000s",NOT_RUN
+click,Firefox 57.0,Click on to Accept terms checkbox LABEL,2017-11-29 15:48:23,2017-11-29 15:48:23,"0,000s",NOT_RUN
+scrollToElement,Firefox 57.0,Scroll to Accept terms checkbox ,2017-11-29 15:48:23,2017-11-29 15:48:23,"0,040s",PASSED
+click,Firefox 57.0,Click on to Accept terms checkbox ,2017-11-29 15:48:23,2017-11-29 15:48:24,"0,237s",PASSED
+scrollToElement,Firefox 57.0,,2017-11-29 15:48:24,2017-11-29 15:48:24,"0,071s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:48:24,2017-11-29 15:48:25,"1,014s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:25,2017-11-29 15:48:25,"0,033s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:48:25,2017-11-29 15:48:25,"0,305s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:48:25,2017-11-29 15:48:27,"2,005s",PASSED
+waitForPageLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:48:27,2017-11-29 15:48:27,"0,000s",PASSED
+waitForJQueryLoad,Firefox 57.0,Wait for TY page to load,2017-11-29 15:48:27,2017-11-29 15:48:28,"1,089s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:48:28,2017-11-29 15:48:28,"0,001s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:48:28,2017-11-29 15:48:29,"0,660s",PASSED
+waitForElementPresent,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:48:29,2017-11-29 15:48:39,"10,114s",PASSED
+waitForElementClickable,Firefox 57.0,"Wait for booking to be placed, max 30 seconds",2017-11-29 15:48:39,2017-11-29 15:48:39,"0,032s",PASSED
+verifyElementVisible,Firefox 57.0,Check TY page contains important elements,2017-11-29 15:48:39,2017-11-29 15:48:39,"0,047s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:48:39,2017-11-29 15:48:39,"0,063s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:48:39,2017-11-29 15:48:39,"0,084s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-11-29 15:48:39,2017-11-29 15:48:39,"0,031s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:39,2017-11-29 15:48:39,"0,016s",PASSED
+Statement - Try,Firefox 57.0,,2017-11-29 15:48:39,2017-11-29 15:48:39,"0,233s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:48:39,2017-11-29 15:48:41,"2,015s",PASSED
+waitForElementVisible,Firefox 57.0,,2017-11-29 15:48:41,2017-11-29 15:48:41,"0,078s",PASSED
+waitForElementClickable,Firefox 57.0,,2017-11-29 15:48:41,2017-11-29 15:48:41,"0,000s",PASSED
+click,Firefox 57.0,Login to CC click,2017-11-29 15:48:41,2017-11-29 15:48:42,"0,788s",PASSED
+waitForPageLoad,Firefox 57.0,,2017-11-29 15:48:42,2017-11-29 15:48:42,"0,047s",PASSED
+waitForJQueryLoad,Firefox 57.0,,2017-11-29 15:48:42,2017-11-29 15:48:42,"0,031s",PASSED
+waitForElementPresent,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:48:42,2017-11-29 15:48:42,"0,016s",PASSED
+waitForElementNotVisible,Firefox 57.0,Wait for page loader to dissapear before making verifications,2017-11-29 15:48:42,2017-11-29 15:48:42,"0,037s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingNo is in the page in CCenter,2017-11-29 15:48:42,2017-11-29 15:48:42,"0,017s",PASSED
+verifyElementVisible,Firefox 57.0,Check bookingTotal is in the page in CCenter,2017-11-29 15:48:42,2017-11-29 15:48:42,"0,016s",PASSED
+delay,Firefox 57.0,,2017-11-29 15:48:42,2017-11-29 15:48:43,"1,004s",PASSED

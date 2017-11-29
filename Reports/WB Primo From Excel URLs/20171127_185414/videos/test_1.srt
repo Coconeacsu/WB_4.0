@@ -1,0 +1,208 @@
+1
+00:00:01,567 --> 00:00:07,554
+1. openBrowser
+
+2
+00:00:07,659 --> 00:00:08,654
+2. maximizeWindow
+
+3
+00:00:08,679 --> 00:00:13,044
+3. navigateToUrl
+
+4
+00:00:13,062 --> 00:00:14,119
+4. setText
+
+5
+00:00:14,133 --> 00:00:14,987
+5. setText
+
+6
+00:00:14,996 --> 00:00:15,737
+6. setText
+
+7
+00:00:15,739 --> 00:00:16,410
+7. setText
+
+8
+00:00:16,412 --> 00:00:17,226
+8. setText
+
+9
+00:00:17,226 --> 00:00:17,899
+9. setText
+
+10
+00:00:17,901 --> 00:00:17,972
+10. Statement - excelInfo = ["fname":"", "lname":"", "pgender":"", "pday":"", "pmonth":"", "pyear":""]
+
+11
+00:00:18,003 --> 00:00:18,282
+11. Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/WB_Primo/Passenger_details")
+
+12
+00:00:18,285 --> 00:00:18,403
+12. Statement - excelRowNo = rawData.getRowNumbers()
+
+13
+00:00:18,405 --> 00:00:18,483
+13. Statement - randomPaxIndex = 1
+
+14
+00:00:18,485 --> 00:00:19,065
+14. waitForElementClickable
+
+15
+00:00:19,069 --> 00:00:19,479
+15. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+16
+00:00:19,487 --> 00:00:19,576
+16. Statement - roomContainerXpath = "id("booking")/div[@class="wrapper second-bg"]/div[contains(@class,"container-mx")]/div[@class="row"]/div[@class="col-md-12 roomContainer"]"
+
+17
+00:00:19,576 --> 00:00:19,731
+17. Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size()
+
+18
+00:00:19,731 --> 00:00:19,864
+18. Statement - println("roomsCount=" + roomsCount)
+
+19
+00:00:19,864 --> 00:00:24,256
+19. Statement - For ([i = 1, i <= roomsCount, (i++)])
+
+20
+00:00:24,267 --> 00:00:24,852
+20. scrollToElement
+
+21
+00:00:24,855 --> 00:00:25,329
+21. Done so that click on \"Next\" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.
+
+22
+00:00:25,329 --> 00:00:25,950
+22. scrollToElement
+
+23
+00:00:25,952 --> 00:00:26,478
+23. waitForElementClickable
+
+24
+00:00:26,480 --> 00:00:26,873
+24. waitForElementVisible
+
+25
+00:00:26,877 --> 00:00:28,408
+25. scrollToElement
+
+26
+00:00:28,408 --> 00:00:29,154
+26. click
+
+27
+00:00:29,156 --> 00:00:29,436
+27. scrollToElement
+
+28
+00:00:29,436 --> 00:00:29,705
+28. waitForElementPresent
+
+29
+00:00:29,705 --> 00:00:29,962
+29. waitForElementVisible
+
+30
+00:00:29,962 --> 00:00:30,196
+30. waitForElementClickable
+
+31
+00:00:30,196 --> 00:00:30,463
+31. click
+
+32
+00:00:30,463 --> 00:00:30,665
+32. Select default travel insurance\r\n
+
+33
+00:00:30,665 --> 00:00:30,704
+33. Click on individual pax insurance selection checkbox
+
+34
+00:00:30,710 --> 00:00:30,754
+34. scrollToElement
+
+35
+00:00:30,754 --> 00:00:30,803
+35. click
+
+36
+00:00:30,803 --> 00:00:31,067
+36. scrollToElement
+
+37
+00:00:31,067 --> 00:00:31,416
+37. waitForElementVisible
+
+38
+00:00:31,416 --> 00:00:31,970
+38. Click on individual pax insurance selection checkbox
+
+39
+00:00:31,970 --> 00:00:32,646
+39. scrollToElement
+
+40
+00:00:32,651 --> 00:00:33,090
+40. waitForElementClickable
+
+41
+00:00:33,090 --> 00:00:33,619
+41. Click on first product category \"Individual choices\" radio button
+
+42
+00:00:33,619 --> 00:00:34,450
+42. scrollToElement
+
+43
+00:00:34,450 --> 00:00:34,796
+43. Click on first product category \"Yes please\" checkbox, so all passengers get default product in category
+
+44
+00:00:34,796 --> 00:00:34,854
+44. scrollToElement
+
+45
+00:00:34,854 --> 00:00:34,905
+45. Scroll to Accept terms checkbox LABEL
+
+46
+00:00:34,905 --> 00:00:34,944
+46. Click on to Accept terms checkbox LABEL
+
+47
+00:00:34,944 --> 00:00:35,215
+47. Scroll to Accept terms checkbox 
+
+48
+00:00:35,215 --> 00:00:35,501
+48. Click on to Accept terms checkbox 
+
+49
+00:00:35,503 --> 00:00:35,769
+49. scrollToElement
+
+50
+00:00:35,773 --> 00:00:36,010
+50. waitForElementClickable
+
+51
+00:00:36,010 --> 00:00:36,072
+51. Click on save booking.
+
+52
+00:00:36,072 --> 00:00:36,110
+52. Wait for booking to be placed, max 30 seconds
+

@@ -22,4 +22,19 @@
       <initValue>'https://staging-primotours-webbooking.tourpaq.com/DoBooking.aspx?pltaID=1480269&amp;p=1&amp;rno=1&amp;pt=1&amp;a=2&amp;c=0&amp;aa=&amp;ca='</initValue>
       <name>WB_2Ad</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://localhost:50029/'</initValue>
+      <name>LocalBaseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-primotours-webbooking.tourpaq.com/'</initValue>
+      <name>StagingBaseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://primotours-webbooking.tourpaq.com/'</initValue>
+      <name>LiveBaseURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

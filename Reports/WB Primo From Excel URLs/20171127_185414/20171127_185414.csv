@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WB Primo From Excel URLs,Chrome 62.0.3202.94,,2017-11-27 18:54:18,2017-11-27 18:54:45,"27,365s",PASSED
+,,,,,,
+Test Cases/PrimoTours/WB Primo/WB Primo staging - place booking,Chrome 62.0.3202.94,"Purpose of the test:\n- place bookings with no payment (no LMS) in various scenarios\n\t- pax distribution in room\n\t- multiple room numbers in booking\n\t- multiple room types in booking\n\t- various price types: normal, discount\n\t- various period durations I1, I2",2017-11-27 18:54:18,2017-11-27 18:54:44,"25,693s",PASSED
+openBrowser,Chrome 62.0.3202.94,,2017-11-27 18:54:20,2017-11-27 18:54:26,"5,789s",PASSED
+maximizeWindow,Chrome 62.0.3202.94,,2017-11-27 18:54:26,2017-11-27 18:54:27,"1,249s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-11-27 18:54:27,2017-11-27 18:54:31,"4,377s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-27 18:54:31,2017-11-27 18:54:32,"0,775s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-27 18:54:32,2017-11-27 18:54:33,"0,798s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-27 18:54:33,2017-11-27 18:54:33,"0,551s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-27 18:54:33,2017-11-27 18:54:34,"0,320s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-27 18:54:34,2017-11-27 18:54:35,"1,075s",PASSED
+setText,Chrome 62.0.3202.94,,2017-11-27 18:54:35,2017-11-27 18:54:35,"0,449s",PASSED
+"Statement - excelInfo = [""fname"":"""", ""lname"":"""", ""pgender"":"""", ""pday"":"""", ""pmonth"":"""", ""pyear"":""""]",Chrome 62.0.3202.94,,2017-11-27 18:54:35,2017-11-27 18:54:35,"0,001s",PASSED
+"Statement - rawData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/WB_Primo/Passenger_details"")",Chrome 62.0.3202.94,,2017-11-27 18:54:35,2017-11-27 18:54:36,"0,569s",PASSED
+Statement - excelRowNo = rawData.getRowNumbers(),Chrome 62.0.3202.94,,2017-11-27 18:54:36,2017-11-27 18:54:36,"0,013s",PASSED
+Statement - randomPaxIndex = 1,Chrome 62.0.3202.94,,2017-11-27 18:54:36,2017-11-27 18:54:36,"0,000s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-27 18:54:36,2017-11-27 18:54:36,"0,191s",PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 62.0.3202.94,,2017-11-27 18:54:36,2017-11-27 18:54:36,"0,015s",PASSED
+"Statement - roomContainerXpath = ""id(""booking"")/div[@class=""wrapper second-bg""]/div[contains(@class,""container-mx"")]/div[@class=""row""]/div[@class=""col-md-12 roomContainer""]""",Chrome 62.0.3202.94,,2017-11-27 18:54:36,2017-11-27 18:54:36,"0,001s",PASSED
+Statement - roomsCount = driver.findElements(org.openqa.selenium.By.xpath(roomContainerXpath)).size(),Chrome 62.0.3202.94,,2017-11-27 18:54:36,2017-11-27 18:54:36,"0,093s",PASSED
+"Statement - println(""roomsCount="" + roomsCount)",Chrome 62.0.3202.94,,2017-11-27 18:54:36,2017-11-27 18:54:36,"0,000s",PASSED
+"Statement - For ([i = 1, i <= roomsCount, (i++)])",Chrome 62.0.3202.94,,2017-11-27 18:54:36,2017-11-27 18:54:37,"1,257s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:37,2017-11-27 18:54:38,"0,093s",PASSED
+click,Chrome 62.0.3202.94,"Done so that click on \""Next\"" button is possible for Mobile env.\r\nClick on total so Keyboard area gets closed.",2017-11-27 18:54:38,2017-11-27 18:54:38,"0,082s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:38,2017-11-27 18:54:38,"0,199s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-27 18:54:38,2017-11-27 18:54:38,"0,094s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-27 18:54:38,2017-11-27 18:54:38,"0,121s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:38,2017-11-27 18:54:38,"0,065s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-27 18:54:38,2017-11-27 18:54:38,"0,192s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:38,2017-11-27 18:54:40,"2,170s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-11-27 18:54:40,2017-11-27 18:54:40,"0,059s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-27 18:54:40,2017-11-27 18:54:41,"0,065s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-27 18:54:41,2017-11-27 18:54:41,"0,078s",PASSED
+click,Chrome 62.0.3202.94,,2017-11-27 18:54:41,2017-11-27 18:54:41,"0,168s",PASSED
+click,Chrome 62.0.3202.94,Select default travel insurance\r\n,2017-11-27 18:54:41,2017-11-27 18:54:41,"0,277s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-27 18:54:41,2017-11-27 18:54:41,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:41,2017-11-27 18:54:41,"0,000s",NOT_RUN
+click,Chrome 62.0.3202.94,,2017-11-27 18:54:41,2017-11-27 18:54:41,"0,000s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:41,2017-11-27 18:54:41,"0,121s",PASSED
+waitForElementVisible,Chrome 62.0.3202.94,,2017-11-27 18:54:41,2017-11-27 18:54:41,"0,077s",PASSED
+click,Chrome 62.0.3202.94,Click on individual pax insurance selection checkbox,2017-11-27 18:54:41,2017-11-27 18:54:42,"0,301s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:42,2017-11-27 18:54:42,"0,220s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-27 18:54:42,2017-11-27 18:54:42,"0,219s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Individual choices\"" radio button",2017-11-27 18:54:42,2017-11-27 18:54:43,"0,602s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:43,2017-11-27 18:54:43,"0,096s",PASSED
+click,Chrome 62.0.3202.94,"Click on first product category \""Yes please\"" checkbox, so all passengers get default product in category",2017-11-27 18:54:43,2017-11-27 18:54:43,"0,375s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:43,2017-11-27 18:54:43,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox LABEL,2017-11-27 18:54:43,2017-11-27 18:54:43,"0,001s",NOT_RUN
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox LABEL,2017-11-27 18:54:43,2017-11-27 18:54:43,"0,001s",NOT_RUN
+scrollToElement,Chrome 62.0.3202.94,Scroll to Accept terms checkbox ,2017-11-27 18:54:43,2017-11-27 18:54:43,"0,172s",PASSED
+click,Chrome 62.0.3202.94,Click on to Accept terms checkbox ,2017-11-27 18:54:43,2017-11-27 18:54:43,"0,159s",PASSED
+scrollToElement,Chrome 62.0.3202.94,,2017-11-27 18:54:43,2017-11-27 18:54:44,"0,221s",PASSED
+waitForElementClickable,Chrome 62.0.3202.94,,2017-11-27 18:54:44,2017-11-27 18:54:44,"0,228s",PASSED
+click,Chrome 62.0.3202.94,Click on save booking.,2017-11-27 18:54:44,2017-11-27 18:54:44,"0,000s",NOT_RUN
+waitForElementClickable,Chrome 62.0.3202.94,"Wait for booking to be placed, max 30 seconds",2017-11-27 18:54:44,2017-11-27 18:54:44,"0,000s",NOT_RUN
