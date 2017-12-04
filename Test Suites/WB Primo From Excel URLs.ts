@@ -4,7 +4,7 @@
    <name>WB Primo From Excel URLs</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-29T18:01:42</lastRun>
+   <lastRun>2017-12-04T15:57:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>2</numberOfRerun>
    <pageLoadTimeout>12</pageLoadTimeout>

@@ -22,6 +22,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By as By
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
@@ -31,7 +32,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow(FailureHandling.OPTIONAL)
 
-WebUI.navigateToUrl(GlobalVariable.LocalBaseURL + WbUrl)
+WebUI.navigateToUrl(GlobalVariable.StagingBaseURL + WbUrl)
 
 //Read from Excel
 def excelInfo = [('fname') : '', ('lname') : '', ('pgender') : '', ('pday') : '', ('pmonth') : '', ('pyear') : '']
@@ -136,15 +137,15 @@ for (int i = 1; i <= roomsCount; i++) {
         WebUI.setText(repObj, excelInfo.lname)
 
         //pax gender
-        repObj = findTestObject('Object Repository/PrimoTours/LandingPage/secondPaxFirstNameField')
+        //repObj = findTestObject('Object Repository/PrimoTours/LandingPage/secondPaxFirstNameField')
 
-        xpathval = (paxDetailFields + '[3]/div[contains(@class,"paxGenderSelectorContainer")]/span[contains(@class,"select2 select2-container")]/span[contains(@class,"selection")]/span[contains(@class,"select2-selection")]')
+        //xpathval = (paxDetailFields + '[3]/div[contains(@class,"paxGenderSelectorContainer")]/span[contains(@class,"select2 select2-container")]/span[contains(@class,"selection")]/span[contains(@class,"select2-selection")]')
 
-        println('gender: ' + xpathval)
+        //println('gender: ' + xpathval)
 
-        repObj.findProperty('xpath').setValue(xpathval)
+        //repObj.findProperty('xpath').setValue(xpathval)
 
-        WebUI.click(repObj, FailureHandling.OPTIONAL)
+        //WebUI.click(repObj, FailureHandling.OPTIONAL)
     }
 }
 
@@ -250,13 +251,13 @@ not_run: WebUI.scrollToElement(findTestObject('PrimoTours/Old Objects/Coco (1)/P
 'Click on to Accept terms checkbox LABEL'
 not_run: WebUI.click(findTestObject('PrimoTours/Old Objects/Coco (1)/PrimoT/SaveBooking2/Keep trying/label_Jeg accepterer hermed de'))
 
-'Scroll to Accept terms checkbox '
-WebUI.scrollToElement(findTestObject('PrimoTours/ConfirmationPage/agreeTermsAndCondCheckbox'), 3)
+'Scroll to Accept terms checkbox label'
+WebUI.scrollToElement(findTestObject('PrimoTours/ConfirmationPage/labelForAgreeTermsAndConditions'), 3)
 
-WebUI.waitForElementClickable(findTestObject('PrimoTours/ConfirmationPage/agreeTermsAndCondCheckbox'), 5)
+WebUI.waitForElementClickable(findTestObject('PrimoTours/ConfirmationPage/labelForAgreeTermsAndConditions'), 5)
 
-'Click on to Accept terms checkbox '
-WebUI.click(findTestObject('PrimoTours/ConfirmationPage/agreeTermsAndCondCheckbox'))
+'Click on to Accept terms checkbox label '
+WebUI.click(findTestObject('PrimoTours/ConfirmationPage/labelForAgreeTermsAndConditions'))
 
 WebUI.scrollToElement(findTestObject('PrimoTours/ConfirmationPage/placeBookingButton'), 5)
 
@@ -264,6 +265,7 @@ WebUI.delay(1)
 
 WebUI.waitForElementClickable(findTestObject('PrimoTours/ConfirmationPage/placeBookingButton'), 10)
 
+'Try to save booking'
 try {
     'Click on save booking.'
     WebUI.click(findTestObject('PrimoTours/ConfirmationPage/placeBookingButton'))
@@ -275,13 +277,20 @@ catch (Exception e) {
     WebUI.click(findTestObject('PrimoTours/ConfirmationPage/placeBookingButton'))
 } 
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 'Wait for TY page to load'
 WebUI.waitForPageLoad(30)
 
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('PrimoTours/Old Objects/ThankYouPage/bookingNoContainer'), 30)
+
 'Wait for TY page to load'
 WebUI.waitForJQueryLoad(30, FailureHandling.OPTIONAL)
+
+'Wait for page loader to dissapear before making verifications'
+WebUI.waitForElementPresent(findTestObject('PrimoTours/Old Objects/CCenter/pageLoaderOverlayLayer'), 30, FailureHandling.OPTIONAL)
 
 'Wait for page loader to dissapear before making verifications'
 WebUI.waitForElementPresent(findTestObject('PrimoTours/Old Objects/CCenter/pageLoaderOverlayLayer'), 30, FailureHandling.OPTIONAL)
@@ -306,6 +315,10 @@ WebUI.verifyElementVisible(findTestObject('PrimoTours/Old Objects/ThankYouPage/p
 
 WebUI.waitForElementClickable(findTestObject('PrimoTours/Old Objects/ThankYouPage/printTicketSpan'), 2)
 
+'Wait for page loader to dissapear before making verifications'
+WebUI.waitForElementNotVisible(findTestObject('PrimoTours/Old Objects/CCenter/pageLoaderOverlayLayer'), 30, FailureHandling.OPTIONAL)
+
+'Try to click print ticket'
 try {
     'Print ticket click'
     WebUI.click(findTestObject('PrimoTours/Old Objects/ThankYouPage/printTicketSpan'), FailureHandling.STOP_ON_FAILURE)
